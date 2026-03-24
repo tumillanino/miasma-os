@@ -1,9 +1,9 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
-name: bazzite-jam
+name: miasma-os
 # description will be included in the image's metadata
-description: An personal spin on Bazzite targeted towards musicians and music producers inspired by Fedora Jam
+description: An personal spin based on Bazzite targeted towards musicians and music producers inspired by Fedora Jam
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/bazzite
@@ -20,6 +20,5 @@ modules:
       - enablerealtimesetup.sh
 
   - from-file: common/common-modules.yml
-  
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
