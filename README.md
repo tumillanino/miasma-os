@@ -106,5 +106,5 @@ An ISO and website is coming soon ...
 These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
 
 ```bash
-cosign verify --key cosign.pub ghcr.io/tumillanino/bazzite-jam
+cosign verify --key cosign.pub ghcr.io/tumillanino/miasma-os
 ```
