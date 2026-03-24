@@ -1,0 +1,5 @@
+modules:
+  - type: files
+    files:
+      - source: assets/wallpapers
+        destination: /usr/share/wallpapers/miasma

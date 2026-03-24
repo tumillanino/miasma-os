@@ -1,0 +1,20 @@
+modules:
+  - type: default-flatpaks
+    configurations:
+      - notify: true
+        scope: system
+        install:
+          - org.tenacityaudio.Tenacity
+          - app.zen_browser.zen
+          - com.ranfdev.DistroShelf
+
+          # Need some default programs
+          - org.kde.haruna # default video player
+          - org.gnome.Decibels # default music player
+          - io.github.b43NnUNF4vidFYFhpqaLWy2ANawtRbMtUXZY9Pf.jumpdf # pdf reader with vim keybindings
+          - org.gnome.Loupe # default image viewer
+
+      - scope: user
+
+        remove:
+          - org.mozilla.firefox

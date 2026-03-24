@@ -1,0 +1,6 @@
+modules:
+  - from-file: common/copr-packages.yml
+  - from-file: common/common-scripts.yml
+  - from-file: common/fedora-packages.yml
+  - from-file: common/flatpak-packages.yml
+  - from-file: common/common-services.yml

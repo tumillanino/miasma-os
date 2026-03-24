@@ -1,0 +1,24 @@
+modules:
+  - type: script
+    snippets:
+      - |
+        mkdir -p /etc/sysconfig
+        echo 'START_OPTS="--governor performance"' > /etc/sysconfig/cpupower
+
+  - type: script
+    snippets:
+      - |
+        mkdir -p /etc/security/limits.d
+        # Add real-time and memlock permissions for the 'audio' and 'realtime' groups
+        cat <<EOF > /etc/security/limits.d/audio.conf
+        @audio   -  rtprio     95
+        @audio   -  memlock    unlimited
+        @realtime - rtprio     95
+        @realtime - memlock    unlimited
+        EOF
+
+  - type: script
+    snippets:
+      - |
+        getent group audio || groupadd -r audio
+        # run ujust first-run or usermod -aG audio $USER to enforce

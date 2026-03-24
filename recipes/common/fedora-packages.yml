@@ -1,0 +1,106 @@
+modules:
+  - type: dnf
+    install:
+      packages:
+        # useful tools
+        - zsh
+        - openssl
+        - openssh
+        - 7zip
+        - rsync
+        - neovim
+        - alacritty
+        - ripgrep
+        - fd-find
+        - realtime-setup
+        - zoxide
+        - fzf
+
+        # decoration
+        - oh-my-posh
+
+        # Some open source DAWs for non-Reaper users
+        - ardour9
+        - qtractor
+        - carla
+
+        #Audio plugins
+        - lsp-plugins-vst
+        - lsp-plugins-clap
+        - zam-plugins
+        - calf
+        - guitarix
+        - sooperlooper
+        - musescore
+
+        # Virtual Instruments
+        - hydrogen
+        - yoshimi
+
+        # From Fedora Jam
+        # Jack
+        - jack-audio-connection-kit
+        - jack-audio-connection-kit-dbus
+        - qjackctl
+        - ffado
+
+        # Pulseaudio
+        - pavucontrol
+
+        # Midi
+        - qsynth
+        - fluidsynth
+        - fluid-soundfont-gm
+        - timidity++
+        - qmidiarp
+        - vmpk
+        - harmonyseq
+
+        # Synthesizers
+        - bristol
+        - synthv1
+        - drumkv1
+
+        # Guitar
+        - rakarrack
+
+        # Lv2 Plugins
+        - lsp-plugins-lv2
+        - lv2-ll-plugins
+        - lv2-swh-plugins
+        - lv2-vocoder-plugins
+        - lv2-zynadd-plugins
+        - lv2dynparam
+        - lv2-abGate
+        - lv2-samplv1
+        - lv2-synthv1
+        - lv2-drumkv1
+        - lv2-newtonator
+        - lv2-x42-plugins
+        - lv2-sorcer
+        - lv2-fabla
+        - lsp-plugins-lv2
+        - lv2-carla
+    remove:
+      packages:
+        - nano
+        - vim-minimal
+
+        # required by Renoise
+  - type: rpm-ostree
+    install:
+      - kernel-tools
+      - libX11
+      - libXext
+      - libXcursor
+      - libXrandr
+      - libXinerama
+      - pipewire-alsa
+      - libXv
+
+  - type: justfiles
+    include:
+      - setupaudio.just
+      - route-plugins.just
+      - configure-zsh.just
+      - first-run.just

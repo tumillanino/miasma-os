@@ -1,0 +1,12 @@
+modules:
+  - type: files
+    files:
+      - source: system
+        destination: /
+
+  - type: script
+    scripts:
+      - installreaper.sh
+      - installrenoise.sh
+      - installsurgext.sh
+      - branding.sh
