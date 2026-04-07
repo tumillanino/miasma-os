@@ -1,6 +1,5 @@
 modules:
   - type: default-flatpaks
-    notify: true
     configurations:
       - scope: system
         install:
