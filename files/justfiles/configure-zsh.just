@@ -13,4 +13,3 @@ setup-zsh:
     echo ')'
     } >> ~/.zshrc
 
-    @echo 'eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/json.omp.json')"' >> ~/.zshrc
