@@ -1,8 +1,8 @@
 modules:
   - type: default-flatpaks
+    notify: true
     configurations:
-      - notify: true
-        scope: system
+      - scope: system
         install:
           - org.tenacityaudio.Tenacity
           - app.zen_browser.zen
