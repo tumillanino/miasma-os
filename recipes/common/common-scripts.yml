@@ -9,4 +9,7 @@ modules:
       - installreaper.sh
       - installrenoise.sh
       - installsurgext.sh
+      - installbitwig.sh       
+      - installdecentsampler.sh
       - branding.sh
+

@@ -1,11 +1,18 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-ROOT_UID=0
-E_NOTROOT=87
-DEFAULT_FILENAME="bitwig-studio-latest.deb"
-DEFAULT_URL="https://www.bitwig.com/dl/?id=419&os=installer_linux"
-INSTALL_LOG="/opt/bitwig-studio/.$DEFAULT_FILENAME.log"
-SAFE_FILE_REMOVE="^/\./usr/share/*|^/\./opt/bitwig-studio/*"
+echo "Installing Bitwig Studio..."
 
-curl -fsSL bitwig-studio-latest.deb $DEFAULT_URL
+dnf install -y libbsd bzip2-libs dpkg
+
+curl -L -o /tmp/bitwig.deb "https://www.bitwig.com/dl/?id=419&os=installer_linux"
+
+dpkg-deb -x /tmp/bitwig.deb /
+
+ln -sf /usr/lib64/libbz2.so.1 /usr/lib64/libbz2.so.1.0
+
+rm -f /tmp/bitwig.deb
+
+echo "Bitwig Studio installation complete."
+
+exit 0
