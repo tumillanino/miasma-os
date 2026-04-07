@@ -5,6 +5,9 @@ mv /tmp/files/assets/images/distributor-logo.svg /usr/share/icons/hicolor/scalab
 mv /tmp/files/assets/splash/default.jxl /usr/share/backgrounds/default.jxl
 mv /tmp/files/assets/splash/default-dark.jxl /usr/share/backgrounds/default-dark.jxl
 mv /tmp/files/assets/images/watermark.png /usr/share/plymouth/themes/spinner/watermark.png
+# Remove Bazzite animation/throbber frames so Plymouth uses only our watermark
+rm -f /usr/share/plymouth/themes/spinner/animation-*.png
+rm -f /usr/share/plymouth/themes/spinner/throbber-*.png
 mv /tmp/files/assets/images/fedora-gdm-logo.png /usr/share/pixmaps/fedora-gdm-logo.png
 mv /tmp/files/assets/images/fedora-logo-small.png /usr/share/pixmaps/fedora-logo-small.png
 mv /tmp/files/assets/images/fedora-logo-sprite.png /usr/share/pixmaps/fedora-logo-sprite.png
