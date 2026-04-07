@@ -8,7 +8,7 @@ cd /tmp
 
 mkdir -p /usr/lib64/vst/decentsampler
 cd Decent_Sampler-1.18.1-Linux-Static-x86_64
-mv DecentSampler.so /usr/lib64/decentsampler/
+mv DecentSampler.so /usr/lib64/vst/decentsampler/
 
 rm -rf /tmp/decent-sampler.tar.gz /tmp/Decent* || true
 
