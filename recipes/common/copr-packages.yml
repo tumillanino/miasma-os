@@ -2,6 +2,8 @@ modules:
   - type: dnf
     repos:
       copr:
+        - bieszczaders/kernel-cachyos-lto
+        - bieszczaders/kernel-cachyos-addons
         - patrickl/wine-tkg
         - timlau/audio
         - alternateved/eza
