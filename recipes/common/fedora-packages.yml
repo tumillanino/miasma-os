@@ -1,5 +1,10 @@
 modules:
   - type: dnf
+    remove:
+      packages:
+        - zram-generator-defaults
+
+  - type: dnf
     install:
       packages:
         # CachyOS kernel performance companion packages
