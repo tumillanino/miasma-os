@@ -1,7 +1,23 @@
 modules:
   - type: dnf
+    remove:
+      packages:
+        - zram-generator-defaults
+
+  - type: dnf
     install:
       packages:
+        # CachyOS kernel performance companion packages
+        # cachyos-settings: kernel tunables and sysctl optimisations from CachyOS
+        # cachyos-ksm-settings: Kernel Samepage Merging tuning (reduces RAM usage)
+        # scx-manager / scx-scheds / scx-tools: sched-ext schedulers;
+        #   scx_lavd is ideal for low-latency realtime audio workloads
+        - cachyos-settings
+        - cachyos-ksm-settings
+        - scx-manager
+        - scx-scheds-git
+        - scx-tools-git
+
         # useful tools
         - zsh
         - openssl

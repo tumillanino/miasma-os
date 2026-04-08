@@ -3,13 +3,25 @@
 # image will be published to ghcr.io/<user>/<name>
 name: miasma-os
 # description will be included in the image's metadata
-description: An personal spin based on Bazzite targeted towards musicians and music producers inspired by Fedora Jam
+description: A personal spin based on Kinoite targeted towards musicians and music producers, with the CachyOS kernel for low-latency performance
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/bazzite
+base-image: ghcr.io/ublue-os/kinoite-main
 image-version: latest # latest is also supported if you want new updates ASAP
 
 modules:
+  # Add CachyOS repos first so the kernel swap script can use them
+  - type: dnf
+    repos:
+      copr:
+        - bieszczaders/kernel-cachyos-lto
+        - bieszczaders/kernel-cachyos-addons
+
+  # Swap stock Fedora kernel for CachyOS LTO kernel
+  - type: script
+    scripts:
+      - cachyos-kernel.sh
+
   - type: dnf
     install:
       packages:
