@@ -1,0 +1,49 @@
+// Created with Renoise Redux - http://www.renoise.com
+
+<region>
+sample=Glass Samples\GlassSineXFade_C-5.flac
+lokey=0 hikey=53
+volume=-6.00000048
+
+<region>
+sample=Glass Samples\GlassSineXFade_F#5.flac
+pitch_keycenter=66
+lokey=54 hikey=59
+volume=-6.00000048
+
+<region>
+sample=Glass Samples\GlassSineXFade_C-6.flac
+pitch_keycenter=72
+lokey=60 hikey=65
+volume=-6.00000048
+
+<region>
+sample=Glass Samples\GlassSineXFade_F#6.flac
+pitch_keycenter=78
+lokey=66 hikey=71
+volume=-6.00000048
+
+<region>
+sample=Glass Samples\GlassSineXFade_C-7.flac
+pitch_keycenter=84
+lokey=72 hikey=80
+volume=-6.00000048
+
+<region>
+sample=Glass Samples\GlassSineXFade_C-8.flac
+pitch_keycenter=96
+lokey=81 hikey=89
+volume=-6.00000048
+
+<region>
+sample=Glass Samples\GlassSineXFade_F#8.flac
+pitch_keycenter=102
+lokey=90 hikey=95
+volume=-6.00000048
+
+<region>
+sample=Glass Samples\GlassSineXFade_C-9.flac
+pitch_keycenter=108
+lokey=96 hikey=119
+tune=66
+volume=-6.00000048

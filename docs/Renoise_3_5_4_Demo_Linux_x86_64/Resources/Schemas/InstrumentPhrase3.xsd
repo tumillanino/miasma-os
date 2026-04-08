@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xs:element name="InstrumentPhrase" type="InstrumentPhrase"/>
+  <xs:complexType name="InstrumentPhrase">
+    <xs:all>
+      <xs:element name="SelectedPresetName" type="xs:string" default="Init" minOccurs="0"/>
+      <xs:element name="SelectedPresetLibrary" type="xs:string" default="Bundled Content" minOccurs="0"/>
+      <xs:element name="SelectedPresetIsModified" type="xs:boolean" default="false" minOccurs="0"/>
+      <xs:element name="Lines" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Line" minOccurs="0" maxOccurs="unbounded" type="PatternLineNode"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Name" type="xs:string" minOccurs="0"/>
+      <xs:element name="Autoseek" type="xs:boolean" default="true" minOccurs="0"/>
+      <xs:element name="LinesPerBeat" type="xs:int" default="4" minOccurs="0"/>
+      <xs:element name="ShuffleIsActive" type="xs:boolean" default="false" minOccurs="0"/>
+      <xs:element name="ShuffleAmounts" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="ShuffleAmount" type="xs:int" default="0" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="PlaybackMode" default="Pattern" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Pattern"/>
+            <xs:enumeration value="Script"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="NumberOfLines" type="xs:int" default="32" minOccurs="0"/>
+      <xs:element name="VisibleNoteColumns" type="xs:int" default="4" minOccurs="0"/>
+      <xs:element name="VisibleEffectColumns" type="xs:int" default="1" minOccurs="0"/>
+      <xs:element name="NoteColumnNames" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="NoteColumnName" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="NoteColumnStates" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="NoteColumnState" default="Active" minOccurs="0" maxOccurs="unbounded">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="Active"/>
+                  <xs:enumeration value="Off"/>
+                  <xs:enumeration value="Mute"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="InstrumentColumnIsVisible" type="xs:boolean" default="false" minOccurs="0"/>
+      <xs:element name="VolumeColumnIsVisible" type="xs:boolean" default="true" minOccurs="0"/>
+      <xs:element name="PanningColumnIsVisible" type="xs:boolean" default="false" minOccurs="0"/>
+      <xs:element name="DelayColumnIsVisible" type="xs:boolean" default="false" minOccurs="0"/>
+      <xs:element name="SampleEffectsColumnIsVisible" type="xs:boolean" default="true" minOccurs="0"/>
+      <xs:element name="TriggerOptions" minOccurs="0" type="InstrumentPhraseTriggerOptions"/>
+      <xs:element name="ScriptDevice" minOccurs="0" type="InstrumentPhraseScriptDevice"/>
+    </xs:all>
+    <xs:attribute name="doc_version" use="required" type="xs:int" fixed="3"/>
+    <xs:attribute name="type" use="optional" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="PatternLineNode">
+    <xs:all>
+      <xs:element name="NoteColumns" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="NoteColumn" minOccurs="0" maxOccurs="unbounded" type="PatternLineNoteColumnNode"/>
+          </xs:sequence>
+          <xs:attribute name="type" use="optional" type="xs:string"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="EffectColumns" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="EffectColumn" minOccurs="0" maxOccurs="unbounded" type="PatternLineEffectColumnNode"/>
+          </xs:sequence>
+          <xs:attribute name="type" use="optional" type="xs:string"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:all>
+    <xs:attribute name="index" use="required" type="xs:int"/>
+    <xs:attribute name="type" use="optional" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="PatternLineNoteColumnNode">
+    <xs:all>
+      <xs:element name="Note" type="xs:string"/>
+      <xs:element name="Instrument" type="xs:string"/>
+      <xs:element name="Volume" type="xs:string" minOccurs="0"/>
+      <xs:element name="Panning" type="xs:string" minOccurs="0"/>
+      <xs:element name="Delay" type="xs:string" minOccurs="0"/>
+      <xs:element name="EffectNumber" type="xs:string" minOccurs="0"/>
+      <xs:element name="EffectValue" type="xs:string" minOccurs="0"/>
+    </xs:all>
+    <xs:attribute name="type" use="optional" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="PatternLineEffectColumnNode">
+    <xs:all>
+      <xs:element name="Value" type="xs:string" minOccurs="0"/>
+      <xs:element name="Number" type="xs:string" minOccurs="0"/>
+    </xs:all>
+    <xs:attribute name="type" use="optional" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="InstrumentPhraseTriggerOptions">
+    <xs:all>
+      <xs:element name="BaseNote" type="xs:int" default="48" minOccurs="0"/>
+      <xs:element name="KeyTracking" default="Transpose" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="None"/>
+            <xs:enumeration value="Transpose"/>
+            <xs:enumeration value="Offset"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Loop" type="xs:boolean" default="true" minOccurs="0"/>
+      <xs:element name="LoopStart" type="xs:int" default="0" minOccurs="0"/>
+      <xs:element name="LoopEnd" type="xs:int" default="32" minOccurs="0"/>
+    </xs:all>
+    <xs:attribute name="type" use="optional" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="InstrumentPhraseScriptDevice">
+    <xs:all>
+      <xs:element name="SelectedPresetName" type="xs:string" default="Init" minOccurs="0"/>
+      <xs:element name="SelectedPresetLibrary" type="xs:string" default="Bundled Content" minOccurs="0"/>
+      <xs:element name="SelectedPresetIsModified" type="xs:boolean" default="false" minOccurs="0"/>
+      <xs:element name="CustomDeviceName" type="xs:string" minOccurs="0"/>
+      <xs:element name="IsMaximized" type="xs:boolean" default="true" minOccurs="0"/>
+      <xs:element name="IsSelected" type="xs:boolean" default="false" minOccurs="0"/>
+      <xs:element name="RunTimePresetA" minOccurs="0" type="InstrumentPhraseScriptDevicePreset"/>
+      <xs:element name="RunTimePresetB" minOccurs="0" type="InstrumentPhraseScriptDevicePreset"/>
+      <xs:element name="IsActive" minOccurs="0" type="FilterDeviceIsActiveParameter"/>
+      <xs:element name="EditorVisible" type="xs:boolean" default="true" minOccurs="0"/>
+      <xs:element name="InputParameters" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="InputParameter" minOccurs="0" maxOccurs="unbounded" type="InstrumentPhraseScriptParameter"/>
+          </xs:sequence>
+          <xs:attribute name="type" use="optional" type="xs:string"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Paragraphs" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Paragraph" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:all>
+    <xs:attribute name="type" use="optional" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="InstrumentPhraseScriptDevicePreset">
+    <xs:all>
+      <xs:element name="DeviceSlot" minOccurs="0" type="InstrumentPhraseScriptDevice"/>
+    </xs:all>
+    <xs:attribute name="type" use="required" type="xs:string" fixed="FilterDevicePreset"/>
+  </xs:complexType>
+  <xs:complexType name="FilterDeviceIsActiveParameter">
+    <xs:all>
+      <xs:element name="Value" type="xs:float" default="1.0" minOccurs="0"/>
+      <xs:element name="Visualization" default="Device only" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Dont Show"/>
+            <xs:enumeration value="Device only"/>
+            <xs:enumeration value="Mixer and Device"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="MidiMappings" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="MidiMapping" minOccurs="0" maxOccurs="unbounded" type="MidiMapping"/>
+          </xs:sequence>
+          <xs:attribute name="type" use="optional" type="xs:string"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:all>
+    <xs:attribute name="type" use="optional" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="MidiMapping">
+    <xs:all>
+      <xs:element name="MappingMode" default="Controllers" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Controllers"/>
+            <xs:enumeration value="Notes"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="ControllerMode" default="Absolute 7 bit" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Absolute 7 bit"/>
+            <xs:enumeration value="Relative signed bit"/>
+            <xs:enumeration value="Relative signed bit 2"/>
+            <xs:enumeration value="Relative bin offset"/>
+            <xs:enumeration value="Relative two's comp"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="NoteMode" default="Value" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Trigger"/>
+            <xs:enumeration value="Gate"/>
+            <xs:enumeration value="Value"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Channel" type="xs:int" default="0" minOccurs="0"/>
+      <xs:element name="CCNumberOrNote" type="xs:int" default="0" minOccurs="0"/>
+      <xs:element name="Min" type="xs:float" default="0.0" minOccurs="0"/>
+      <xs:element name="Max" type="xs:float" default="1.0" minOccurs="0"/>
+    </xs:all>
+    <xs:attribute name="type" use="optional" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="InstrumentPhraseScriptParameter">
+    <xs:all>
+      <xs:element name="Value" type="xs:float" default="0.0" minOccurs="0"/>
+      <xs:element name="Visualization" default="Device only" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Dont Show"/>
+            <xs:enumeration value="Device only"/>
+            <xs:enumeration value="Mixer and Device"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="MidiMappings" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="MidiMapping" minOccurs="0" maxOccurs="unbounded" type="MidiMapping"/>
+          </xs:sequence>
+          <xs:attribute name="type" use="optional" type="xs:string"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Type" default="Ramped" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Trigger"/>
+            <xs:enumeration value="Switch"/>
+            <xs:enumeration value="Quantized"/>
+            <xs:enumeration value="Ramped"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Polarity" default="Unipolar" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Unipolar"/>
+            <xs:enumeration value="Bipolar"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Identifier" type="xs:string" default="N/A" minOccurs="0"/>
+      <xs:element name="Name" type="xs:string" default="N/A" minOccurs="0"/>
+      <xs:element name="Range" type="xs:string" default="0.0:1.0" minOccurs="0"/>
+      <xs:element name="DefaultValue" type="xs:float" default="0.0" minOccurs="0"/>
+      <xs:element name="StringValues" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="StringValue" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:all>
+    <xs:attribute name="type" use="optional" type="xs:string"/>
+  </xs:complexType>
+</xs:schema>

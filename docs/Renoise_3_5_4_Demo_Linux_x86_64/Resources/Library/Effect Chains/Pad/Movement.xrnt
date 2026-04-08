@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseDeviceChain doc_version="18">
+  <SelectedPresetName>Init</SelectedPresetName>
+  <SelectedPresetIsModified>false</SelectedPresetIsModified>
+  <Devices>
+    <LfoDevice type="LfoDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>true</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <DestTrack>
+        <Value>-1</Value>
+        <Visualization>Device only</Visualization>
+      </DestTrack>
+      <DestEffect>
+        <Value>2</Value>
+        <Visualization>Device only</Visualization>
+      </DestEffect>
+      <DestParameter>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </DestParameter>
+      <Amplitude>
+        <Value>0.25</Value>
+        <Visualization>Device only</Visualization>
+      </Amplitude>
+      <Offset>
+        <Value>-0.375</Value>
+        <Visualization>Device only</Visualization>
+      </Offset>
+      <Frequency>
+        <Value>7.5</Value>
+        <Visualization>Device only</Visualization>
+      </Frequency>
+      <Type>
+        <Value>4</Value>
+        <Visualization>Device only</Visualization>
+      </Type>
+      <CustomEnvelope>
+        <PlayMode>Points</PlayMode>
+        <Length>4</Length>
+        <ValueQuantum>0.0</ValueQuantum>
+        <Polarity>Unipolar</Polarity>
+        <Points>
+          <Point>0,0.25555557</Point>
+          <Point>1,0.733333349</Point>
+          <Point>2,0.333333343</Point>
+          <Point>3,1.0</Point>
+          <Point>63,1.0</Point>
+        </Points>
+      </CustomEnvelope>
+      <CustomEnvelopeOneShot>false</CustomEnvelopeOneShot>
+      <UseAdjustedEnvelopeLength>false</UseAdjustedEnvelopeLength>
+    </LfoDevice>
+    <GainerDevice type="GainerDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Volume>
+        <Value>0.25555557</Value>
+        <Visualization>Mixer and Device</Visualization>
+      </Volume>
+      <Panning>
+        <Value>0.5</Value>
+        <Visualization>Device only</Visualization>
+      </Panning>
+      <LPhaseInvert>false</LPhaseInvert>
+      <RPhaseInvert>false</RPhaseInvert>
+      <SmoothParameterChanges>true</SmoothParameterChanges>
+    </GainerDevice>
+    <LfoDevice type="LfoDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <DestTrack>
+        <Value>-1</Value>
+        <Visualization>Device only</Visualization>
+      </DestTrack>
+      <DestEffect>
+        <Value>4</Value>
+        <Visualization>Device only</Visualization>
+      </DestEffect>
+      <DestParameter>
+        <Value>4</Value>
+        <Visualization>Device only</Visualization>
+      </DestParameter>
+      <Amplitude>
+        <Value>0.5</Value>
+        <Visualization>Device only</Visualization>
+      </Amplitude>
+      <Offset>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Offset>
+      <Frequency>
+        <Value>1.87500012</Value>
+        <Visualization>Device only</Visualization>
+      </Frequency>
+      <Type>
+        <Value>4</Value>
+        <Visualization>Device only</Visualization>
+      </Type>
+      <CustomEnvelope>
+        <PlayMode>Linear</PlayMode>
+        <Length>16</Length>
+        <ValueQuantum>0.0</ValueQuantum>
+        <Polarity>Unipolar</Polarity>
+        <Points>
+          <Point>0,0.0</Point>
+          <Point>15,1.0</Point>
+          <Point>63,1.0</Point>
+        </Points>
+      </CustomEnvelope>
+      <CustomEnvelopeOneShot>false</CustomEnvelopeOneShot>
+      <UseAdjustedEnvelopeLength>false</UseAdjustedEnvelopeLength>
+    </LfoDevice>
+    <LfoDevice type="LfoDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <DestTrack>
+        <Value>-1</Value>
+        <Visualization>Device only</Visualization>
+      </DestTrack>
+      <DestEffect>
+        <Value>5</Value>
+        <Visualization>Device only</Visualization>
+      </DestEffect>
+      <DestParameter>
+        <Value>5</Value>
+        <Visualization>Device only</Visualization>
+      </DestParameter>
+      <Amplitude>
+        <Value>0.75</Value>
+        <Visualization>Device only</Visualization>
+      </Amplitude>
+      <Offset>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Offset>
+      <Frequency>
+        <Value>7.5</Value>
+        <Visualization>Device only</Visualization>
+      </Frequency>
+      <Type>
+        <Value>4</Value>
+        <Visualization>Device only</Visualization>
+      </Type>
+      <CustomEnvelope>
+        <PlayMode>Linear</PlayMode>
+        <Length>4</Length>
+        <ValueQuantum>0.0</ValueQuantum>
+        <Polarity>Unipolar</Polarity>
+        <Points>
+          <Point>0,0.0111111114</Point>
+          <Point>3,1.0</Point>
+          <Point>15,0.0</Point>
+        </Points>
+      </CustomEnvelope>
+      <CustomEnvelopeOneShot>false</CustomEnvelopeOneShot>
+      <UseAdjustedEnvelopeLength>false</UseAdjustedEnvelopeLength>
+    </LfoDevice>
+    <LfoDevice type="LfoDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <DestTrack>
+        <Value>-1</Value>
+        <Visualization>Device only</Visualization>
+      </DestTrack>
+      <DestEffect>
+        <Value>6</Value>
+        <Visualization>Device only</Visualization>
+      </DestEffect>
+      <DestParameter>
+        <Value>2</Value>
+        <Visualization>Device only</Visualization>
+      </DestParameter>
+      <Amplitude>
+        <Value>0.800000012</Value>
+        <Visualization>Device only</Visualization>
+      </Amplitude>
+      <Offset>
+        <Value>0.375</Value>
+        <Visualization>Device only</Visualization>
+      </Offset>
+      <Frequency>
+        <Value>15</Value>
+        <Visualization>Device only</Visualization>
+      </Frequency>
+      <Type>
+        <Value>4</Value>
+        <Visualization>Device only</Visualization>
+      </Type>
+      <CustomEnvelope>
+        <PlayMode>Curve</PlayMode>
+        <Length>16</Length>
+        <ValueQuantum>0.0</ValueQuantum>
+        <Polarity>Unipolar</Polarity>
+        <Points>
+          <Point>0,1.0</Point>
+          <Point>15,0.0</Point>
+        </Points>
+      </CustomEnvelope>
+      <CustomEnvelopeOneShot>true</CustomEnvelopeOneShot>
+      <UseAdjustedEnvelopeLength>false</UseAdjustedEnvelopeLength>
+    </LfoDevice>
+    <Filter3Device type="Filter3Device">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Type>
+        <Value>5</Value>
+        <Visualization>Device only</Visualization>
+      </Type>
+      <Frequency>
+        <Value>0.474999994</Value>
+        <Visualization>Device only</Visualization>
+      </Frequency>
+      <Q>
+        <Value>6.29999781</Value>
+        <Visualization>Device only</Visualization>
+      </Q>
+      <Gain>
+        <Value>-60</Value>
+        <Visualization>Device only</Visualization>
+      </Gain>
+      <Inertia>
+        <Value>0.0070373537</Value>
+        <Visualization>Device only</Visualization>
+      </Inertia>
+      <Model>24dB Moog</Model>
+    </Filter3Device>
+    <DelayDevice type="DelayDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <LDelay>
+        <Value>99</Value>
+        <Visualization>Device only</Visualization>
+      </LDelay>
+      <RDelay>
+        <Value>299</Value>
+        <Visualization>Device only</Visualization>
+      </RDelay>
+      <LFeedback>
+        <Value>0.286885232</Value>
+        <Visualization>Device only</Visualization>
+      </LFeedback>
+      <RFeedback>
+        <Value>0.483606547</Value>
+        <Visualization>Device only</Visualization>
+      </RFeedback>
+      <TrackSend>
+        <Value>15.9883528</Value>
+        <Visualization>Device only</Visualization>
+      </TrackSend>
+      <LineSync>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </LineSync>
+      <LTapPan>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </LTapPan>
+      <RTapPan>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </RTapPan>
+      <MuteDrySignal>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </MuteDrySignal>
+      <LSyncTime>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </LSyncTime>
+      <RSyncTime>
+        <Value>3</Value>
+        <Visualization>Device only</Visualization>
+      </RSyncTime>
+      <LSyncOffset>
+        <Value>-0.0199999996</Value>
+        <Visualization>Device only</Visualization>
+      </LSyncOffset>
+      <RSyncOffset>
+        <Value>0.00999999978</Value>
+        <Visualization>Device only</Visualization>
+      </RSyncOffset>
+    </DelayDevice>
+  </Devices>
+</RenoiseDeviceChain>

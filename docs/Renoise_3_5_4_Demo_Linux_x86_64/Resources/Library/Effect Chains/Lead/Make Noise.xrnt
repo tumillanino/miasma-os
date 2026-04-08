@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseDeviceChain doc_version="18">
+  <SelectedPresetName>Init</SelectedPresetName>
+  <SelectedPresetIsModified>false</SelectedPresetIsModified>
+  <Devices>
+    <CompressorDevice type="CompressorDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <LogThreshold>
+        <Value>12.217742</Value>
+        <Visualization>Device only</Visualization>
+      </LogThreshold>
+      <Ratio>
+        <Value>16</Value>
+        <Visualization>Device only</Visualization>
+      </Ratio>
+      <Attack>
+        <Value>0.928326607</Value>
+        <Visualization>Device only</Visualization>
+      </Attack>
+      <Release>
+        <Value>8.87187862</Value>
+        <Visualization>Device only</Visualization>
+      </Release>
+      <Gain>
+        <Value>1.23387098</Value>
+        <Visualization>Mixer and Device</Visualization>
+      </Gain>
+    </CompressorDevice>
+    <FilterDistortionDevice type="FilterDistortionDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Oversample>false</Oversample>
+      <FilterType>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </FilterType>
+      <Drive>
+        <Value>0.286290318</Value>
+        <Visualization>Device only</Visualization>
+      </Drive>
+      <Cutoff>
+        <Value>0.330645174</Value>
+        <Visualization>Device only</Visualization>
+      </Cutoff>
+      <Resonance>
+        <Value>0.790322602</Value>
+        <Visualization>Device only</Visualization>
+      </Resonance>
+      <Inertia>
+        <Value>0.015625</Value>
+        <Visualization>Device only</Visualization>
+      </Inertia>
+    </FilterDistortionDevice>
+    <Distortion2Device type="Distortion2Device">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Oversample>false</Oversample>
+      <Type>
+        <Value>3</Value>
+        <Visualization>Device only</Visualization>
+      </Type>
+      <Drive>
+        <Value>0.100806452</Value>
+        <Visualization>Device only</Visualization>
+      </Drive>
+      <Tone>
+        <Value>0.790322602</Value>
+        <Visualization>Device only</Visualization>
+      </Tone>
+      <WetOut>
+        <Value>0.584677398</Value>
+        <Visualization>Device only</Visualization>
+      </WetOut>
+      <DryOut>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </DryOut>
+    </Distortion2Device>
+    <ChorusDevice type="ChorusDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <LfoRate>
+        <Value>0.049999997</Value>
+        <Visualization>Device only</Visualization>
+      </LfoRate>
+      <LfoDepth>
+        <Value>0.568548381</Value>
+        <Visualization>Device only</Visualization>
+      </LfoDepth>
+      <Feedback>
+        <Value>0.927419364</Value>
+        <Visualization>Device only</Visualization>
+      </Feedback>
+      <Delay>
+        <Value>0.0282258056</Value>
+        <Visualization>Device only</Visualization>
+      </Delay>
+      <DryWetMix>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </DryWetMix>
+      <Phase>
+        <Value>3.14159274</Value>
+        <Visualization>Device only</Visualization>
+      </Phase>
+      <FilterType>
+        <Value>3</Value>
+        <Visualization>Device only</Visualization>
+      </FilterType>
+      <FilterFreq>
+        <Value>127</Value>
+        <Visualization>Device only</Visualization>
+      </FilterFreq>
+      <FilterResonance>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </FilterResonance>
+    </ChorusDevice>
+    <Filter3Device type="Filter3Device">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Type>
+        <Value>5</Value>
+        <Visualization>Device only</Visualization>
+      </Type>
+      <Frequency>
+        <Value>0.592741907</Value>
+        <Visualization>Device only</Visualization>
+      </Frequency>
+      <Q>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Q>
+      <Gain>
+        <Value>-60</Value>
+        <Visualization>Device only</Visualization>
+      </Gain>
+      <Inertia>
+        <Value>0.0078125</Value>
+        <Visualization>Device only</Visualization>
+      </Inertia>
+      <Model>24dB Moog</Model>
+    </Filter3Device>
+    <Filter3Device type="Filter3Device">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>true</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Type>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Type>
+      <Frequency>
+        <Value>0.858823538</Value>
+        <Visualization>Device only</Visualization>
+      </Frequency>
+      <Q>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Q>
+      <Gain>
+        <Value>-60</Value>
+        <Visualization>Device only</Visualization>
+      </Gain>
+      <Inertia>
+        <Value>0.0078125</Value>
+        <Visualization>Device only</Visualization>
+      </Inertia>
+      <Model>24dB Moog</Model>
+    </Filter3Device>
+  </Devices>
+</RenoiseDeviceChain>

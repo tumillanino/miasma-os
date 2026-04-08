@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Renoise
+GenericName=Music Tracker
+Comment=A music composition program
+Type=Application
+Categories=AudioVideo;Audio;
+Exec=renoise %f
+Terminal=false
+StartupNotify=false
+Icon=renoise
+MimeType=application/x-renoise-module;application/x-renoise-rns-module;
+

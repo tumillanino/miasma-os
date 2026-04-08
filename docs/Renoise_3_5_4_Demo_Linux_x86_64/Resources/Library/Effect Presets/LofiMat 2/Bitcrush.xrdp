@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="2">
+  <DeviceSlot type="Lofi2Device">
+    <Bits>
+      <Value>1.0</Value>
+    </Bits>
+    <Rate>
+      <Value>0.77186572551727295</Value>
+    </Rate>
+    <Noise>
+      <Value>0.52419352531433105</Value>
+    </Noise>
+    <WetOut>
+      <Value>0.40322580933570862</Value>
+    </WetOut>
+    <DryOut>
+      <Value>0.072580642998218536</Value>
+    </DryOut>
+    <Interpolate>
+      <Value>0.0</Value>
+    </Interpolate>
+  </DeviceSlot>
+</FilterDevicePreset>

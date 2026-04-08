@@ -1,0 +1,5 @@
+// Created with Renoise Redux - http://www.renoise.com
+
+<region>
+sample=Sine Samples/Sine_C-1.flac
+pitch_keycenter=12

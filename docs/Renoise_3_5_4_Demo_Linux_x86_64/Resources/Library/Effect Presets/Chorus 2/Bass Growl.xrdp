@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="10">
+  <DeviceSlot type="Chorus2Device">
+    <IsMaximized>true</IsMaximized>
+    <Rate>
+      <Value>0.440603435</Value>
+    </Rate>
+    <Depth>
+      <Value>1.0</Value>
+    </Depth>
+    <Feedback>
+      <Value>0.504661143</Value>
+    </Feedback>
+    <Delay>
+      <Value>0.0320000015</Value>
+    </Delay>
+    <DryWetMix>
+      <Value>0.403999835</Value>
+    </DryWetMix>
+    <Dephase>
+      <Value>3.14159274</Value>
+    </Dephase>
+    <FilterType>
+      <Value>2</Value>
+    </FilterType>
+    <FilterFreq>
+      <Value>24.2256641</Value>
+    </FilterFreq>
+    <FilterResonance>
+      <Value>91.7434464</Value>
+    </FilterResonance>
+    <FilterDrive>
+      <Value>34.5242081</Value>
+    </FilterDrive>
+  </DeviceSlot>
+</FilterDevicePreset>

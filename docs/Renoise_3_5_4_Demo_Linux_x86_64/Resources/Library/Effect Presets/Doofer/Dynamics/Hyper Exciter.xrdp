@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="13">
+  <DeviceSlot type="DooferDevice">
+    <IsMaximized>true</IsMaximized>
+    <Macro0>
+      <Value>25</Value>
+      <Name>low x-over</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>4</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>5</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>6</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro0>
+    <Macro1>
+      <Value>75</Value>
+      <Name>hi x-over</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>4</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>5</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>6</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro1>
+    <Macro2>
+      <Value>0.0</Value>
+      <Name>low sharp</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>4</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>5</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>6</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro2>
+    <Macro3>
+      <Value>0.0</Value>
+      <Name>low amt</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>4</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>5</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>6</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro3>
+    <Macro4>
+      <Value>0.0</Value>
+      <Name>mid sharp</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>11</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>11</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>11</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>4</DestDeviceIndex>
+          <DestParameterIndex>11</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>5</DestDeviceIndex>
+          <DestParameterIndex>11</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>6</DestDeviceIndex>
+          <DestParameterIndex>11</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro4>
+    <Macro5>
+      <Value>0.0</Value>
+      <Name>mid amt</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>12</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>12</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>12</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>4</DestDeviceIndex>
+          <DestParameterIndex>12</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>5</DestDeviceIndex>
+          <DestParameterIndex>12</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>6</DestDeviceIndex>
+          <DestParameterIndex>12</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro5>
+    <Macro6>
+      <Value>0.0</Value>
+      <Name>hi sharp</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>18</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>18</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>18</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>4</DestDeviceIndex>
+          <DestParameterIndex>18</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>5</DestDeviceIndex>
+          <DestParameterIndex>18</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>6</DestDeviceIndex>
+          <DestParameterIndex>18</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro6>
+    <Macro7>
+      <Value>0.0</Value>
+      <Name>hi amt</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>19</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>19</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>19</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>4</DestDeviceIndex>
+          <DestParameterIndex>19</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>5</DestDeviceIndex>
+          <DestParameterIndex>19</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>6</DestDeviceIndex>
+          <DestParameterIndex>19</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro7>
+    <NumActiveMacros>8</NumActiveMacros>
+    <ShowDevices>false</ShowDevices>
+    <DeviceChain>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <Devices>
+        <NotePadDevice type="NotePadDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Paragraphs>
+            <Paragraph>6 Exciter devices in series providing for multi band dynamics processing and phase dispersion effects. A powerful unit that can add a lot of gain. By default, there is a limiter applied after the exciters. This can be manually disabled inside the roofer if desired. “Low x-over” and “High x-over” control the crossover frequencies for the exciters’ band-splitting filters. By manipulating these, you can introduce phase dispersion effects. All subsequent macros control the dynamics of the resultant bands, their sharpness and gain. Personally, I think it sounds better than OTT :)</Paragraph>
+          </Paragraphs>
+        </NotePadDevice>
+        <ExciterDevice type="ExciterDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <LowFrequency>
+            <Value>0.25</Value>
+            <Visualization>Device only</Visualization>
+          </LowFrequency>
+          <HighFrequency>
+            <Value>0.75</Value>
+            <Visualization>Device only</Visualization>
+          </HighFrequency>
+          <VisibleBand>Low</VisibleBand>
+          <Band1Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Mode>
+          <Band1Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness1>
+          <Band1Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount1>
+          <Band1Sharpness2>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness2>
+          <Band1Amount2>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount2>
+          <Band1Sharpness3>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness3>
+          <Band1Amount3>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount3>
+          <Band2Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Mode>
+          <Band2Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness1>
+          <Band2Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount1>
+          <Band2Sharpness2>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness2>
+          <Band2Amount2>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount2>
+          <Band2Sharpness3>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness3>
+          <Band2Amount3>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount3>
+          <Band3Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Mode>
+          <Band3Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness1>
+          <Band3Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount1>
+          <Band3Sharpness2>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness2>
+          <Band3Amount2>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount2>
+          <Band3Sharpness3>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness3>
+          <Band3Amount3>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount3>
+        </ExciterDevice>
+        <ExciterDevice type="ExciterDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <LowFrequency>
+            <Value>0.25</Value>
+            <Visualization>Device only</Visualization>
+          </LowFrequency>
+          <HighFrequency>
+            <Value>0.75</Value>
+            <Visualization>Device only</Visualization>
+          </HighFrequency>
+          <VisibleBand>Low</VisibleBand>
+          <Band1Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Mode>
+          <Band1Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness1>
+          <Band1Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount1>
+          <Band1Sharpness2>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness2>
+          <Band1Amount2>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount2>
+          <Band1Sharpness3>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness3>
+          <Band1Amount3>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount3>
+          <Band2Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Mode>
+          <Band2Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness1>
+          <Band2Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount1>
+          <Band2Sharpness2>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness2>
+          <Band2Amount2>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount2>
+          <Band2Sharpness3>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness3>
+          <Band2Amount3>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount3>
+          <Band3Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Mode>
+          <Band3Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness1>
+          <Band3Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount1>
+          <Band3Sharpness2>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness2>
+          <Band3Amount2>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount2>
+          <Band3Sharpness3>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness3>
+          <Band3Amount3>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount3>
+        </ExciterDevice>
+        <ExciterDevice type="ExciterDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <LowFrequency>
+            <Value>0.25</Value>
+            <Visualization>Device only</Visualization>
+          </LowFrequency>
+          <HighFrequency>
+            <Value>0.75</Value>
+            <Visualization>Device only</Visualization>
+          </HighFrequency>
+          <VisibleBand>Low</VisibleBand>
+          <Band1Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Mode>
+          <Band1Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness1>
+          <Band1Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount1>
+          <Band1Sharpness2>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness2>
+          <Band1Amount2>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount2>
+          <Band1Sharpness3>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness3>
+          <Band1Amount3>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount3>
+          <Band2Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Mode>
+          <Band2Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness1>
+          <Band2Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount1>
+          <Band2Sharpness2>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness2>
+          <Band2Amount2>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount2>
+          <Band2Sharpness3>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness3>
+          <Band2Amount3>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount3>
+          <Band3Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Mode>
+          <Band3Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness1>
+          <Band3Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount1>
+          <Band3Sharpness2>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness2>
+          <Band3Amount2>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount2>
+          <Band3Sharpness3>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness3>
+          <Band3Amount3>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount3>
+        </ExciterDevice>
+        <ExciterDevice type="ExciterDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <LowFrequency>
+            <Value>0.25</Value>
+            <Visualization>Device only</Visualization>
+          </LowFrequency>
+          <HighFrequency>
+            <Value>0.75</Value>
+            <Visualization>Device only</Visualization>
+          </HighFrequency>
+          <VisibleBand>Low</VisibleBand>
+          <Band1Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Mode>
+          <Band1Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness1>
+          <Band1Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount1>
+          <Band1Sharpness2>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness2>
+          <Band1Amount2>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount2>
+          <Band1Sharpness3>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness3>
+          <Band1Amount3>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount3>
+          <Band2Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Mode>
+          <Band2Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness1>
+          <Band2Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount1>
+          <Band2Sharpness2>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness2>
+          <Band2Amount2>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount2>
+          <Band2Sharpness3>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness3>
+          <Band2Amount3>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount3>
+          <Band3Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Mode>
+          <Band3Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness1>
+          <Band3Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount1>
+          <Band3Sharpness2>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness2>
+          <Band3Amount2>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount2>
+          <Band3Sharpness3>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness3>
+          <Band3Amount3>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount3>
+        </ExciterDevice>
+        <ExciterDevice type="ExciterDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <LowFrequency>
+            <Value>0.25</Value>
+            <Visualization>Device only</Visualization>
+          </LowFrequency>
+          <HighFrequency>
+            <Value>0.75</Value>
+            <Visualization>Device only</Visualization>
+          </HighFrequency>
+          <VisibleBand>Low</VisibleBand>
+          <Band1Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Mode>
+          <Band1Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness1>
+          <Band1Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount1>
+          <Band1Sharpness2>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness2>
+          <Band1Amount2>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount2>
+          <Band1Sharpness3>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness3>
+          <Band1Amount3>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount3>
+          <Band2Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Mode>
+          <Band2Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness1>
+          <Band2Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount1>
+          <Band2Sharpness2>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness2>
+          <Band2Amount2>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount2>
+          <Band2Sharpness3>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness3>
+          <Band2Amount3>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount3>
+          <Band3Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Mode>
+          <Band3Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness1>
+          <Band3Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount1>
+          <Band3Sharpness2>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness2>
+          <Band3Amount2>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount2>
+          <Band3Sharpness3>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness3>
+          <Band3Amount3>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount3>
+        </ExciterDevice>
+        <ExciterDevice type="ExciterDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <LowFrequency>
+            <Value>0.25</Value>
+            <Visualization>Device only</Visualization>
+          </LowFrequency>
+          <HighFrequency>
+            <Value>0.75</Value>
+            <Visualization>Device only</Visualization>
+          </HighFrequency>
+          <VisibleBand>Low</VisibleBand>
+          <Band1Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Mode>
+          <Band1Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness1>
+          <Band1Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount1>
+          <Band1Sharpness2>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness2>
+          <Band1Amount2>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount2>
+          <Band1Sharpness3>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness3>
+          <Band1Amount3>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount3>
+          <Band2Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Mode>
+          <Band2Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness1>
+          <Band2Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount1>
+          <Band2Sharpness2>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness2>
+          <Band2Amount2>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount2>
+          <Band2Sharpness3>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness3>
+          <Band2Amount3>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount3>
+          <Band3Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Mode>
+          <Band3Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness1>
+          <Band3Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount1>
+          <Band3Sharpness2>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness2>
+          <Band3Amount2>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount2>
+          <Band3Sharpness3>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness3>
+          <Band3Amount3>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount3>
+        </ExciterDevice>
+        <MaximizerDevice type="MaximizerDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <CustomDeviceName>LIMITER</CustomDeviceName>
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>true</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <InputGain>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </InputGain>
+          <Threshold>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Threshold>
+          <TransientRelease>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </TransientRelease>
+          <LongTermRelease>
+            <Value>60</Value>
+            <Visualization>Device only</Visualization>
+          </LongTermRelease>
+          <Ceiling>
+            <Value>0.0</Value>
+            <Visualization>Mixer and Device</Visualization>
+          </Ceiling>
+        </MaximizerDevice>
+      </Devices>
+    </DeviceChain>
+  </DeviceSlot>
+</FilterDevicePreset>

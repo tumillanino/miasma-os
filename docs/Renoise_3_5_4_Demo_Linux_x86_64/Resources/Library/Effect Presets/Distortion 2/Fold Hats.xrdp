@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="4">
+  <DeviceSlot type="Distortion2Device">
+    <IsMaximized>true</IsMaximized>
+    <Type>
+      <Value>2</Value>
+    </Type>
+    <Drive>
+      <Value>0.64999997615814209</Value>
+    </Drive>
+    <Tone>
+      <Value>1.0</Value>
+    </Tone>
+    <WetOut>
+      <Value>0.35481336712837219</Value>
+    </WetOut>
+    <DryOut>
+      <Value>0.35481336712837219</Value>
+    </DryOut>
+  </DeviceSlot>
+</FilterDevicePreset>

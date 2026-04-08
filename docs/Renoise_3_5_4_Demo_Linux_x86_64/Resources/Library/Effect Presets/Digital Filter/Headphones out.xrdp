@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="10">
+  <DeviceSlot type="DigitalFilterDevice">
+    <IsMaximized>true</IsMaximized>
+    <OversamplingFactor>2x</OversamplingFactor>
+    <Model>Biquad</Model>
+    <Type>
+      <Value>1.0</Value>
+    </Type>
+    <Cutoff>
+      <Value>0.648105264</Value>
+    </Cutoff>
+    <Q>
+      <Value>0.0</Value>
+    </Q>
+    <Ripple>
+      <Value>0.0</Value>
+    </Ripple>
+    <Inertia>
+      <Value>0.0078125</Value>
+    </Inertia>
+    <ShowResponseView>true</ShowResponseView>
+    <ResponseViewMaxGain>18</ResponseViewMaxGain>
+  </DeviceSlot>
+</FilterDevicePreset>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseDeviceChain doc_version="18">
+  <SelectedPresetName>Init</SelectedPresetName>
+  <SelectedPresetIsModified>false</SelectedPresetIsModified>
+  <Devices>
+    <Reverb3Device type="Reverb3Device">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <ReverbTime>
+        <Value>31.1229515</Value>
+        <Visualization>Device only</Visualization>
+      </ReverbTime>
+      <PreDelay>
+        <Value>91.8442612</Value>
+        <Visualization>Device only</Visualization>
+      </PreDelay>
+      <LPFilter>
+        <Value>1114.12292</Value>
+        <Visualization>Device only</Visualization>
+      </LPFilter>
+      <LPGain>
+        <Value>-0.737704933</Value>
+        <Visualization>Device only</Visualization>
+      </LPGain>
+      <Color>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Color>
+      <Width>
+        <Value>0.581967235</Value>
+        <Visualization>Device only</Visualization>
+      </Width>
+      <Pan>
+        <Value>0.5</Value>
+        <Visualization>Device only</Visualization>
+      </Pan>
+      <WetMix>
+        <Value>0.25</Value>
+        <Visualization>Device only</Visualization>
+      </WetMix>
+      <DryMix>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </DryMix>
+    </Reverb3Device>
+    <BusCompressorDevice type="BusCompressorDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Threshold>
+        <Value>-20.1639347</Value>
+        <Visualization>Device only</Visualization>
+      </Threshold>
+      <Ratio>
+        <Value>0.789473712</Value>
+        <Visualization>Device only</Visualization>
+      </Ratio>
+      <Attack>
+        <Value>0.0200100075</Value>
+        <Visualization>Device only</Visualization>
+      </Attack>
+      <Release>
+        <Value>0.156563908</Value>
+        <Visualization>Device only</Visualization>
+      </Release>
+      <MakeUp>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </MakeUp>
+      <Knee>
+        <Value>30</Value>
+        <Visualization>Device only</Visualization>
+      </Knee>
+    </BusCompressorDevice>
+    <MaximizerDevice type="MaximizerDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>true</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <InputGain>
+        <Value>18</Value>
+        <Visualization>Device only</Visualization>
+      </InputGain>
+      <Threshold>
+        <Value>-2.10344815</Value>
+        <Visualization>Device only</Visualization>
+      </Threshold>
+      <TransientRelease>
+        <Value>10</Value>
+        <Visualization>Device only</Visualization>
+      </TransientRelease>
+      <LongTermRelease>
+        <Value>200</Value>
+        <Visualization>Device only</Visualization>
+      </LongTermRelease>
+      <Ceiling>
+        <Value>0.206896558</Value>
+        <Visualization>Device only</Visualization>
+      </Ceiling>
+    </MaximizerDevice>
+  </Devices>
+</RenoiseDeviceChain>

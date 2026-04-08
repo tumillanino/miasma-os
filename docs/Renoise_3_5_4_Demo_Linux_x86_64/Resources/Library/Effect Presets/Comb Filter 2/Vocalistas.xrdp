@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="10">
+  <DeviceSlot type="Comb2Device">
+    <IsMaximized>true</IsMaximized>
+    <Note>
+      <Value>81.3212738</Value>
+    </Note>
+    <Transpose>
+      <Value>0.0</Value>
+    </Transpose>
+    <Feedback>
+      <Value>0.920000017</Value>
+    </Feedback>
+    <Inertia>
+      <Value>0.00865234155</Value>
+    </Inertia>
+    <DryWet>
+      <Value>0.839999855</Value>
+    </DryWet>
+  </DeviceSlot>
+</FilterDevicePreset>

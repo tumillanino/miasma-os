@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InstrumentPhrase doc_version="0">
+  <SelectedPresetName>Rhythm - 8th</SelectedPresetName>
+  <SelectedPresetIsModified>true</SelectedPresetIsModified>
+  <Lines>
+    <Line index="0">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-4</Note>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+    <Line index="1">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-4</Note>
+          <Volume>50</Volume>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+  </Lines>
+  <Name>Phrase 1</Name>
+  <LinesPerBeat>2</LinesPerBeat>
+  <NumberOfLines>2</NumberOfLines>
+  <VisibleNoteColumns>1</VisibleNoteColumns>
+  <VisibleEffectColumns>1</VisibleEffectColumns>
+  <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+  <PanningColumnIsVisible>false</PanningColumnIsVisible>
+  <DelayColumnIsVisible>false</DelayColumnIsVisible>
+</InstrumentPhrase>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="13">
+  <DeviceSlot type="DooferDevice">
+    <IsMaximized>true</IsMaximized>
+    <Macro0>
+      <Value>25</Value>
+      <Name>slope</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>1.0</Min>
+          <Max>0.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro0>
+    <Macro1>
+      <Value>50</Value>
+      <Name>offset</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>6</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro1>
+    <Macro2>
+      <Value>50</Value>
+      <Name>sensitivity</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>9</DestParameterIndex>
+          <Min>1.0</Min>
+          <Max>0.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro2>
+    <Macro3>
+      <Value>26.0000076</Value>
+      <Name>release rt</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>8</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Exp Fast</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro3>
+    <Macro4>
+      <Value>75</Value>
+      <Name>room size</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro4>
+    <Macro5>
+      <Value>50</Value>
+      <Name>width</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro5>
+    <Macro6>
+      <Value>0.0</Value>
+      <Name>damp</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro6>
+    <Macro7>
+      <Value>100</Value>
+      <Name>dry mix</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro7>
+    <NumActiveMacros>8</NumActiveMacros>
+    <ShowDevices>true</ShowDevices>
+    <DeviceChain>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <Devices>
+        <NotePadDevice type="NotePadDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Paragraphs>
+            <Paragraph>Signal-following side chain-style reverb using the Reverb unit. “Slope” determines whether the reverb behaves in a ducking or gating fashion, consoling the “slope” of the reverb signal response. Low values pass dry signal through and give reverb as the signal falls, while high values saturate the signal with reverb and trails off as the signal falls. “Offset” shifts the amount of reverb being applied. “Sensitivity” and “release rt” affect how the (reverb wet mix controlling) value leaving the signal follower behaves. The last four macros control reverb parameters as labeled.</Paragraph>
+          </Paragraphs>
+        </NotePadDevice>
+        <SignalFollowerDevice type="SignalFollowerDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>true</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <DestTrack>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </DestTrack>
+          <DestEffect>
+            <Value>2</Value>
+            <Visualization>Device only</Visualization>
+          </DestEffect>
+          <DestParameter>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </DestParameter>
+          <DestMin>
+            <Value>0.75</Value>
+            <Visualization>Device only</Visualization>
+          </DestMin>
+          <DestMax>
+            <Value>0.25</Value>
+            <Visualization>Device only</Visualization>
+          </DestMax>
+          <DestOffset>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </DestOffset>
+          <Attack>
+            <Value>9.99999975e-05</Value>
+            <Visualization>Device only</Visualization>
+          </Attack>
+          <Release>
+            <Value>0.0138414474</Value>
+            <Visualization>Device only</Visualization>
+          </Release>
+          <Sensitivity>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Sensitivity>
+          <DestScaling>Linear</DestScaling>
+          <LpFreq>
+            <Value>127</Value>
+            <Visualization>Device only</Visualization>
+          </LpFreq>
+          <HpFreq>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </HpFreq>
+          <InputMode>L+R</InputMode>
+          <LookAhead>0.0</LookAhead>
+          <ListenToInput>false</ListenToInput>
+        </SignalFollowerDevice>
+        <ReverbDevice type="ReverbDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Send>
+            <Value>0.75</Value>
+            <Visualization>Device only</Visualization>
+          </Send>
+          <RoomSize>
+            <Value>0.75</Value>
+            <Visualization>Device only</Visualization>
+          </RoomSize>
+          <Width>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Width>
+          <Damp>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Damp>
+          <DryMix>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </DryMix>
+        </ReverbDevice>
+      </Devices>
+    </DeviceChain>
+  </DeviceSlot>
+</FilterDevicePreset>

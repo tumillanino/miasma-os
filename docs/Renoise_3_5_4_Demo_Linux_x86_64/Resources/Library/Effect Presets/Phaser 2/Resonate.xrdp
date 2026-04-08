@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="10">
+  <DeviceSlot type="Phaser2Device">
+    <IsMaximized>true</IsMaximized>
+    <Floor>
+      <Value>0.244351566</Value>
+    </Floor>
+    <Ceilling>
+      <Value>0.244351566</Value>
+    </Ceilling>
+    <Rate>
+      <Value>0.200000003</Value>
+    </Rate>
+    <Feedback>
+      <Value>-0.832000315</Value>
+    </Feedback>
+    <Depth>
+      <Value>0.5</Value>
+    </Depth>
+    <Dephase>
+      <Value>0.0</Value>
+    </Dephase>
+    <Stages>
+      <Value>22</Value>
+    </Stages>
+  </DeviceSlot>
+</FilterDevicePreset>

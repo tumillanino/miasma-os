@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="13">
+  <DeviceSlot type="DooferDevice">
+    <IsMaximized>true</IsMaximized>
+    <Macro0>
+      <Value>50</Value>
+      <Name>max wet</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro0>
+    <Macro1>
+      <Value>0.0</Value>
+      <Name>min wet</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro1>
+    <Macro2>
+      <Value>50</Value>
+      <Name>sensitivity</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>9</DestParameterIndex>
+          <Min>1.0</Min>
+          <Max>0.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro2>
+    <Macro3>
+      <Value>50</Value>
+      <Name>release rt</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>8</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Exp Fast</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro3>
+    <Macro4>
+      <Value>50</Value>
+      <Name>color filter</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>6</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro4>
+    <Macro5>
+      <Value>100</Value>
+      <Name>dry mix</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>7</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro5>
+    <Macro6>
+      <Value>0.0</Value>
+      <Name>predelay</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro6>
+    <Macro7>
+      <Value>50</Value>
+      <Name>Macro 8</Name>
+    </Macro7>
+    <NumActiveMacros>7</NumActiveMacros>
+    <ShowDevices>true</ShowDevices>
+    <DeviceChain>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <Devices>
+        <NotePadDevice type="NotePadDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Paragraphs>
+            <Paragraph>This is a signal-following convolved for sidechain-style reverb. Load an impulse response into the convolved as desired. “Max wet” and “min wet” determine how the revel signal interacts with the signal. “Sensitivity” and “release rt” impact how the reverb wet parameters respond. “Color filter” “dry mix” and “predelay” function as expected for the convolver</Paragraph>
+            <Paragraph/>
+          </Paragraphs>
+        </NotePadDevice>
+        <SignalFollowerDevice type="SignalFollowerDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <CustomDeviceName>follower</CustomDeviceName>
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <DestTrack>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </DestTrack>
+          <DestEffect>
+            <Value>2</Value>
+            <Visualization>Device only</Visualization>
+          </DestEffect>
+          <DestParameter>
+            <Value>8</Value>
+            <Visualization>Device only</Visualization>
+          </DestParameter>
+          <DestMin>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </DestMin>
+          <DestMax>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </DestMax>
+          <DestOffset>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </DestOffset>
+          <Attack>
+            <Value>9.99999975e-05</Value>
+            <Visualization>Device only</Visualization>
+          </Attack>
+          <Release>
+            <Value>0.0667600036</Value>
+            <Visualization>Device only</Visualization>
+          </Release>
+          <Sensitivity>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Sensitivity>
+          <DestScaling>Linear</DestScaling>
+          <LpFreq>
+            <Value>127</Value>
+            <Visualization>Device only</Visualization>
+          </LpFreq>
+          <HpFreq>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </HpFreq>
+          <InputMode>L+R</InputMode>
+          <LookAhead>0.0</LookAhead>
+          <ListenToInput>false</ListenToInput>
+        </SignalFollowerDevice>
+        <ConvolverDevice type="ConvolverDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Gain>
+            <Value>0.501187205</Value>
+            <Visualization>Device only</Visualization>
+          </Gain>
+          <Start>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Start>
+          <Length>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Length>
+          <Resample>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Resample>
+          <PreDelay>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </PreDelay>
+          <Color>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Color>
+          <Dry>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Dry>
+          <Wet>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Wet>
+          <Stereo>true</Stereo>
+          <ImpulseDataLeft></ImpulseDataLeft>
+          <ImpulseDataRight></ImpulseDataRight>
+          <ImpulseDataSampleRate>0</ImpulseDataSampleRate>
+          <SampleName>No impulse loaded</SampleName>
+        </ConvolverDevice>
+      </Devices>
+    </DeviceChain>
+  </DeviceSlot>
+</FilterDevicePreset>

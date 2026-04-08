@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="0">
+  <DeviceSlot type="BusCompressorDevice">
+    <Threshold>
+      <Value>-10</Value>
+    </Threshold>
+    <Ratio>
+      <Value>1.0</Value>
+    </Ratio>
+    <Attack>
+      <Value>0.030001500621438026</Value>
+    </Attack>
+    <Release>
+      <Value>0.38674899935722351</Value>
+    </Release>
+    <MakeUp>
+      <Value>2.4000000953674316</Value>
+    </MakeUp>
+    <Knee>
+      <Value>10</Value>
+    </Knee>
+  </DeviceSlot>
+</FilterDevicePreset>

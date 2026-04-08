@@ -1,0 +1,180 @@
+// Created with Renoise Redux - http://www.renoise.com
+
+<region>
+sample=Disto3 Samples\ZDisto1_C-1.wav
+pitch_keycenter=12
+lokey=0 hikey=14
+
+<region>
+sample=Disto3 Samples\ZDisto1_D#1.wav
+pitch_keycenter=15
+lokey=15 hikey=17
+
+<region>
+sample=Disto3 Samples\ZDisto1_F#1.wav
+pitch_keycenter=18
+lokey=18 hikey=20
+
+<region>
+sample=Disto3 Samples\ZDisto1_A-1.wav
+pitch_keycenter=21
+lokey=21 hikey=23
+
+<region>
+sample=Disto3 Samples\ZDisto1_C-2.wav
+pitch_keycenter=24
+lokey=24 hikey=26
+
+<region>
+sample=Disto3 Samples\ZDisto1_D#2.wav
+pitch_keycenter=27
+lokey=27 hikey=29
+
+<region>
+sample=Disto3 Samples\ZDisto1_F#2.wav
+pitch_keycenter=30
+lokey=30 hikey=32
+
+<region>
+sample=Disto3 Samples\ZDisto1_A-2.wav
+pitch_keycenter=33
+lokey=33 hikey=35
+
+<region>
+sample=Disto3 Samples\ZDisto1_C-3.wav
+pitch_keycenter=36
+lokey=36 hikey=38
+
+<region>
+sample=Disto3 Samples\ZDisto1_D#3.wav
+pitch_keycenter=39
+lokey=39 hikey=41
+
+<region>
+sample=Disto3 Samples\ZDisto1_F#3.wav
+pitch_keycenter=42
+lokey=42 hikey=44
+
+<region>
+sample=Disto3 Samples\ZDisto1_A-3.wav
+pitch_keycenter=45
+lokey=45 hikey=47
+
+<region>
+sample=Disto3 Samples\ZDisto1_C-4.wav
+pitch_keycenter=48
+lokey=48 hikey=50
+
+<region>
+sample=Disto3 Samples\ZDisto1_D#4.wav
+pitch_keycenter=51
+lokey=51 hikey=53
+
+<region>
+sample=Disto3 Samples\ZDisto1_F#4.wav
+pitch_keycenter=54
+lokey=54 hikey=56
+
+<region>
+sample=Disto3 Samples\ZDisto1_A-4.wav
+pitch_keycenter=57
+lokey=57 hikey=59
+
+<region>
+sample=Disto3 Samples\ZDisto1_C-5.wav
+lokey=60 hikey=62
+
+<region>
+sample=Disto3 Samples\ZDisto1_D#5.wav
+pitch_keycenter=63
+lokey=63 hikey=65
+
+<region>
+sample=Disto3 Samples\ZDisto1_F#5.wav
+pitch_keycenter=66
+lokey=66 hikey=68
+
+<region>
+sample=Disto3 Samples\ZDisto1_A-5.wav
+pitch_keycenter=69
+lokey=69 hikey=71
+
+<region>
+sample=Disto3 Samples\ZDisto1_C-6.wav
+pitch_keycenter=72
+lokey=72 hikey=74
+
+<region>
+sample=Disto3 Samples\ZDisto1_D#6.wav
+pitch_keycenter=75
+lokey=75 hikey=77
+
+<region>
+sample=Disto3 Samples\ZDisto1_F#6.wav
+pitch_keycenter=78
+lokey=78 hikey=80
+
+<region>
+sample=Disto3 Samples\ZDisto1_A-6.wav
+pitch_keycenter=81
+lokey=81 hikey=83
+
+<region>
+sample=Disto3 Samples\ZDisto1_C-7.wav
+pitch_keycenter=84
+lokey=84 hikey=86
+
+<region>
+sample=Disto3 Samples\ZDisto1_D#7.wav
+pitch_keycenter=87
+lokey=87 hikey=89
+
+<region>
+sample=Disto3 Samples\ZDisto1_F#7.wav
+pitch_keycenter=90
+lokey=90 hikey=92
+
+<region>
+sample=Disto3 Samples\ZDisto1_A-7.wav
+pitch_keycenter=93
+lokey=93 hikey=95
+
+<region>
+sample=Disto3 Samples\ZDisto1_C-8.wav
+pitch_keycenter=96
+lokey=96 hikey=98
+
+<region>
+sample=Disto3 Samples\ZDisto1_D#8.wav
+pitch_keycenter=99
+lokey=99 hikey=101
+
+<region>
+sample=Disto3 Samples\ZDisto1_F#8.wav
+pitch_keycenter=102
+lokey=102 hikey=104
+
+<region>
+sample=Disto3 Samples\ZDisto1_A-8.wav
+pitch_keycenter=105
+lokey=105 hikey=107
+
+<region>
+sample=Disto3 Samples\ZDisto1_C-9.wav
+pitch_keycenter=108
+lokey=108 hikey=110
+
+<region>
+sample=Disto3 Samples\ZDisto1_D#9.wav
+pitch_keycenter=111
+lokey=111 hikey=113
+
+<region>
+sample=Disto3 Samples\ZDisto1_F#9.wav
+pitch_keycenter=114
+lokey=114 hikey=116
+
+<region>
+sample=Disto3 Samples\ZDisto1_A-9.wav
+pitch_keycenter=117
+lokey=117 hikey=119

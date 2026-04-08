@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="0">
+  <DeviceSlot type="Eq5Device">
+    <InputMode>L+R</InputMode>
+    <MaxVisualizedGain>20</MaxVisualizedGain>
+    <Gain0>
+      <Value>-4.6000003814697266</Value>
+    </Gain0>
+    <Gain1>
+      <Value>0.0</Value>
+    </Gain1>
+    <Gain2>
+      <Value>1.25</Value>
+    </Gain2>
+    <Gain3>
+      <Value>5.6000003814697266</Value>
+    </Gain3>
+    <Gain4>
+      <Value>1.2999992370605469</Value>
+    </Gain4>
+    <Frequency0>70</Frequency0>
+    <Frequency1>125</Frequency1>
+    <Frequency2>350</Frequency2>
+    <Frequency3>8000</Frequency3>
+    <Frequency4>12500</Frequency4>
+    <BandWidth0>1.0</BandWidth0>
+    <BandWidth1>2.189979076385498</BandWidth1>
+    <BandWidth2>2.5999999046325684</BandWidth2>
+    <BandWidth3>0.6600000262260437</BandWidth3>
+    <BandWidth4>1.0</BandWidth4>
+  </DeviceSlot>
+</FilterDevicePreset>

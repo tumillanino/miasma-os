@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="14">
+  <DeviceSlot type="SplitterDevice">
+    <IsMaximized>true</IsMaximized>
+    <Macro0>
+      <Value>75</Value>
+      <Name>dry/wet</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro0>
+    <Macro1>
+      <Value>7.90790844</Value>
+      <Name>ch1 rate</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro1>
+    <Macro2>
+      <Value>65.5999908</Value>
+      <Name>ch1 depth</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro2>
+    <Macro3>
+      <Value>66.5</Value>
+      <Name>ch1 FB</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro3>
+    <Macro4>
+      <Value>14.1421347</Value>
+      <Name>ch1 dly T</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro4>
+    <Macro5>
+      <Value>66.6266251</Value>
+      <Name>ch2 rate</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro5>
+    <Macro6>
+      <Value>7</Value>
+      <Name>ch2 depth</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro6>
+    <Macro7>
+      <Value>7.49999905</Value>
+      <Name>ch2 FB</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro7>
+    <Macro8>
+      <Value>17.320507</Value>
+      <Name>ch2 dly T</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro8>
+    <Macro9>
+      <Value>0.0</Value>
+      <Name>1/2 flt type</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>8</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>8</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro9>
+    <Macro10>
+      <Value>40.400032</Value>
+      <Name>flt freq</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>9</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>9</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro10>
+    <Macro11>
+      <Value>0.0</Value>
+      <Name>flt Q</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>10</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>10</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro11>
+    <Macro12>
+      <Value>0.0</Value>
+      <Name>flt drive</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>11</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>11</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro12>
+    <Macro13>
+      <Value>50</Value>
+      <Name>Macro 14</Name>
+    </Macro13>
+    <Macro14>
+      <Value>50</Value>
+      <Name>Macro 15</Name>
+    </Macro14>
+    <Macro15>
+      <Value>50</Value>
+      <Name>Macro 16</Name>
+    </Macro15>
+    <NumActiveMacros>9</NumActiveMacros>
+    <ShowDevices>true</ShowDevices>
+    <CurrentlyVisibleChain>0</CurrentlyVisibleChain>
+    <MonitorVisibleChain>false</MonitorVisibleChain>
+    <Type>Parallel</Type>
+    <VolumeChain1>
+      <Value>1.0</Value>
+    </VolumeChain1>
+    <VolumeChain2>
+      <Value>1.0</Value>
+    </VolumeChain2>
+    <SplitFrequency>
+      <Value>0.330993116</Value>
+    </SplitFrequency>
+    <DeviceChain0>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <Devices>
+        <NotePadDevice type="NotePadDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>true</IsSelected>
+          <IsActive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Paragraphs>
+            <Paragraph>Dual chorus units for richer chorus fx, with independent macro control of each chorus unit, and a linked filter section accessible by expanding the macros with the "+" button</Paragraph>
+          </Paragraphs>
+        </NotePadDevice>
+        <Chorus2Device type="Chorus2Device">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Rate>
+            <Value>0.800000012</Value>
+            <Visualization>Device only</Visualization>
+          </Rate>
+          <Depth>
+            <Value>0.655999899</Value>
+            <Visualization>Device only</Visualization>
+          </Depth>
+          <Feedback>
+            <Value>0.330000043</Value>
+            <Visualization>Device only</Visualization>
+          </Feedback>
+          <Delay>
+            <Value>0.141421348</Value>
+            <Visualization>Device only</Visualization>
+          </Delay>
+          <DryWetMix>
+            <Value>0.75</Value>
+            <Visualization>Device only</Visualization>
+          </DryWetMix>
+          <Dephase>
+            <Value>1.57079637</Value>
+            <Visualization>Device only</Visualization>
+          </Dephase>
+          <FilterType>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </FilterType>
+          <FilterFreq>
+            <Value>51.3080406</Value>
+            <Visualization>Device only</Visualization>
+          </FilterFreq>
+          <FilterResonance>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </FilterResonance>
+          <FilterDrive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </FilterDrive>
+        </Chorus2Device>
+      </Devices>
+    </DeviceChain0>
+    <DeviceChain1>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <Devices>
+        <Chorus2Device type="Chorus2Device">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>true</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Rate>
+            <Value>6.66599989</Value>
+            <Visualization>Device only</Visualization>
+          </Rate>
+          <Depth>
+            <Value>0.0700000003</Value>
+            <Visualization>Device only</Visualization>
+          </Depth>
+          <Feedback>
+            <Value>-0.850000024</Value>
+            <Visualization>Device only</Visualization>
+          </Feedback>
+          <Delay>
+            <Value>0.173205078</Value>
+            <Visualization>Device only</Visualization>
+          </Delay>
+          <DryWetMix>
+            <Value>0.75</Value>
+            <Visualization>Device only</Visualization>
+          </DryWetMix>
+          <Dephase>
+            <Value>1.57079637</Value>
+            <Visualization>Device only</Visualization>
+          </Dephase>
+          <FilterType>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </FilterType>
+          <FilterFreq>
+            <Value>51.3080406</Value>
+            <Visualization>Device only</Visualization>
+          </FilterFreq>
+          <FilterResonance>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </FilterResonance>
+          <FilterDrive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </FilterDrive>
+        </Chorus2Device>
+      </Devices>
+    </DeviceChain1>
+  </DeviceSlot>
+</FilterDevicePreset>

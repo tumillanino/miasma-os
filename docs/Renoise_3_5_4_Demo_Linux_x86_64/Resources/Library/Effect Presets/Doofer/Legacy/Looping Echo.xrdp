@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="13">
+  <DeviceSlot type="DooferDevice">
+    <IsMaximized>true</IsMaximized>
+    <Macro0>
+      <Value>32</Value>
+      <Name>Lines</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>12</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.392156899</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>13</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.392156899</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro0>
+    <Macro1>
+      <Value>100</Value>
+      <Name>Choke</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>6</DestParameterIndex>
+          <Min>1.0</Min>
+          <Max>0.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>11</DestParameterIndex>
+          <Min>1.0</Min>
+          <Max>0.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro1>
+    <Macro2>
+      <Value>100</Value>
+      <Name>Feed</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>10</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro2>
+    <Macro3>
+      <Value>50</Value>
+      <Name>Macro 4</Name>
+    </Macro3>
+    <Macro4>
+      <Value>50</Value>
+      <Name>Macro 5</Name>
+    </Macro4>
+    <Macro5>
+      <Value>50</Value>
+      <Name>Macro 6</Name>
+    </Macro5>
+    <Macro6>
+      <Value>50</Value>
+      <Name>Macro 7</Name>
+    </Macro6>
+    <Macro7>
+      <Value>50</Value>
+      <Name>Macro 8</Name>
+    </Macro7>
+    <NumActiveMacros>3</NumActiveMacros>
+    <ShowDevices>false</ShowDevices>
+    <DeviceChain>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <Devices>
+        <Gate2Device type="Gate2Device">
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Threshold>
+            <Value>-57.255722</Value>
+            <Visualization>Device only</Visualization>
+          </Threshold>
+          <Attack>
+            <Value>0.00999999978</Value>
+            <Visualization>Device only</Visualization>
+          </Attack>
+          <Hold>
+            <Value>20</Value>
+            <Visualization>Device only</Visualization>
+          </Hold>
+          <Release>
+            <Value>100</Value>
+            <Visualization>Device only</Visualization>
+          </Release>
+          <Floor>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Floor>
+          <ListenToSideChain>false</ListenToSideChain>
+          <SideChainHpFreq>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </SideChainHpFreq>
+          <SideChainLpFreq>
+            <Value>127</Value>
+            <Visualization>Device only</Visualization>
+          </SideChainLpFreq>
+          <Type>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Type>
+          <MixMode>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </MixMode>
+        </Gate2Device>
+        <SignalFollowerDevice type="SignalFollowerDevice">
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <DestTrack>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </DestTrack>
+          <DestEffect>
+            <Value>2</Value>
+            <Visualization>Device only</Visualization>
+          </DestEffect>
+          <DestParameter>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </DestParameter>
+          <DestMin>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </DestMin>
+          <DestMax>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </DestMax>
+          <DestOffset>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </DestOffset>
+          <Attack>
+            <Value>0.00249903998</Value>
+            <Visualization>Device only</Visualization>
+          </Attack>
+          <Release>
+            <Value>0.100000001</Value>
+            <Visualization>Device only</Visualization>
+          </Release>
+          <Sensitivity>
+            <Value>0.248888984</Value>
+            <Visualization>Device only</Visualization>
+          </Sensitivity>
+          <DestScaling>Exp Fast</DestScaling>
+          <LpFreq>
+            <Value>127</Value>
+            <Visualization>Device only</Visualization>
+          </LpFreq>
+          <HpFreq>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </HpFreq>
+          <InputMode>L+R</InputMode>
+          <LookAhead>0.0</LookAhead>
+          <ListenToInput>false</ListenToInput>
+        </SignalFollowerDevice>
+        <HydraDevice type="HydraDevice">
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <VisiblePages>1</VisiblePages>
+          <InputValue>
+            <Value>0.956226051</Value>
+            <Visualization>Mixer and Device</Visualization>
+          </InputValue>
+          <Out1DestTrack>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out1DestTrack>
+          <Out1DestEffect>
+            <Value>3</Value>
+            <Visualization>Device only</Visualization>
+          </Out1DestEffect>
+          <Out1DestParameter>
+            <Value>3</Value>
+            <Visualization>Device only</Visualization>
+          </Out1DestParameter>
+          <Out1Min>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Out1Min>
+          <Out1Max>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Out1Max>
+          <Out1Scaling>Exp Slow</Out1Scaling>
+          <Out2DestTrack>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out2DestTrack>
+          <Out2DestEffect>
+            <Value>3</Value>
+            <Visualization>Device only</Visualization>
+          </Out2DestEffect>
+          <Out2DestParameter>
+            <Value>4</Value>
+            <Visualization>Device only</Visualization>
+          </Out2DestParameter>
+          <Out2Min>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Out2Min>
+          <Out2Max>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Out2Max>
+          <Out2Scaling>Exp Slow</Out2Scaling>
+          <Out3DestTrack>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out3DestTrack>
+          <Out3DestEffect>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out3DestEffect>
+          <Out3DestParameter>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out3DestParameter>
+          <Out3Min>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Out3Min>
+          <Out3Max>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Out3Max>
+          <Out3Scaling>Linear</Out3Scaling>
+          <Out4DestTrack>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out4DestTrack>
+          <Out4DestEffect>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out4DestEffect>
+          <Out4DestParameter>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out4DestParameter>
+          <Out4Min>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Out4Min>
+          <Out4Max>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Out4Max>
+          <Out4Scaling>Linear</Out4Scaling>
+          <Out5DestTrack>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out5DestTrack>
+          <Out5DestEffect>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out5DestEffect>
+          <Out5DestParameter>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out5DestParameter>
+          <Out5Min>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Out5Min>
+          <Out5Max>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Out5Max>
+          <Out5Scaling>Linear</Out5Scaling>
+          <Out6DestTrack>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out6DestTrack>
+          <Out6DestEffect>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out6DestEffect>
+          <Out6DestParameter>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out6DestParameter>
+          <Out6Min>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Out6Min>
+          <Out6Max>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Out6Max>
+          <Out6Scaling>Linear</Out6Scaling>
+          <Out7DestTrack>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out7DestTrack>
+          <Out7DestEffect>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out7DestEffect>
+          <Out7DestParameter>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out7DestParameter>
+          <Out7Min>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Out7Min>
+          <Out7Max>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Out7Max>
+          <Out7Scaling>Linear</Out7Scaling>
+          <Out8DestTrack>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out8DestTrack>
+          <Out8DestEffect>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out8DestEffect>
+          <Out8DestParameter>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out8DestParameter>
+          <Out8Min>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Out8Min>
+          <Out8Max>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Out8Max>
+          <Out8Scaling>Linear</Out8Scaling>
+          <Out9DestTrack>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out9DestTrack>
+          <Out9DestEffect>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out9DestEffect>
+          <Out9DestParameter>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </Out9DestParameter>
+          <Out9Min>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Out9Min>
+          <Out9Max>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Out9Max>
+          <Out9Scaling>Linear</Out9Scaling>
+        </HydraDevice>
+        <DelayDevice type="DelayDevice">
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <LDelay>
+            <Value>124.999992</Value>
+            <Visualization>Device only</Visualization>
+          </LDelay>
+          <RDelay>
+            <Value>124.999992</Value>
+            <Visualization>Device only</Visualization>
+          </RDelay>
+          <LFeedback>
+            <Value>0.121910691</Value>
+            <Visualization>Device only</Visualization>
+          </LFeedback>
+          <RFeedback>
+            <Value>0.121910691</Value>
+            <Visualization>Device only</Visualization>
+          </RFeedback>
+          <TrackSend>
+            <Value>127</Value>
+            <Visualization>Device only</Visualization>
+          </TrackSend>
+          <LineSync>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </LineSync>
+          <LTapPan>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </LTapPan>
+          <RTapPan>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </RTapPan>
+          <MuteDrySignal>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </MuteDrySignal>
+          <LSyncTime>
+            <Value>32</Value>
+            <Visualization>Device only</Visualization>
+          </LSyncTime>
+          <RSyncTime>
+            <Value>32</Value>
+            <Visualization>Device only</Visualization>
+          </RSyncTime>
+          <LSyncOffset>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </LSyncOffset>
+          <RSyncOffset>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </RSyncOffset>
+        </DelayDevice>
+        <BusCompressorDevice type="BusCompressorDevice">
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>true</IsSelected>
+          <SelectedPresetName>Limiter Hard</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Threshold>
+            <Value>-6.00000381</Value>
+            <Visualization>Device only</Visualization>
+          </Threshold>
+          <Ratio>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Ratio>
+          <Attack>
+            <Value>0.0394099504</Value>
+            <Visualization>Device only</Visualization>
+          </Attack>
+          <Release>
+            <Value>0.336563885</Value>
+            <Visualization>Device only</Visualization>
+          </Release>
+          <MakeUp>
+            <Value>0.0</Value>
+            <Visualization>Mixer and Device</Visualization>
+          </MakeUp>
+          <Knee>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Knee>
+        </BusCompressorDevice>
+      </Devices>
+    </DeviceChain>
+  </DeviceSlot>
+</FilterDevicePreset>

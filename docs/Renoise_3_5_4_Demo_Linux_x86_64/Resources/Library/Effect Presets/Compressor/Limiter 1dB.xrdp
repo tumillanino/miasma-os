@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="0">
+  <DeviceSlot type="CompressorDevice">
+    <LogThreshold>
+      <Value>14.833859443664551</Value>
+    </LogThreshold>
+    <Ratio>
+      <Value>16</Value>
+    </Ratio>
+    <Attack>
+      <Value>0.0099999997764825821</Value>
+    </Attack>
+    <Release>
+      <Value>20</Value>
+    </Release>
+    <Gain>
+      <Value>0.99999994039535522</Value>
+    </Gain>
+  </DeviceSlot>
+</FilterDevicePreset>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="0">
+  <DeviceSlot type="Gate2Device">
+    <Threshold>
+      <Value>-12</Value>
+    </Threshold>
+    <Attack>
+      <Value>1.0</Value>
+    </Attack>
+    <Hold>
+      <Value>0.0</Value>
+    </Hold>
+    <Release>
+      <Value>20</Value>
+    </Release>
+    <Floor>
+      <Value>0.50118720531463623</Value>
+    </Floor>
+    <ListenToSideChain>false</ListenToSideChain>
+    <SideChainHpFreq>
+      <Value>0.0</Value>
+    </SideChainHpFreq>
+    <SideChainLpFreq>
+      <Value>127</Value>
+    </SideChainLpFreq>
+    <Type>
+      <Value>1.0</Value>
+    </Type>
+  </DeviceSlot>
+</FilterDevicePreset>

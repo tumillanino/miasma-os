@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="14">
+  <DeviceSlot type="SplitterDevice">
+    <IsMaximized>true</IsMaximized>
+    <Macro0>
+      <Value>50</Value>
+      <Name>freq x-over</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>-2</DestChainIndex>
+          <DestDeviceIndex>-2</DestDeviceIndex>
+          <DestParameterIndex>19</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro0>
+    <Macro1>
+      <Value>2.35294127</Value>
+      <Name>low L LPC</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>21</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro1>
+    <Macro2>
+      <Value>4.70588255</Value>
+      <Name>low R LPC</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>22</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro2>
+    <Macro3>
+      <Value>75</Value>
+      <Name>low L FB</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>7</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro3>
+    <Macro4>
+      <Value>75</Value>
+      <Name>low R FB</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>8</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro4>
+    <Macro5>
+      <Value>100</Value>
+      <Name>low amt</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>6</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro5>
+    <Macro6>
+      <Value>0.0</Value>
+      <Name>lo LP/HP</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>14</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.166666657</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro6>
+    <Macro7>
+      <Value>100</Value>
+      <Name>lo flt freq</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>15</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro7>
+    <Macro8>
+      <Value>3.13725519</Value>
+      <Name>hi L LPC</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>21</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro8>
+    <Macro9>
+      <Value>6.27451038</Value>
+      <Name>hi R LPC</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>22</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro9>
+    <Macro10>
+      <Value>75</Value>
+      <Name>hi L FB</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>7</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro10>
+    <Macro11>
+      <Value>75</Value>
+      <Name>hi R FB</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>8</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro11>
+    <Macro12>
+      <Value>100</Value>
+      <Name>hi amt</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>6</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro12>
+    <Macro13>
+      <Value>0.0</Value>
+      <Name>hi LP/HP</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>14</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.166666657</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro13>
+    <Macro14>
+      <Value>100</Value>
+      <Name>hi flt freq</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>15</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro14>
+    <Macro15>
+      <Value>50</Value>
+      <Name>offst sprd</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>23</DestParameterIndex>
+          <Min>1.0</Min>
+          <Max>0.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>24</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>23</DestParameterIndex>
+          <Min>1.0</Min>
+          <Max>0.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>24</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro15>
+    <NumActiveMacros>16</NumActiveMacros>
+    <ShowDevices>true</ShowDevices>
+    <CurrentlyVisibleChain>0</CurrentlyVisibleChain>
+    <MonitorVisibleChain>false</MonitorVisibleChain>
+    <Type>Frequency</Type>
+    <VolumeChain1>
+      <Value>1.0</Value>
+    </VolumeChain1>
+    <VolumeChain2>
+      <Value>1.0</Value>
+    </VolumeChain2>
+    <SplitFrequency>
+      <Value>0.5</Value>
+    </SplitFrequency>
+    <DeviceChain0>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <Devices>
+        <NotePadDevice type="NotePadDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>true</IsSelected>
+          <IsActive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Paragraphs>
+            <Paragraph>This Splitter offers two multitap delay units split by a frequency crossover, so that the low frequency protion of a sound can have different delay characteristics than the high frequency portion, with a selectable crossover point, and independent LPC rate and feedback control for each of the four delays. Each delay unit (low and high) can have a lowpass or highpass filter applied to the (L and R) delay lines independently. Offset spread shifts timing values if desired. You can also change the Splitter type to parallel or mid/side as desired for other kinds of sonic mayhem</Paragraph>
+          </Paragraphs>
+        </NotePadDevice>
+        <MultitapDevice type="MultitapDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <VisibleTap>0</VisibleTap>
+          <VisiblePanel>true</VisiblePanel>
+          <MuteDrySignal>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </MuteDrySignal>
+          <Tap1DelayLeft>
+            <Value>157.89473</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1DelayLeft>
+          <Tap1DelayRight>
+            <Value>157.89473</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1DelayRight>
+          <Tap1InputAmount>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1InputAmount>
+          <Tap1Amount>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1Amount>
+          <Tap1LFeedback>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1LFeedback>
+          <Tap1RFeedback>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1RFeedback>
+          <Tap1InvertFeedback>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1InvertFeedback>
+          <Tap1PreviousTapInput>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1PreviousTapInput>
+          <Tap1LeftTapPan>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1LeftTapPan>
+          <Tap1RightTapPan>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1RightTapPan>
+          <Tap1FilterMode>
+            <Value>3</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1FilterMode>
+          <Tap1FilterType>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1FilterType>
+          <Tap1FilterFreq>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1FilterFreq>
+          <Tap1FilterResonance>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1FilterResonance>
+          <Tap1FilterDrive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1FilterDrive>
+          <Tap1LineSync>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1LineSync>
+          <Tap1LSyncTime>
+            <Value>6</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1LSyncTime>
+          <Tap1RSyncTime>
+            <Value>12</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1RSyncTime>
+          <Tap1LSyncOffset>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1LSyncOffset>
+          <Tap1RSyncOffset>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1RSyncOffset>
+          <Tap2DelayLeft>
+            <Value>157.89473</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2DelayLeft>
+          <Tap2DelayRight>
+            <Value>157.89473</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2DelayRight>
+          <Tap2InputAmount>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2InputAmount>
+          <Tap2Amount>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2Amount>
+          <Tap2LFeedback>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2LFeedback>
+          <Tap2RFeedback>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2RFeedback>
+          <Tap2InvertFeedback>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2InvertFeedback>
+          <Tap2PreviousTapInput>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2PreviousTapInput>
+          <Tap2LeftTapPan>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2LeftTapPan>
+          <Tap2RightTapPan>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2RightTapPan>
+          <Tap2FilterMode>
+            <Value>3</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2FilterMode>
+          <Tap2FilterType>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2FilterType>
+          <Tap2FilterFreq>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2FilterFreq>
+          <Tap2FilterResonance>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2FilterResonance>
+          <Tap2FilterDrive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2FilterDrive>
+          <Tap2LineSync>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2LineSync>
+          <Tap2LSyncTime>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2LSyncTime>
+          <Tap2RSyncTime>
+            <Value>3</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2RSyncTime>
+          <Tap2LSyncOffset>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2LSyncOffset>
+          <Tap2RSyncOffset>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2RSyncOffset>
+          <Tap3DelayLeft>
+            <Value>157.89473</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3DelayLeft>
+          <Tap3DelayRight>
+            <Value>157.89473</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3DelayRight>
+          <Tap3InputAmount>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3InputAmount>
+          <Tap3Amount>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3Amount>
+          <Tap3LFeedback>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3LFeedback>
+          <Tap3RFeedback>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3RFeedback>
+          <Tap3InvertFeedback>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3InvertFeedback>
+          <Tap3PreviousTapInput>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3PreviousTapInput>
+          <Tap3LeftTapPan>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3LeftTapPan>
+          <Tap3RightTapPan>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3RightTapPan>
+          <Tap3FilterMode>
+            <Value>3</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3FilterMode>
+          <Tap3FilterType>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3FilterType>
+          <Tap3FilterFreq>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3FilterFreq>
+          <Tap3FilterResonance>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3FilterResonance>
+          <Tap3FilterDrive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3FilterDrive>
+          <Tap3LineSync>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3LineSync>
+          <Tap3LSyncTime>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3LSyncTime>
+          <Tap3RSyncTime>
+            <Value>3</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3RSyncTime>
+          <Tap3LSyncOffset>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3LSyncOffset>
+          <Tap3RSyncOffset>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3RSyncOffset>
+          <Tap4DelayLeft>
+            <Value>157.89473</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4DelayLeft>
+          <Tap4DelayRight>
+            <Value>157.89473</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4DelayRight>
+          <Tap4InputAmount>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4InputAmount>
+          <Tap4Amount>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4Amount>
+          <Tap4LFeedback>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4LFeedback>
+          <Tap4RFeedback>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4RFeedback>
+          <Tap4InvertFeedback>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4InvertFeedback>
+          <Tap4PreviousTapInput>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4PreviousTapInput>
+          <Tap4LeftTapPan>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4LeftTapPan>
+          <Tap4RightTapPan>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4RightTapPan>
+          <Tap4FilterMode>
+            <Value>3</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4FilterMode>
+          <Tap4FilterType>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4FilterType>
+          <Tap4FilterFreq>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4FilterFreq>
+          <Tap4FilterResonance>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4FilterResonance>
+          <Tap4FilterDrive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4FilterDrive>
+          <Tap4LineSync>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4LineSync>
+          <Tap4LSyncTime>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4LSyncTime>
+          <Tap4RSyncTime>
+            <Value>3</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4RSyncTime>
+          <Tap4LSyncOffset>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4LSyncOffset>
+          <Tap4RSyncOffset>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4RSyncOffset>
+        </MultitapDevice>
+      </Devices>
+    </DeviceChain0>
+    <DeviceChain1>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <Devices>
+        <MultitapDevice type="MultitapDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>true</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <VisibleTap>0</VisibleTap>
+          <VisiblePanel>true</VisiblePanel>
+          <MuteDrySignal>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </MuteDrySignal>
+          <Tap1DelayLeft>
+            <Value>157.89473</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1DelayLeft>
+          <Tap1DelayRight>
+            <Value>157.89473</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1DelayRight>
+          <Tap1InputAmount>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1InputAmount>
+          <Tap1Amount>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1Amount>
+          <Tap1LFeedback>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1LFeedback>
+          <Tap1RFeedback>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1RFeedback>
+          <Tap1InvertFeedback>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1InvertFeedback>
+          <Tap1PreviousTapInput>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1PreviousTapInput>
+          <Tap1LeftTapPan>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1LeftTapPan>
+          <Tap1RightTapPan>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1RightTapPan>
+          <Tap1FilterMode>
+            <Value>3</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1FilterMode>
+          <Tap1FilterType>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1FilterType>
+          <Tap1FilterFreq>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1FilterFreq>
+          <Tap1FilterResonance>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1FilterResonance>
+          <Tap1FilterDrive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1FilterDrive>
+          <Tap1LineSync>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1LineSync>
+          <Tap1LSyncTime>
+            <Value>8</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1LSyncTime>
+          <Tap1RSyncTime>
+            <Value>16</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1RSyncTime>
+          <Tap1LSyncOffset>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1LSyncOffset>
+          <Tap1RSyncOffset>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap1RSyncOffset>
+          <Tap2DelayLeft>
+            <Value>157.89473</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2DelayLeft>
+          <Tap2DelayRight>
+            <Value>157.89473</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2DelayRight>
+          <Tap2InputAmount>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2InputAmount>
+          <Tap2Amount>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2Amount>
+          <Tap2LFeedback>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2LFeedback>
+          <Tap2RFeedback>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2RFeedback>
+          <Tap2InvertFeedback>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2InvertFeedback>
+          <Tap2PreviousTapInput>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2PreviousTapInput>
+          <Tap2LeftTapPan>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2LeftTapPan>
+          <Tap2RightTapPan>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2RightTapPan>
+          <Tap2FilterMode>
+            <Value>3</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2FilterMode>
+          <Tap2FilterType>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2FilterType>
+          <Tap2FilterFreq>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2FilterFreq>
+          <Tap2FilterResonance>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2FilterResonance>
+          <Tap2FilterDrive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2FilterDrive>
+          <Tap2LineSync>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2LineSync>
+          <Tap2LSyncTime>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2LSyncTime>
+          <Tap2RSyncTime>
+            <Value>3</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2RSyncTime>
+          <Tap2LSyncOffset>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2LSyncOffset>
+          <Tap2RSyncOffset>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap2RSyncOffset>
+          <Tap3DelayLeft>
+            <Value>157.89473</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3DelayLeft>
+          <Tap3DelayRight>
+            <Value>157.89473</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3DelayRight>
+          <Tap3InputAmount>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3InputAmount>
+          <Tap3Amount>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3Amount>
+          <Tap3LFeedback>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3LFeedback>
+          <Tap3RFeedback>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3RFeedback>
+          <Tap3InvertFeedback>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3InvertFeedback>
+          <Tap3PreviousTapInput>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3PreviousTapInput>
+          <Tap3LeftTapPan>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3LeftTapPan>
+          <Tap3RightTapPan>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3RightTapPan>
+          <Tap3FilterMode>
+            <Value>3</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3FilterMode>
+          <Tap3FilterType>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3FilterType>
+          <Tap3FilterFreq>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3FilterFreq>
+          <Tap3FilterResonance>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3FilterResonance>
+          <Tap3FilterDrive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3FilterDrive>
+          <Tap3LineSync>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3LineSync>
+          <Tap3LSyncTime>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3LSyncTime>
+          <Tap3RSyncTime>
+            <Value>3</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3RSyncTime>
+          <Tap3LSyncOffset>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3LSyncOffset>
+          <Tap3RSyncOffset>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap3RSyncOffset>
+          <Tap4DelayLeft>
+            <Value>157.89473</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4DelayLeft>
+          <Tap4DelayRight>
+            <Value>157.89473</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4DelayRight>
+          <Tap4InputAmount>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4InputAmount>
+          <Tap4Amount>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4Amount>
+          <Tap4LFeedback>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4LFeedback>
+          <Tap4RFeedback>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4RFeedback>
+          <Tap4InvertFeedback>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4InvertFeedback>
+          <Tap4PreviousTapInput>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4PreviousTapInput>
+          <Tap4LeftTapPan>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4LeftTapPan>
+          <Tap4RightTapPan>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4RightTapPan>
+          <Tap4FilterMode>
+            <Value>3</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4FilterMode>
+          <Tap4FilterType>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4FilterType>
+          <Tap4FilterFreq>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4FilterFreq>
+          <Tap4FilterResonance>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4FilterResonance>
+          <Tap4FilterDrive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4FilterDrive>
+          <Tap4LineSync>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4LineSync>
+          <Tap4LSyncTime>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4LSyncTime>
+          <Tap4RSyncTime>
+            <Value>3</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4RSyncTime>
+          <Tap4LSyncOffset>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4LSyncOffset>
+          <Tap4RSyncOffset>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Tap4RSyncOffset>
+        </MultitapDevice>
+      </Devices>
+    </DeviceChain1>
+  </DeviceSlot>
+</FilterDevicePreset>

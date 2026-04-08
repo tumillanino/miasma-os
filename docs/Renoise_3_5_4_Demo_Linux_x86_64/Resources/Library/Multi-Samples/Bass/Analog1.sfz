@@ -1,0 +1,69 @@
+// Created with Renoise Redux - http://www.renoise.com
+
+<region>
+sample=Analog1 Samples/BassAnalog1_C-5.flac
+lokey=0 hikey=59
+volume=-7.59420443
+pan=-55.9999542
+
+<region>
+sample=Analog1 Samples/BassAnalog1_C-6.flac
+pitch_keycenter=72
+lokey=60 hikey=71
+volume=-4.70141649
+pan=-55.9999542
+
+<region>
+sample=Analog1 Samples/BassAnalog1_C-7.flac
+pitch_keycenter=84
+lokey=72 hikey=83
+volume=-2.09241581
+pan=-55.9999542
+
+<region>
+sample=Analog1 Samples/BassAnalog1_C-8.flac
+pitch_keycenter=96
+lokey=84 hikey=95
+volume=-2.09241581
+pan=-55.9999542
+
+<region>
+sample=Analog1 Samples/BassAnalog1_C-9.flac
+pitch_keycenter=108
+lokey=96 hikey=119
+volume=-2.09241581
+pan=-61.999958
+
+<region>
+sample=Analog1 Samples/BassAnalog1_C-5-05.flac
+lokey=0 hikey=59
+volume=-8.09241009
+pan=13.9999847
+
+<region>
+sample=Analog1 Samples/BassAnalog1_C-6-06.flac
+pitch_keycenter=72
+lokey=60 hikey=71
+volume=-4.69241381
+pan=13.9999847
+
+<region>
+sample=Analog1 Samples/BassAnalog1_C-7-07.flac
+pitch_keycenter=84
+lokey=72 hikey=83
+volume=-2.09241581
+pan=13.9999847
+
+<region>
+sample=Analog1 Samples/BassAnalog1_C-8-08.flac
+pitch_keycenter=96
+lokey=84 hikey=95
+volume=-2.09241581
+pan=13.9999847
+
+<region>
+sample=Analog1 Samples/BassAnalog1_C-9-09.flac
+pitch_keycenter=108
+lokey=96 hikey=119
+volume=-2.09241581
+pan=13.9999847

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SampleModulationSet doc_version="3">
+  <Devices>
+    <SampleMixerModulationDevice type="SampleMixerModulationDevice">
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Volume>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </Volume>
+      <Panning>
+        <Value>-0.128000006</Value>
+        <Visualization>Device only</Visualization>
+      </Panning>
+      <Pitch>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Pitch>
+      <PitchModulationRange>12</PitchModulationRange>
+      <Cutoff>
+        <Value>126.491997</Value>
+        <Visualization>Device only</Visualization>
+      </Cutoff>
+      <Resonance>
+        <Value>62.3411217</Value>
+        <Visualization>Device only</Visualization>
+      </Resonance>
+      <Drive>
+        <Value>73</Value>
+        <Visualization>Device only</Visualization>
+      </Drive>
+    </SampleMixerModulationDevice>
+    <SampleKeyTrackingModulationDevice type="SampleKeyTrackingModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>false</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Volume</Target>
+      <Operator>+</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>false</TempoSynced>
+      <Min>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Min>
+      <Max>
+        <Value>119</Value>
+        <Visualization>Device only</Visualization>
+      </Max>
+    </SampleKeyTrackingModulationDevice>
+    <SampleEnvelopeModulationDevice type="SampleEnvelopeModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Volume</Target>
+      <Operator>*</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>false</TempoSynced>
+      <SustainIsActive>true</SustainIsActive>
+      <SustainPos>105</SustainPos>
+      <LoopStart>0</LoopStart>
+      <LoopEnd>71</LoopEnd>
+      <LoopMode>Off</LoopMode>
+      <Decay>
+        <Value>23.9360008</Value>
+        <Visualization>Device only</Visualization>
+      </Decay>
+      <Nodes>
+        <PlayMode>Curve</PlayMode>
+        <Length>2769</Length>
+        <ValueQuantum>0.0</ValueQuantum>
+        <Polarity>Unipolar</Polarity>
+        <Points>
+          <Point>0,1.0</Point>
+          <Point>115,1.0</Point>
+          <Point>125,0.0</Point>
+          <Point>1050,1.0</Point>
+        </Points>
+      </Nodes>
+    </SampleEnvelopeModulationDevice>
+    <SampleAhdsrModulationDevice type="SampleAhdsrModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Volume</Target>
+      <Operator>*</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>true</TempoSynced>
+      <Attack>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Attack>
+      <Hold>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Hold>
+      <Decay>
+        <Value>0.158529446</Value>
+        <Visualization>Device only</Visualization>
+      </Decay>
+      <Sustain>
+        <Value>0.0876364037</Value>
+        <Visualization>Device only</Visualization>
+      </Sustain>
+      <Release>
+        <Value>0.467999727</Value>
+        <Visualization>Device only</Visualization>
+      </Release>
+    </SampleAhdsrModulationDevice>
+    <SampleOperandModulationDevice type="SampleOperandModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Volume</Target>
+      <Operator>*</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>false</TempoSynced>
+      <Value>
+        <Value>0.563150346</Value>
+        <Visualization>Device only</Visualization>
+      </Value>
+    </SampleOperandModulationDevice>
+    <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Cutoff</Target>
+      <Operator>+</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>false</TempoSynced>
+      <Scaling>Log Fast</Scaling>
+      <From>
+        <Value>0.615686297</Value>
+        <Visualization>Device only</Visualization>
+      </From>
+      <To>
+        <Value>0.0862745121</Value>
+        <Visualization>Device only</Visualization>
+      </To>
+      <Duration>
+        <Value>0.383999825</Value>
+        <Visualization>Device only</Visualization>
+      </Duration>
+      <Delay>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Delay>
+    </SampleFaderModulationDevice>
+    <SampleVelocityTrackingModulationDevice type="SampleVelocityTrackingModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Cutoff</Target>
+      <Operator>*</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>false</TempoSynced>
+      <Min>
+        <Value>8.12799454</Value>
+        <Visualization>Device only</Visualization>
+      </Min>
+      <Max>
+        <Value>73.6599045</Value>
+        <Visualization>Device only</Visualization>
+      </Max>
+      <Mode>Clamp</Mode>
+    </SampleVelocityTrackingModulationDevice>
+    <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Cutoff</Target>
+      <Operator>+</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>false</TempoSynced>
+      <Scaling>Log Fast</Scaling>
+      <From>
+        <Value>0.125</Value>
+        <Visualization>Device only</Visualization>
+      </From>
+      <To>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </To>
+      <Duration>
+        <Value>0.48698014</Value>
+        <Visualization>Device only</Visualization>
+      </Duration>
+      <Delay>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Delay>
+    </SampleFaderModulationDevice>
+    <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>true</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Cutoff</Target>
+      <Operator>*</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>false</TempoSynced>
+      <Scaling>Linear</Scaling>
+      <From>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </From>
+      <To>
+        <Value>0.176941141</Value>
+        <Visualization>Device only</Visualization>
+      </To>
+      <Duration>
+        <Value>0.163594782</Value>
+        <Visualization>Device only</Visualization>
+      </Duration>
+      <Delay>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Delay>
+    </SampleFaderModulationDevice>
+    <SampleEnvelopeModulationDevice type="SampleEnvelopeModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Cutoff</Target>
+      <Operator>+</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>false</TempoSynced>
+      <SustainIsActive>true</SustainIsActive>
+      <SustainPos>190</SustainPos>
+      <LoopStart>0</LoopStart>
+      <LoopEnd>71</LoopEnd>
+      <LoopMode>Off</LoopMode>
+      <Decay>
+        <Value>23.9360008</Value>
+        <Visualization>Device only</Visualization>
+      </Decay>
+      <Nodes>
+        <PlayMode>Curve</PlayMode>
+        <Length>2513</Length>
+        <ValueQuantum>0.0</ValueQuantum>
+        <Polarity>Unipolar</Polarity>
+        <Points>
+          <Point>210,0.0</Point>
+          <Point>850,0.479166657</Point>
+        </Points>
+      </Nodes>
+    </SampleEnvelopeModulationDevice>
+    <SampleOperandModulationDevice type="SampleOperandModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Cutoff</Target>
+      <Operator>*</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>false</TempoSynced>
+      <Value>
+        <Value>0.64800036</Value>
+        <Visualization>Device only</Visualization>
+      </Value>
+    </SampleOperandModulationDevice>
+    <SampleVelocityTrackingModulationDevice type="SampleVelocityTrackingModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>false</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Resonance</Target>
+      <Operator>*</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>false</TempoSynced>
+      <Min>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Min>
+      <Max>
+        <Value>127</Value>
+        <Visualization>Device only</Visualization>
+      </Max>
+      <Mode>Clamp</Mode>
+    </SampleVelocityTrackingModulationDevice>
+    <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Resonance</Target>
+      <Operator>*</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>false</TempoSynced>
+      <Scaling>Log Fast</Scaling>
+      <From>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </From>
+      <To>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </To>
+      <Duration>
+        <Value>0.482352853</Value>
+        <Visualization>Device only</Visualization>
+      </Duration>
+      <Delay>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Delay>
+    </SampleFaderModulationDevice>
+    <SampleStepperModulationDevice type="SampleStepperModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Pitch</Target>
+      <Operator>+</Operator>
+      <Bipolar>true</Bipolar>
+      <TempoSynced>false</TempoSynced>
+      <StepAmount>1</StepAmount>
+      <Nodes>
+        <PlayMode>Points</PlayMode>
+        <Length>8</Length>
+        <ValueQuantum>0.0</ValueQuantum>
+        <Polarity>Bipolar</Polarity>
+        <Points>
+          <Point>0,0.5</Point>
+        </Points>
+      </Nodes>
+    </SampleStepperModulationDevice>
+    <SampleOperandModulationDevice type="SampleOperandModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Pitch</Target>
+      <Operator>+</Operator>
+      <Bipolar>true</Bipolar>
+      <TempoSynced>false</TempoSynced>
+      <Value>
+        <Value>1.00006104</Value>
+        <Visualization>Device only</Visualization>
+      </Value>
+    </SampleOperandModulationDevice>
+    <SampleLfoModulationDevice type="SampleLfoModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Pitch</Target>
+      <Operator>+</Operator>
+      <Bipolar>true</Bipolar>
+      <TempoSynced>false</TempoSynced>
+      <Mode>Sin</Mode>
+      <Frequency>
+        <Value>0.628539741</Value>
+        <Visualization>Device only</Visualization>
+      </Frequency>
+      <Amplitude>
+        <Value>0.00499999989</Value>
+        <Visualization>Device only</Visualization>
+      </Amplitude>
+      <Dephase>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Dephase>
+      <Delay>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Delay>
+    </SampleLfoModulationDevice>
+    <SampleStepperModulationDevice type="SampleStepperModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Panning</Target>
+      <Operator>+</Operator>
+      <Bipolar>true</Bipolar>
+      <TempoSynced>false</TempoSynced>
+      <StepAmount>1</StepAmount>
+      <Nodes>
+        <PlayMode>Points</PlayMode>
+        <Length>3</Length>
+        <ValueQuantum>0.0</ValueQuantum>
+        <Polarity>Bipolar</Polarity>
+        <Points>
+          <Point>0,0.0</Point>
+          <Point>1,0.541666687</Point>
+          <Point>2,1.0</Point>
+          <Point>3,0.428571433</Point>
+          <Point>4,0.571428597</Point>
+          <Point>5,0.714285731</Point>
+          <Point>6,0.857142866</Point>
+          <Point>7,1.0</Point>
+        </Points>
+      </Nodes>
+    </SampleStepperModulationDevice>
+    <SampleOperandModulationDevice type="SampleOperandModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Panning</Target>
+      <Operator>*</Operator>
+      <Bipolar>true</Bipolar>
+      <TempoSynced>false</TempoSynced>
+      <Value>
+        <Value>2</Value>
+        <Visualization>Device only</Visualization>
+      </Value>
+    </SampleOperandModulationDevice>
+  </Devices>
+  <Name>Set 1</Name>
+  <FilterType>3</FilterType>
+  <FilterBankVersion>3</FilterBankVersion>
+</SampleModulationSet>

@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="14">
+  <DeviceSlot type="SplitterDevice">
+    <IsMaximized>true</IsMaximized>
+    <Macro0>
+      <Value>70.7945786</Value>
+      <Name>dry signal</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>-2</DestChainIndex>
+          <DestDeviceIndex>-2</DestDeviceIndex>
+          <DestParameterIndex>18</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro0>
+    <Macro1>
+      <Value>70.7945786</Value>
+      <Name>shaped sig</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>-2</DestChainIndex>
+          <DestDeviceIndex>-2</DestDeviceIndex>
+          <DestParameterIndex>17</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro1>
+    <Macro2>
+      <Value>87.1999817</Value>
+      <Name>threshold</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro2>
+    <Macro3>
+      <Value>25</Value>
+      <Name>ratio</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro3>
+    <Macro4>
+      <Value>64.0000076</Value>
+      <Name>attack</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro4>
+    <Macro5>
+      <Value>3.2000196</Value>
+      <Name>release</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro5>
+    <Macro6>
+      <Value>25</Value>
+      <Name>makeup</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro6>
+    <Macro7>
+      <Value>86</Value>
+      <Name>gate thrsh</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>6</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro7>
+    <Macro8>
+      <Value>0.0</Value>
+      <Name>gate rls</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>7</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro8>
+    <Macro9>
+      <Value>16.0000019</Value>
+      <Name>gate HP</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>8</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro9>
+    <Macro10>
+      <Value>50</Value>
+      <Name>Macro 11</Name>
+    </Macro10>
+    <Macro11>
+      <Value>50</Value>
+      <Name>Macro 12</Name>
+    </Macro11>
+    <Macro12>
+      <Value>50</Value>
+      <Name>Macro 13</Name>
+    </Macro12>
+    <Macro13>
+      <Value>50</Value>
+      <Name>Macro 14</Name>
+    </Macro13>
+    <Macro14>
+      <Value>50</Value>
+      <Name>Macro 15</Name>
+    </Macro14>
+    <Macro15>
+      <Value>50</Value>
+      <Name>Macro 16</Name>
+    </Macro15>
+    <NumActiveMacros>10</NumActiveMacros>
+    <ShowDevices>true</ShowDevices>
+    <CurrentlyVisibleChain>0</CurrentlyVisibleChain>
+    <MonitorVisibleChain>false</MonitorVisibleChain>
+    <Type>Parallel</Type>
+    <VolumeChain1>
+      <Value>1.0</Value>
+    </VolumeChain1>
+    <VolumeChain2>
+      <Value>1.0</Value>
+    </VolumeChain2>
+    <SplitFrequency>
+      <Value>0.330993116</Value>
+    </SplitFrequency>
+    <DeviceChain0>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <Devices>
+        <NotePadDevice type="NotePadDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>true</IsSelected>
+          <IsActive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Paragraphs>
+            <Paragraph>2 compressors and a gate in parallel to add transient punch to a signal. Use the dry signal macro to cut and hear the transient emphasis alone, dialing in approriate compressor and gate settings to achieve the result you wish, then dial back in the dry signal to tastezq</Paragraph>
+            <Paragraph/>
+          </Paragraphs>
+        </NotePadDevice>
+        <DooferDevice type="DooferDevice">
+          <SelectedPresetName>Dynamics/Transient Shaper</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Macro0>
+            <Value>87.1999817</Value>
+            <Visualization>Device only</Visualization>
+            <Name>threshold</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>1</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>1</DestDeviceIndex>
+                <DestParameterIndex>1</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro0>
+          <Macro1>
+            <Value>25</Value>
+            <Visualization>Device only</Visualization>
+            <Name>ratio</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>2</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>1</DestDeviceIndex>
+                <DestParameterIndex>2</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro1>
+          <Macro2>
+            <Value>64.0000076</Value>
+            <Visualization>Device only</Visualization>
+            <Name>attack</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>3</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>1</DestDeviceIndex>
+                <DestParameterIndex>3</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro2>
+          <Macro3>
+            <Value>3.2000196</Value>
+            <Visualization>Device only</Visualization>
+            <Name>release</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>4</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>0.199992001</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>1</DestDeviceIndex>
+                <DestParameterIndex>4</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>0.199992001</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro3>
+          <Macro4>
+            <Value>25</Value>
+            <Visualization>Device only</Visualization>
+            <Name>makeup</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>1</DestDeviceIndex>
+                <DestParameterIndex>5</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro4>
+          <Macro5>
+            <Value>86</Value>
+            <Visualization>Device only</Visualization>
+            <Name>gate thrs</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>2</DestDeviceIndex>
+                <DestParameterIndex>1</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro5>
+          <Macro6>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+            <Name>gate rls</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>2</DestDeviceIndex>
+                <DestParameterIndex>4</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro6>
+          <Macro7>
+            <Value>16.0000019</Value>
+            <Visualization>Device only</Visualization>
+            <Name>gate HP</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>2</DestDeviceIndex>
+                <DestParameterIndex>6</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro7>
+          <NumActiveMacros>8</NumActiveMacros>
+          <ShowDevices>true</ShowDevices>
+          <DeviceChain>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <Devices>
+              <CompressorDevice type="CompressorDevice">
+                <SelectedPresetName>Init</SelectedPresetName>
+                <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+                <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                <IsMaximized>true</IsMaximized>
+                <IsSelected>false</IsSelected>
+                <IsActive>
+                  <Value>1.0</Value>
+                  <Visualization>Device only</Visualization>
+                </IsActive>
+                <LogThreshold>
+                  <Value>13.0799971</Value>
+                  <Visualization>Device only</Visualization>
+                </LogThreshold>
+                <Ratio>
+                  <Value>4.75</Value>
+                  <Visualization>Device only</Visualization>
+                </Ratio>
+                <Attack>
+                  <Value>6.40036058</Value>
+                  <Visualization>Device only</Visualization>
+                </Attack>
+                <Release>
+                  <Value>0.640971899</Value>
+                  <Visualization>Device only</Visualization>
+                </Release>
+                <Gain>
+                  <Value>1.41253757</Value>
+                  <Visualization>Mixer and Device</Visualization>
+                </Gain>
+              </CompressorDevice>
+              <CompressorDevice type="CompressorDevice">
+                <SelectedPresetName>Init</SelectedPresetName>
+                <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+                <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                <IsMaximized>true</IsMaximized>
+                <IsSelected>false</IsSelected>
+                <IsActive>
+                  <Value>1.0</Value>
+                  <Visualization>Device only</Visualization>
+                </IsActive>
+                <LogThreshold>
+                  <Value>13.0799971</Value>
+                  <Visualization>Device only</Visualization>
+                </LogThreshold>
+                <Ratio>
+                  <Value>4.75</Value>
+                  <Visualization>Device only</Visualization>
+                </Ratio>
+                <Attack>
+                  <Value>6.40036058</Value>
+                  <Visualization>Device only</Visualization>
+                </Attack>
+                <Release>
+                  <Value>0.640971899</Value>
+                  <Visualization>Device only</Visualization>
+                </Release>
+                <Gain>
+                  <Value>1.5</Value>
+                  <Visualization>Mixer and Device</Visualization>
+                </Gain>
+              </CompressorDevice>
+              <Gate2Device type="Gate2Device">
+                <SelectedPresetName>Init</SelectedPresetName>
+                <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+                <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                <IsMaximized>true</IsMaximized>
+                <IsSelected>false</IsSelected>
+                <IsActive>
+                  <Value>1.0</Value>
+                  <Visualization>Device only</Visualization>
+                </IsActive>
+                <Threshold>
+                  <Value>-8.39999771</Value>
+                  <Visualization>Device only</Visualization>
+                </Threshold>
+                <Attack>
+                  <Value>1.0</Value>
+                  <Visualization>Device only</Visualization>
+                </Attack>
+                <Hold>
+                  <Value>20</Value>
+                  <Visualization>Device only</Visualization>
+                </Hold>
+                <Release>
+                  <Value>5</Value>
+                  <Visualization>Device only</Visualization>
+                </Release>
+                <Floor>
+                  <Value>0.0</Value>
+                  <Visualization>Device only</Visualization>
+                </Floor>
+                <ListenToSideChain>false</ListenToSideChain>
+                <SideChainHpFreq>
+                  <Value>20.3200035</Value>
+                  <Visualization>Device only</Visualization>
+                </SideChainHpFreq>
+                <SideChainLpFreq>
+                  <Value>127</Value>
+                  <Visualization>Device only</Visualization>
+                </SideChainLpFreq>
+                <Type>
+                  <Value>0.0</Value>
+                  <Visualization>Device only</Visualization>
+                </Type>
+                <MixMode>
+                  <Value>0.0</Value>
+                  <Visualization>Device only</Visualization>
+                </MixMode>
+              </Gate2Device>
+            </Devices>
+          </DeviceChain>
+        </DooferDevice>
+      </Devices>
+    </DeviceChain0>
+    <DeviceChain1>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+    </DeviceChain1>
+  </DeviceSlot>
+</FilterDevicePreset>

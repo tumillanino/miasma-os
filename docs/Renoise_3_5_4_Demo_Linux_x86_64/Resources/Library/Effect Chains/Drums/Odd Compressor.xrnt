@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseDeviceChain doc_version="18">
+  <SelectedPresetName>Init</SelectedPresetName>
+  <SelectedPresetIsModified>false</SelectedPresetIsModified>
+  <Devices>
+    <LfoDevice type="LfoDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <DestTrack>
+        <Value>-1</Value>
+        <Visualization>Device only</Visualization>
+      </DestTrack>
+      <DestEffect>
+        <Value>2</Value>
+        <Visualization>Device only</Visualization>
+      </DestEffect>
+      <DestParameter>
+        <Value>2</Value>
+        <Visualization>Device only</Visualization>
+      </DestParameter>
+      <Amplitude>
+        <Value>0.21296297</Value>
+        <Visualization>Device only</Visualization>
+      </Amplitude>
+      <Offset>
+        <Value>0.268518507</Value>
+        <Visualization>Device only</Visualization>
+      </Offset>
+      <Frequency>
+        <Value>0.9375</Value>
+        <Visualization>Device only</Visualization>
+      </Frequency>
+      <Type>
+        <Value>3</Value>
+        <Visualization>Device only</Visualization>
+      </Type>
+      <CustomEnvelope>
+        <PlayMode>Linear</PlayMode>
+        <Length>64</Length>
+        <ValueQuantum>0.0</ValueQuantum>
+        <Polarity>Unipolar</Polarity>
+        <Points>
+          <Point>0,0.0</Point>
+          <Point>63,1.0</Point>
+        </Points>
+      </CustomEnvelope>
+      <CustomEnvelopeOneShot>false</CustomEnvelopeOneShot>
+      <UseAdjustedEnvelopeLength>false</UseAdjustedEnvelopeLength>
+    </LfoDevice>
+    <Lofi2Device type="Lofi2Device">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Bits>
+        <Value>12.3114758</Value>
+        <Visualization>Device only</Visualization>
+      </Bits>
+      <Rate>
+        <Value>0.701725423</Value>
+        <Visualization>Device only</Visualization>
+      </Rate>
+      <Noise>
+        <Value>0.114754096</Value>
+        <Visualization>Device only</Visualization>
+      </Noise>
+      <WetOut>
+        <Value>0.668032765</Value>
+        <Visualization>Device only</Visualization>
+      </WetOut>
+      <DryOut>
+        <Value>0.799180329</Value>
+        <Visualization>Device only</Visualization>
+      </DryOut>
+      <Interpolate>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Interpolate>
+    </Lofi2Device>
+    <CompressorDevice type="CompressorDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>true</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <LogThreshold>
+        <Value>11.25</Value>
+        <Visualization>Device only</Visualization>
+      </LogThreshold>
+      <Ratio>
+        <Value>2.16379309</Value>
+        <Visualization>Device only</Visualization>
+      </Ratio>
+      <Attack>
+        <Value>0.00999999978</Value>
+        <Visualization>Device only</Visualization>
+      </Attack>
+      <Release>
+        <Value>30</Value>
+        <Visualization>Device only</Visualization>
+      </Release>
+      <Gain>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </Gain>
+    </CompressorDevice>
+  </Devices>
+</RenoiseDeviceChain>

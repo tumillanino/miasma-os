@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="13">
+  <DeviceSlot type="DooferDevice">
+    <IsMaximized>true</IsMaximized>
+    <Macro0>
+      <Value>0.0</Value>
+      <Name>comp mkp</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro0>
+    <Macro1>
+      <Value>50</Value>
+      <Name>st expand</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro1>
+    <Macro2>
+      <Value>0.0</Value>
+      <Name>max boost</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>4</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro2>
+    <Macro3>
+      <Value>0.0</Value>
+      <Name>mono √</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>6</DestDeviceIndex>
+          <DestParameterIndex>0</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro3>
+    <Macro4>
+      <Value>0.0</Value>
+      <Name>A/B √</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>5</DestDeviceIndex>
+          <DestParameterIndex>0</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro4>
+    <Macro5>
+      <Value>100</Value>
+      <Name>A/B level</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>5</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.25</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro5>
+    <Macro6>
+      <Value>50</Value>
+      <Name>Macro 7</Name>
+    </Macro6>
+    <Macro7>
+      <Value>50</Value>
+      <Name>Macro 8</Name>
+    </Macro7>
+    <NumActiveMacros>6</NumActiveMacros>
+    <ShowDevices>true</ShowDevices>
+    <DeviceChain>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <Devices>
+        <NotePadDevice type="NotePadDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Paragraphs>
+            <Paragraph>Offers a basic mastering chain for busses, master track, or really anywhere you might want. The chain consists of a bus compressor, exciter, stereo expander, and maximizer. Settings can be customized on the individual devices, but the macros offer some convenient parameters for control as well. “Comp mkp” controls the compression makeup gain parameter. “St expand” controls stereo expansion/contraction. “Max boost” controls the maximizer boost parameter. “Mono √” allows for checking the mix in mono in a convenient way while keeping the desired stereo expand value as a default when mono √ is turned off. “A/B √”  allows you to hear the effects of the mastering chain with the various gain boosts disabled. The gain reduction level must be set manually via “A/B level”. For example if there is 3 db of compression makeup, in addition to 3 db of maximizer boost, the A/B level should be set to -6 db. Unfortunately there is not a precise way to account for the gain addition of the  exciter. Once values are set, the roofer itself can be toggled on and off to hear the impact of the mastering chain on the sound character without the gain boosts coloring one’s interpretation (ie. louder is better)</Paragraph>
+          </Paragraphs>
+        </NotePadDevice>
+        <BusCompressorDevice type="BusCompressorDevice">
+          <SelectedPresetName>MASTER</SelectedPresetName>
+          <SelectedPresetLibrary>User Library</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <CustomDeviceName>COMP</CustomDeviceName>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Threshold>
+            <Value>-8</Value>
+            <Visualization>Device only</Visualization>
+          </Threshold>
+          <Ratio>
+            <Value>0.262960434</Value>
+            <Visualization>Device only</Visualization>
+          </Ratio>
+          <Attack>
+            <Value>0.244757012</Value>
+            <Visualization>Device only</Visualization>
+          </Attack>
+          <Release>
+            <Value>0.243987232</Value>
+            <Visualization>Device only</Visualization>
+          </Release>
+          <MakeUp>
+            <Value>0.0</Value>
+            <Visualization>Mixer and Device</Visualization>
+          </MakeUp>
+          <Knee>
+            <Value>0.239999995</Value>
+            <Visualization>Device only</Visualization>
+          </Knee>
+        </BusCompressorDevice>
+        <ExciterDevice type="ExciterDevice">
+          <SelectedPresetName>MASTER</SelectedPresetName>
+          <SelectedPresetLibrary>User Library</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <CustomDeviceName>EXCITE</CustomDeviceName>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>true</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <LowFrequency>
+            <Value>0.139143437</Value>
+            <Visualization>Device only</Visualization>
+          </LowFrequency>
+          <HighFrequency>
+            <Value>0.723103702</Value>
+            <Visualization>Device only</Visualization>
+          </HighFrequency>
+          <VisibleBand>Low</VisibleBand>
+          <Band1Mode>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Mode>
+          <Band1Sharpness1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness1>
+          <Band1Amount1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount1>
+          <Band1Sharpness2>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness2>
+          <Band1Amount2>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount2>
+          <Band1Sharpness3>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Sharpness3>
+          <Band1Amount3>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band1Amount3>
+          <Band2Mode>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Mode>
+          <Band2Sharpness1>
+            <Value>0.440521747</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness1>
+          <Band2Amount1>
+            <Value>0.690434933</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount1>
+          <Band2Sharpness2>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness2>
+          <Band2Amount2>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount2>
+          <Band2Sharpness3>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Sharpness3>
+          <Band2Amount3>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band2Amount3>
+          <Band3Mode>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Mode>
+          <Band3Sharpness1>
+            <Value>0.300000012</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness1>
+          <Band3Amount1>
+            <Value>0.745391369</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount1>
+          <Band3Sharpness2>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness2>
+          <Band3Amount2>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount2>
+          <Band3Sharpness3>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Sharpness3>
+          <Band3Amount3>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Band3Amount3>
+        </ExciterDevice>
+        <StereoExpanderDevice type="StereoExpanderDevice">
+          <SelectedPresetName>MASTER</SelectedPresetName>
+          <SelectedPresetLibrary>User Library</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <CustomDeviceName>EXPAND</CustomDeviceName>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <MonoMixMode>L+R</MonoMixMode>
+          <StereoWidth>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </StereoWidth>
+          <SurroundWidth>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </SurroundWidth>
+        </StereoExpanderDevice>
+        <MaximizerDevice type="MaximizerDevice">
+          <SelectedPresetName>Master Boost Fast</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <CustomDeviceName>MAX</CustomDeviceName>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <InputGain>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </InputGain>
+          <Threshold>
+            <Value>-0.0199999996</Value>
+            <Visualization>Device only</Visualization>
+          </Threshold>
+          <TransientRelease>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </TransientRelease>
+          <LongTermRelease>
+            <Value>80</Value>
+            <Visualization>Device only</Visualization>
+          </LongTermRelease>
+          <Ceiling>
+            <Value>0.0</Value>
+            <Visualization>Mixer and Device</Visualization>
+          </Ceiling>
+        </MaximizerDevice>
+        <GainerDevice type="GainerDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Volume>
+            <Value>1.0</Value>
+            <Visualization>Mixer and Device</Visualization>
+          </Volume>
+          <Panning>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Panning>
+          <LPhaseInvert>false</LPhaseInvert>
+          <RPhaseInvert>false</RPhaseInvert>
+          <SmoothParameterChanges>true</SmoothParameterChanges>
+        </GainerDevice>
+        <StereoExpanderDevice type="StereoExpanderDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <CustomDeviceName>MONO</CustomDeviceName>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <MonoMixMode>L+R</MonoMixMode>
+          <StereoWidth>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </StereoWidth>
+          <SurroundWidth>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </SurroundWidth>
+        </StereoExpanderDevice>
+      </Devices>
+    </DeviceChain>
+  </DeviceSlot>
+</FilterDevicePreset>

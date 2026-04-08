@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseScriptingTool doc_version="0">
+  <ApiVersion>6.2</ApiVersion>
+  <Id>com.renoise.ToolUpdater</Id>
+  <Version>6</Version>
+  <Author>Renoise Team [support@renoise.com]</Author>
+  <Name>Tool Updater</Name>
+  <Category>Networking</Category>
+  <Description>Looks for available updates of installed Tools, which will then be downloaded from the Renoise server and installed.</Description>
+  <Homepage>http://tools.renoise.com</Homepage>
+</RenoiseScriptingTool>

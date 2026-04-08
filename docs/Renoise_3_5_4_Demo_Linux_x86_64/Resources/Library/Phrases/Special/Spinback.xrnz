@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InstrumentPhrase doc_version="0">
+  <SelectedPresetName>Init</SelectedPresetName>
+  <SelectedPresetIsModified>true</SelectedPresetIsModified>
+  <Lines>
+    <Line index="0">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>D#5</Note>
+          <Volume>10</Volume>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+        <EffectColumn>
+          <Value>F0</Value>
+          <Number>0I</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Value>80</Value>
+          <Number>0S</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="1">
+      <EffectColumns>
+        <EffectColumn/>
+        <EffectColumn>
+          <Value>10</Value>
+          <Number>0O</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0B</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="2">
+      <EffectColumns>
+        <EffectColumn>
+          <Value>50</Value>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="3">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="4">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="5">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="6">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="7">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="8">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="9">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="10">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="11">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="12">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="13">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="14">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="15">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="16">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="17">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="18">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="19">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="20">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="21">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="22">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+    <Line index="23">
+      <EffectColumns>
+        <EffectColumn>
+          <Number>0D</Number>
+        </EffectColumn>
+        <EffectColumn>
+          <Number>0O</Number>
+        </EffectColumn>
+      </EffectColumns>
+    </Line>
+  </Lines>
+  <Name>Phrase 1</Name>
+  <LinesPerBeat>4</LinesPerBeat>
+  <NumberOfLines>32</NumberOfLines>
+  <VisibleNoteColumns>1</VisibleNoteColumns>
+  <VisibleEffectColumns>3</VisibleEffectColumns>
+  <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+  <PanningColumnIsVisible>false</PanningColumnIsVisible>
+  <DelayColumnIsVisible>false</DelayColumnIsVisible>
+</InstrumentPhrase>

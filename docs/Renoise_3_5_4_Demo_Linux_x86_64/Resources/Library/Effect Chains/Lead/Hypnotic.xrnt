@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseDeviceChain doc_version="18">
+  <SelectedPresetName>Init</SelectedPresetName>
+  <SelectedPresetIsModified>false</SelectedPresetIsModified>
+  <Devices>
+    <PhaserDevice type="PhaserDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Ceilling>
+        <Value>825.645142</Value>
+        <Visualization>Device only</Visualization>
+      </Ceilling>
+      <Floor>
+        <Value>2000</Value>
+        <Visualization>Device only</Visualization>
+      </Floor>
+      <LFORate>
+        <Value>0.396129042</Value>
+        <Visualization>Device only</Visualization>
+      </LFORate>
+      <Depth>
+        <Value>7.87096786</Value>
+        <Visualization>Device only</Visualization>
+      </Depth>
+      <Feedback>
+        <Value>0.887096763</Value>
+        <Visualization>Device only</Visualization>
+      </Feedback>
+      <Phase>
+        <Value>3.14159012</Value>
+        <Visualization>Device only</Visualization>
+      </Phase>
+      <Stages>
+        <Value>6</Value>
+        <Visualization>Device only</Visualization>
+      </Stages>
+    </PhaserDevice>
+    <RingMod2Device type="RingMod2Device">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <OscillatorType>
+        <Value>3</Value>
+        <Visualization>Device only</Visualization>
+      </OscillatorType>
+      <Note>
+        <Value>73.9530869</Value>
+        <Visualization>Device only</Visualization>
+      </Note>
+      <Transpose>
+        <Value>5.46803284</Value>
+        <Visualization>Device only</Visualization>
+      </Transpose>
+      <Inertia>
+        <Value>0.017715266</Value>
+        <Visualization>Device only</Visualization>
+      </Inertia>
+      <DryWet>
+        <Value>0.75</Value>
+        <Visualization>Device only</Visualization>
+      </DryWet>
+    </RingMod2Device>
+    <DelayDevice type="DelayDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <LDelay>
+        <Value>53</Value>
+        <Visualization>Device only</Visualization>
+      </LDelay>
+      <RDelay>
+        <Value>41.3024178</Value>
+        <Visualization>Device only</Visualization>
+      </RDelay>
+      <LFeedback>
+        <Value>0.793388426</Value>
+        <Visualization>Device only</Visualization>
+      </LFeedback>
+      <RFeedback>
+        <Value>0.863537133</Value>
+        <Visualization>Device only</Visualization>
+      </RFeedback>
+      <TrackSend>
+        <Value>127</Value>
+        <Visualization>Device only</Visualization>
+      </TrackSend>
+      <LineSync>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </LineSync>
+      <LTapPan>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </LTapPan>
+      <RTapPan>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </RTapPan>
+      <MuteDrySignal>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </MuteDrySignal>
+      <LSyncTime>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </LSyncTime>
+      <RSyncTime>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </RSyncTime>
+      <LSyncOffset>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </LSyncOffset>
+      <RSyncOffset>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </RSyncOffset>
+    </DelayDevice>
+    <Distortion2Device type="Distortion2Device">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Oversample>false</Oversample>
+      <Type>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Type>
+      <Drive>
+        <Value>0.102049679</Value>
+        <Visualization>Device only</Visualization>
+      </Drive>
+      <Tone>
+        <Value>0.5</Value>
+        <Visualization>Device only</Visualization>
+      </Tone>
+      <WetOut>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </WetOut>
+      <DryOut>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </DryOut>
+    </Distortion2Device>
+    <MaximizerDevice type="MaximizerDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <InputGain>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </InputGain>
+      <Threshold>
+        <Value>-14.7580643</Value>
+        <Visualization>Device only</Visualization>
+      </Threshold>
+      <TransientRelease>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </TransientRelease>
+      <LongTermRelease>
+        <Value>80</Value>
+        <Visualization>Device only</Visualization>
+      </LongTermRelease>
+      <Ceiling>
+        <Value>-0.302419364</Value>
+        <Visualization>Mixer and Device</Visualization>
+      </Ceiling>
+    </MaximizerDevice>
+    <Chorus2Device type="Chorus2Device">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>true</IsSelected>
+      <SelectedPresetName>Organ</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Rate>
+        <Value>2.51823306</Value>
+        <Visualization>Device only</Visualization>
+      </Rate>
+      <Depth>
+        <Value>0.0840000063</Value>
+        <Visualization>Device only</Visualization>
+      </Depth>
+      <Feedback>
+        <Value>-0.187438101</Value>
+        <Visualization>Device only</Visualization>
+      </Feedback>
+      <Delay>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Delay>
+      <DryWetMix>
+        <Value>0.400000095</Value>
+        <Visualization>Device only</Visualization>
+      </DryWetMix>
+      <Dephase>
+        <Value>1.77120519</Value>
+        <Visualization>Device only</Visualization>
+      </Dephase>
+      <FilterType>
+        <Value>2</Value>
+        <Visualization>Device only</Visualization>
+      </FilterType>
+      <FilterFreq>
+        <Value>76.411171</Value>
+        <Visualization>Device only</Visualization>
+      </FilterFreq>
+      <FilterResonance>
+        <Value>3.55606508</Value>
+        <Visualization>Device only</Visualization>
+      </FilterResonance>
+      <FilterDrive>
+        <Value>31.8655357</Value>
+        <Visualization>Device only</Visualization>
+      </FilterDrive>
+    </Chorus2Device>
+  </Devices>
+</RenoiseDeviceChain>

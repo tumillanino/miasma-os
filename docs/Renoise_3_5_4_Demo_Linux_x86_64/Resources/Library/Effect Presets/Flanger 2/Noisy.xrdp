@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="10">
+  <DeviceSlot type="Flanger2Device">
+    <IsMaximized>true</IsMaximized>
+    <Amount>
+      <Value>0.330000073</Value>
+    </Amount>
+    <Rate>
+      <Value>0.200000003</Value>
+    </Rate>
+    <Amplitude>
+      <Value>5.11999941</Value>
+    </Amplitude>
+    <FeedBack>
+      <Value>0.75</Value>
+    </FeedBack>
+    <Delay>
+      <Value>0.2</Value>
+    </Delay>
+    <Dephase>
+      <Value>3.04106188</Value>
+    </Dephase>
+    <FilterType>
+      <Value>15</Value>
+    </FilterType>
+    <FilterFreq>
+      <Value>75.2499847</Value>
+    </FilterFreq>
+    <FilterResonance>
+      <Value>37.5590286</Value>
+    </FilterResonance>
+    <FilterDrive>
+      <Value>19.3039951</Value>
+    </FilterDrive>
+  </DeviceSlot>
+</FilterDevicePreset>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="0">
+  <DeviceSlot type="GainerDevice">
+    <Volume>
+      <Value>0.99999988079071045</Value>
+    </Volume>
+    <Panning>
+      <Value>0.25</Value>
+    </Panning>
+    <LPhaseInvert>false</LPhaseInvert>
+    <RPhaseInvert>false</RPhaseInvert>
+  </DeviceSlot>
+</FilterDevicePreset>

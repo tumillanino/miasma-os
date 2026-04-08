@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="0">
+  <DeviceSlot type="ReverbDevice">
+    <Send>
+      <Value>1.0</Value>
+    </Send>
+    <RoomSize>
+      <Value>0.80000001192092896</Value>
+    </RoomSize>
+    <Width>
+      <Value>0.63362067937850952</Value>
+    </Width>
+    <Damp>
+      <Value>0.25</Value>
+    </Damp>
+    <DryMix>
+      <Value>0.75</Value>
+    </DryMix>
+  </DeviceSlot>
+</FilterDevicePreset>

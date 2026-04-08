@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="2">
+  <DeviceSlot type="FilterDistortionDevice">
+    <FilterType>
+      <Value>1.0</Value>
+    </FilterType>
+    <Drive>
+      <Value>0.0099999997764825821</Value>
+    </Drive>
+    <Cutoff>
+      <Value>0.40322580933570862</Value>
+    </Cutoff>
+    <Resonance>
+      <Value>0.0</Value>
+    </Resonance>
+    <Inertia>
+      <Value>6.103515625e-005</Value>
+    </Inertia>
+  </DeviceSlot>
+</FilterDevicePreset>

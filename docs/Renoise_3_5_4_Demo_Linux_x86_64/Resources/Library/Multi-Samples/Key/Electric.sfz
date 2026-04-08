@@ -1,0 +1,93 @@
+// Created with Renoise Redux - http://www.renoise.com
+
+<region>
+sample=Electric Samples/EGuitar-Clean_E-1.flac
+pitch_keycenter=16
+lokey=0 hikey=16
+transpose=-12
+volume=-3.00000024
+
+<region>
+sample=Electric Samples/EGuitar-Clean_A-1.flac
+pitch_keycenter=21
+lokey=17 hikey=22
+transpose=-12
+volume=-3.00000024
+
+<region>
+sample=Electric Samples/EGuitar-Clean_D-2.flac
+pitch_keycenter=26
+lokey=23 hikey=27
+transpose=-12
+volume=-3.00000024
+
+<region>
+sample=Electric Samples/EGuitar-Clean_G-2.flac
+pitch_keycenter=31
+lokey=28 hikey=31
+transpose=-12
+volume=-3.00000024
+
+<region>
+sample=Electric Samples/EGuitar-Clean_A-2.flac
+pitch_keycenter=33
+lokey=32 hikey=35
+transpose=-12
+volume=-3.00000024
+
+<region>
+sample=Electric Samples/EGuitar-Clean_D-3.flac
+pitch_keycenter=38
+lokey=36 hikey=39
+transpose=-12
+volume=-3.00000024
+
+<region>
+sample=Electric Samples/EGuitar-Clean_F-3.flac
+pitch_keycenter=41
+lokey=40 hikey=44
+transpose=-12
+volume=-3.00000024
+
+<region>
+sample=Electric Samples/EGuitar-Clean_B-3.flac
+pitch_keycenter=47
+lokey=45 hikey=47
+transpose=-12
+volume=-3.00000024
+
+<region>
+sample=Electric Samples/EGuitar-Clean_D-4.flac
+pitch_keycenter=50
+lokey=48 hikey=50
+transpose=-12
+volume=-3.00000024
+
+<region>
+sample=Electric Samples/EGuitar-Clean_E-4.flac
+pitch_keycenter=52
+lokey=51 hikey=53
+transpose=-12
+volume=-3.00000024
+
+<region>
+sample=Electric Samples/EGuitar-Clean_F#4.flac
+pitch_keycenter=54
+lokey=54 hikey=56
+transpose=-12
+tune=-19
+volume=-3.00000024
+
+<region>
+sample=Electric Samples/EGuitar-Clean_A-4.flac
+pitch_keycenter=57
+lokey=57 hikey=59
+transpose=-12
+volume=-3.00000024
+
+<region>
+sample=Electric Samples/EGuitar-Clean_C#5.flac
+pitch_keycenter=61
+lokey=60 hikey=119
+transpose=-12
+volume=-3.00000024

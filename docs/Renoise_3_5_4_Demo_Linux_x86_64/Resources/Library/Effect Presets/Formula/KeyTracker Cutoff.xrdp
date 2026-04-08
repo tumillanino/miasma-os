@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="14">
+  <DeviceSlot type="FormulaMetaDevice">
+    <IsMaximized>true</IsMaximized>
+    <FormulaParagraphs>
+      <FormulaParagraph>frq2flt(kt2frq(A, B, C))</FormulaParagraph>
+    </FormulaParagraphs>
+    <FunctionsParagraphs>
+      <FunctionsParagraph>--[[</FunctionsParagraph>
+      <FunctionsParagraph> Maps A 'Key' with the given B 'Bend' and </FunctionsParagraph>
+      <FunctionsParagraph> C 'Detune' inputs and outputs a value that</FunctionsParagraph>
+      <FunctionsParagraph> changes a Renoise Digital filter cutoff</FunctionsParagraph>
+      <FunctionsParagraph> parameter.</FunctionsParagraph>
+      <FunctionsParagraph/>
+      <FunctionsParagraph> To use it, add a *KeyTracker device</FunctionsParagraph>
+      <FunctionsParagraph> and set its note MIN to c-0 and MAX to B-9.</FunctionsParagraph>
+      <FunctionsParagraph> Then connect its output to this formula</FunctionsParagraph>
+      <FunctionsParagraph> 'Key' parameter. </FunctionsParagraph>
+      <FunctionsParagraph> </FunctionsParagraph>
+      <FunctionsParagraph> Then add a Renoise Digital Filter and connect</FunctionsParagraph>
+      <FunctionsParagraph> the Formula's output to the 'Cutoff' paramter</FunctionsParagraph>
+      <FunctionsParagraph> of the filter.</FunctionsParagraph>
+      <FunctionsParagraph> </FunctionsParagraph>
+      <FunctionsParagraph> The Keytracker will now change the frequency</FunctionsParagraph>
+      <FunctionsParagraph> of the filter using notes values as input.</FunctionsParagraph>
+      <FunctionsParagraph/>
+      <FunctionsParagraph> When using other filters in Renoise, adjust</FunctionsParagraph>
+      <FunctionsParagraph> the CUTOFF_MIN/MAX values below as needed.</FunctionsParagraph>
+      <FunctionsParagraph> </FunctionsParagraph>
+      <FunctionsParagraph> Based on https://forum.renoise.com/t/effect-presets-tuned-keytracked-effects-formulas-doofers-ktrk-1-1/58746</FunctionsParagraph>
+      <FunctionsParagraph>]]</FunctionsParagraph>
+      <FunctionsParagraph/>
+      <FunctionsParagraph>-- keytracker range --</FunctionsParagraph>
+      <FunctionsParagraph>local KEYTRACKER_MIN = 0.0</FunctionsParagraph>
+      <FunctionsParagraph>local KEYTRACKER_MAX = 119.0</FunctionsParagraph>
+      <FunctionsParagraph/>
+      <FunctionsParagraph>-- filter cutoff range --</FunctionsParagraph>
+      <FunctionsParagraph>local CUTOFF_MIN = 20</FunctionsParagraph>
+      <FunctionsParagraph>local CUTOFF_MAX = 20000</FunctionsParagraph>
+      <FunctionsParagraph>local CUTOFF_SCALING = 100.0</FunctionsParagraph>
+      <FunctionsParagraph/>
+      <FunctionsParagraph>-- B / C paramter ranges --</FunctionsParagraph>
+      <FunctionsParagraph>local BEND_RANGE = 12.0</FunctionsParagraph>
+      <FunctionsParagraph>local DETUNE_RANGE = 1.0</FunctionsParagraph>
+      <FunctionsParagraph/>
+      <FunctionsParagraph>-- log scaling for the filter frequency as applied in Renoise</FunctionsParagraph>
+      <FunctionsParagraph>local function cutoff_lin2log(value)</FunctionsParagraph>
+      <FunctionsParagraph>  if value &gt; 0.0 then</FunctionsParagraph>
+      <FunctionsParagraph>    return log10((CUTOFF_SCALING - 1.0) * </FunctionsParagraph>
+      <FunctionsParagraph>      (value) + 1.0) / log10(CUTOFF_SCALING)</FunctionsParagraph>
+      <FunctionsParagraph>  else</FunctionsParagraph>
+      <FunctionsParagraph>    return 0</FunctionsParagraph>
+      <FunctionsParagraph>  end</FunctionsParagraph>
+      <FunctionsParagraph>end</FunctionsParagraph>
+      <FunctionsParagraph/>
+      <FunctionsParagraph>-- maps hz value to a cutoff frequency parameter value</FunctionsParagraph>
+      <FunctionsParagraph>function frq2flt(frequency)</FunctionsParagraph>
+      <FunctionsParagraph>  local normalized = (frequency - CUTOFF_MIN) / (CUTOFF_MAX - CUTOFF_MIN)</FunctionsParagraph>
+      <FunctionsParagraph>  normalized = max(0, min(1, normalized))</FunctionsParagraph>
+      <FunctionsParagraph>  local scaled = cutoff_lin2log(normalized)</FunctionsParagraph>
+      <FunctionsParagraph> return scaled</FunctionsParagraph>
+      <FunctionsParagraph>end</FunctionsParagraph>
+      <FunctionsParagraph/>
+      <FunctionsParagraph>-- maps 0..1 keytracker value with bend to frequency in hz</FunctionsParagraph>
+      <FunctionsParagraph>function kt2frq(input, bend, detune)</FunctionsParagraph>
+      <FunctionsParagraph> local note_number = input * (KEYTRACKER_MAX - KEYTRACKER_MIN) </FunctionsParagraph>
+      <FunctionsParagraph>  + (bend - 0.5) * BEND_RANGE * 2.0 </FunctionsParagraph>
+      <FunctionsParagraph>  + (detune - 0.5) * DETUNE_RANGE * 2.0 </FunctionsParagraph>
+      <FunctionsParagraph> return 440.0 * pow(2.0, (note_number - 57.0) / 12.0)</FunctionsParagraph>
+      <FunctionsParagraph>end</FunctionsParagraph>
+      <FunctionsParagraph/>
+    </FunctionsParagraphs>
+    <InputNameA>Key</InputNameA>
+    <InputNameB>Bend</InputNameB>
+    <InputNameC>Detune</InputNameC>
+    <EditorVisible>true</EditorVisible>
+    <InputA>
+      <Value>0.60504204</Value>
+    </InputA>
+    <InputB>
+      <Value>0.5</Value>
+    </InputB>
+    <InputC>
+      <Value>0.5</Value>
+    </InputC>
+  </DeviceSlot>
+</FilterDevicePreset>

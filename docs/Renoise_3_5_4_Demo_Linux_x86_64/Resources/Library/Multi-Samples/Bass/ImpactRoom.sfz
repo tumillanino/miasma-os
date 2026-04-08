@@ -1,0 +1,66 @@
+// Created with Renoise Redux - http://www.renoise.com
+
+<region>
+sample=ImpactRoom Samples/BassImpactRoom_C-3.flac
+pitch_keycenter=36
+lokey=0 hikey=41
+volume=-3.69999957
+
+<region>
+sample=ImpactRoom Samples/BassImpactRoom_F#3.flac
+pitch_keycenter=42
+lokey=42 hikey=47
+volume=-3.69999957
+
+<region>
+sample=ImpactRoom Samples/BassImpactRoom_C-4.flac
+pitch_keycenter=48
+lokey=48 hikey=53
+volume=-3.69999957
+
+<region>
+sample=ImpactRoom Samples/BassImpactRoom_F#4.flac
+pitch_keycenter=54
+lokey=54 hikey=59
+volume=-3.69999957
+
+<region>
+sample=ImpactRoom Samples/BassImpactRoom_C-5.flac
+lokey=60 hikey=65
+volume=-3.69999957
+
+<region>
+sample=ImpactRoom Samples/BassImpactRoom_F#5.flac
+pitch_keycenter=66
+lokey=66 hikey=71
+volume=-3.69999957
+
+<region>
+sample=ImpactRoom Samples/BassImpactRoom_C-6.flac
+pitch_keycenter=72
+lokey=72 hikey=77
+volume=-3.69999957
+
+<region>
+sample=ImpactRoom Samples/BassImpactRoom_F#6.flac
+pitch_keycenter=78
+lokey=78 hikey=83
+volume=-3.69999957
+
+<region>
+sample=ImpactRoom Samples/BassImpactRoom_C-7.flac
+pitch_keycenter=84
+lokey=84 hikey=89
+volume=-3.69999957
+
+<region>
+sample=ImpactRoom Samples/BassImpactRoom_F#7.flac
+pitch_keycenter=90
+lokey=90 hikey=95
+volume=-3.69999957
+
+<region>
+sample=ImpactRoom Samples/BassImpactRoom_C-8.flac
+pitch_keycenter=96
+lokey=96 hikey=119
+volume=-3.69999957

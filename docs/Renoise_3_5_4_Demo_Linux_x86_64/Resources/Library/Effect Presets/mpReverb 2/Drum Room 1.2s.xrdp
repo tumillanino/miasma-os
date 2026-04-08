@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="4">
+  <DeviceSlot type="Reverb3Device">
+    <IsMaximized>true</IsMaximized>
+    <ReverbTime>
+      <Value>11.888889312744141</Value>
+    </ReverbTime>
+    <PreDelay>
+      <Value>0.0</Value>
+    </PreDelay>
+    <LPFilter>
+      <Value>3168.35888671875</Value>
+    </LPFilter>
+    <LPGain>
+      <Value>-10.887096405029297</Value>
+    </LPGain>
+    <Color>
+      <Value>0.0</Value>
+    </Color>
+    <Width>
+      <Value>0.5</Value>
+    </Width>
+    <Pan>
+      <Value>0.5</Value>
+    </Pan>
+    <WetMix>
+      <Value>1.0</Value>
+    </WetMix>
+    <DryMix>
+      <Value>1.0</Value>
+    </DryMix>
+  </DeviceSlot>
+</FilterDevicePreset>

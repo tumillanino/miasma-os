@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="13">
+  <DeviceSlot type="DooferDevice">
+    <IsMaximized>true</IsMaximized>
+    <Macro0>
+      <Value>50</Value>
+      <Name>grit</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro0>
+    <Macro1>
+      <Value>100</Value>
+      <Name>sensitivity</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro1>
+    <Macro2>
+      <Value>50</Value>
+      <Name>grit rate</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>6</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro2>
+    <Macro3>
+      <Value>0.0</Value>
+      <Name>gate mode</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>8</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro3>
+    <Macro4>
+      <Value>3.599998</Value>
+      <Name>shape</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.499974996</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.400000006</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.0635451525</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro4>
+    <Macro5>
+      <Value>0.0</Value>
+      <Name>high pass</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>6</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro5>
+    <Macro6>
+      <Value>100</Value>
+      <Name>low pass</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>7</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro6>
+    <Macro7>
+      <Value>25</Value>
+      <Name>makeup .25 = 0 db</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>4</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro7>
+    <NumActiveMacros>8</NumActiveMacros>
+    <ShowDevices>false</ShowDevices>
+    <DeviceChain>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <Devices>
+        <NotePadDevice type="NotePadDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Paragraphs>
+            <Paragraph>Randomized gating breaks up the signal passed through. Can be useful for generating grains from recorded source material or any signal flow. “Grit” controls the amplitude of variation in the gate threshold parameter, while “sensitivity” controls the bias, or offset, to that variation. “Grit rate” controls the rate of that variation. “Gate mode” determines whether gating or ducking is applied. Duck mode can be useful for general signal degradation, while gate mode generates discreet grains. “Shape” controls attack, hold, and release values in conjunction. A minimal value here will create very small grains, while a maximal value may produce no audible effect, dependent on other macro settings. “High pass” and “low pass” filter the frequency range of the effect, while “makeup” provides a gain boost if desired.</Paragraph>
+          </Paragraphs>
+        </NotePadDevice>
+        <Gate2Device type="Gate2Device">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Threshold>
+            <Value>-2.57339358</Value>
+            <Visualization>Device only</Visualization>
+          </Threshold>
+          <Attack>
+            <Value>3.60963821</Value>
+            <Visualization>Device only</Visualization>
+          </Attack>
+          <Hold>
+            <Value>3.599998</Value>
+            <Visualization>Device only</Visualization>
+          </Hold>
+          <Release>
+            <Value>8.41999817</Value>
+            <Visualization>Device only</Visualization>
+          </Release>
+          <Floor>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Floor>
+          <ListenToSideChain>false</ListenToSideChain>
+          <SideChainHpFreq>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </SideChainHpFreq>
+          <SideChainLpFreq>
+            <Value>127</Value>
+            <Visualization>Device only</Visualization>
+          </SideChainLpFreq>
+          <Type>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Type>
+          <MixMode>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </MixMode>
+        </Gate2Device>
+        <LfoDevice type="LfoDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <CustomDeviceName>THRS CTL</CustomDeviceName>
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <DestTrack>
+            <Value>-1</Value>
+            <Visualization>Device only</Visualization>
+          </DestTrack>
+          <DestEffect>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </DestEffect>
+          <DestParameter>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </DestParameter>
+          <Amplitude>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Amplitude>
+          <Offset>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Offset>
+          <Frequency>
+            <Value>30.0000019</Value>
+            <Visualization>Device only</Visualization>
+          </Frequency>
+          <Type>
+            <Value>3</Value>
+            <Visualization>Device only</Visualization>
+          </Type>
+          <CustomEnvelope>
+            <PlayMode>Lines</PlayMode>
+            <Length>64</Length>
+            <ValueQuantum>0.0</ValueQuantum>
+            <Polarity>Unipolar</Polarity>
+            <Points>
+              <Point>0,0.0,0.0</Point>
+              <Point>63,1.0,0.0</Point>
+            </Points>
+          </CustomEnvelope>
+          <CustomEnvelopeOneShot>false</CustomEnvelopeOneShot>
+          <UseAdjustedEnvelopeLength>true</UseAdjustedEnvelopeLength>
+        </LfoDevice>
+        <GainerDevice type="GainerDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <CustomDeviceName>makeup </CustomDeviceName>
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Volume>
+            <Value>1.0</Value>
+            <Visualization>Mixer and Device</Visualization>
+          </Volume>
+          <Panning>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Panning>
+          <LPhaseInvert>false</LPhaseInvert>
+          <RPhaseInvert>false</RPhaseInvert>
+          <SmoothParameterChanges>true</SmoothParameterChanges>
+        </GainerDevice>
+        <GainerDevice type="GainerDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <CustomDeviceName>makeup </CustomDeviceName>
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Volume>
+            <Value>1.0</Value>
+            <Visualization>Mixer and Device</Visualization>
+          </Volume>
+          <Panning>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Panning>
+          <LPhaseInvert>false</LPhaseInvert>
+          <RPhaseInvert>false</RPhaseInvert>
+          <SmoothParameterChanges>true</SmoothParameterChanges>
+        </GainerDevice>
+        <MaximizerDevice type="MaximizerDevice">
+          <SelectedPresetName>0 db limit</SelectedPresetName>
+          <SelectedPresetLibrary>User Library</SelectedPresetLibrary>
+          <SelectedPresetIsModified>false</SelectedPresetIsModified>
+          <CustomDeviceName>limiter</CustomDeviceName>
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>true</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <InputGain>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </InputGain>
+          <Threshold>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Threshold>
+          <TransientRelease>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </TransientRelease>
+          <LongTermRelease>
+            <Value>80</Value>
+            <Visualization>Device only</Visualization>
+          </LongTermRelease>
+          <Ceiling>
+            <Value>0.0</Value>
+            <Visualization>Mixer and Device</Visualization>
+          </Ceiling>
+        </MaximizerDevice>
+      </Devices>
+    </DeviceChain>
+  </DeviceSlot>
+</FilterDevicePreset>

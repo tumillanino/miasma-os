@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="14">
+  <DeviceSlot type="SplitterDevice">
+    <IsMaximized>true</IsMaximized>
+    <Macro0>
+      <Value>80</Value>
+      <Name>cmb1 FB</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro0>
+    <Macro1>
+      <Value>100</Value>
+      <Name>cmb1 inrt</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro1>
+    <Macro2>
+      <Value>50</Value>
+      <Name>1 note rng</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro2>
+    <Macro3>
+      <Value>50</Value>
+      <Name>1 note ofst</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro3>
+    <Macro4>
+      <Value>50</Value>
+      <Name>1 LPC rt</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro4>
+    <Macro5>
+      <Value>95.5</Value>
+      <Name>cmb2 FB</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>6</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro5>
+    <Macro6>
+      <Value>100</Value>
+      <Name>cmb2 inrt</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>7</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro6>
+    <Macro7>
+      <Value>50</Value>
+      <Name>2 note rng</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>8</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro7>
+    <Macro8>
+      <Value>50</Value>
+      <Name>2 note ofst</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>9</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro8>
+    <Macro9>
+      <Value>50</Value>
+      <Name>2 LPC rate</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>10</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro9>
+    <Macro10>
+      <Value>50</Value>
+      <Name>dist mode</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro10>
+    <Macro11>
+      <Value>0.0</Value>
+      <Name>dist drive</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro11>
+    <Macro12>
+      <Value>50</Value>
+      <Name>dist tone</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro12>
+    <Macro13>
+      <Value>50</Value>
+      <Name>dist D/W</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>1.0</Min>
+          <Max>0.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro13>
+    <Macro14>
+      <Value>100</Value>
+      <Name>fx dry/wet</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>-2</DestChainIndex>
+          <DestDeviceIndex>-2</DestDeviceIndex>
+          <DestParameterIndex>17</DestParameterIndex>
+          <Min>1.0</Min>
+          <Max>0.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainIndex>-2</DestChainIndex>
+          <DestDeviceIndex>-2</DestDeviceIndex>
+          <DestParameterIndex>18</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro14>
+    <Macro15>
+      <Value>75</Value>
+      <Name>LFO shape</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>16</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro15>
+    <NumActiveMacros>16</NumActiveMacros>
+    <ShowDevices>true</ShowDevices>
+    <CurrentlyVisibleChain>0</CurrentlyVisibleChain>
+    <MonitorVisibleChain>false</MonitorVisibleChain>
+    <Type>Parallel</Type>
+    <VolumeChain1>
+      <Value>0.0</Value>
+    </VolumeChain1>
+    <VolumeChain2>
+      <Value>1.41253757</Value>
+    </VolumeChain2>
+    <SplitFrequency>
+      <Value>0.330993116</Value>
+    </SplitFrequency>
+    <DeviceChain0>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <Devices>
+        <NotePadDevice type="NotePadDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>true</IsSelected>
+          <IsActive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Paragraphs>
+            <Paragraph>This Splitter offers two comb filters in parallel, distorted together for the creation of new harmonic content, with options for internal modulation via paired LFOs, time-synced in multiples of 2 LPC.</Paragraph>
+            <Paragraph>Macros 1 through 10 control the 2 comb filters and their LFO behavior, while Macros 11 through 14 control distortion characteristics. Macro 15 controls the dry/wet level for the splitter as a whole, and Macro 16 allows for the selection of different LFO shapes for modulation of the comb filters. Try on basses at low LPC values to bring out new character, or on rhythmic material at higher LPC values for some inharmonic modulation of sound sources</Paragraph>
+          </Paragraphs>
+        </NotePadDevice>
+        <GainerDevice type="GainerDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Volume>
+            <Value>1.41253757</Value>
+            <Visualization>Mixer and Device</Visualization>
+          </Volume>
+          <Panning>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Panning>
+          <LPhaseInvert>false</LPhaseInvert>
+          <RPhaseInvert>false</RPhaseInvert>
+          <SmoothParameterChanges>true</SmoothParameterChanges>
+        </GainerDevice>
+      </Devices>
+    </DeviceChain0>
+    <DeviceChain1>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <Devices>
+        <SplitterDevice type="SplitterDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Macro0>
+            <Value>80</Value>
+            <Visualization>Device only</Visualization>
+            <Name>cmb1 FB</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>1</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro0>
+          <Macro1>
+            <Value>100</Value>
+            <Visualization>Device only</Visualization>
+            <Name>cmb1 inrt</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>2</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro1>
+          <Macro2>
+            <Value>50</Value>
+            <Visualization>Device only</Visualization>
+            <Name>1 note rng</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>3</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro2>
+          <Macro3>
+            <Value>50</Value>
+            <Visualization>Device only</Visualization>
+            <Name>1 note ofst</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>4</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro3>
+          <Macro4>
+            <Value>50</Value>
+            <Visualization>Device only</Visualization>
+            <Name>1 LPC rt</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>5</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro4>
+          <Macro5>
+            <Value>95.5</Value>
+            <Visualization>Device only</Visualization>
+            <Name>cmb2 FB</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>1</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>1</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro5>
+          <Macro6>
+            <Value>100</Value>
+            <Visualization>Device only</Visualization>
+            <Name>cmb2 inrt</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>1</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>2</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro6>
+          <Macro7>
+            <Value>50</Value>
+            <Visualization>Device only</Visualization>
+            <Name>2 note rng</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>1</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>3</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro7>
+          <Macro8>
+            <Value>50</Value>
+            <Visualization>Device only</Visualization>
+            <Name>2 note ofst</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>1</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>4</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro8>
+          <Macro9>
+            <Value>50</Value>
+            <Visualization>Device only</Visualization>
+            <Name>2 LPC rt</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>1</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>5</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro9>
+          <Macro10>
+            <Value>66.6666718</Value>
+            <Visualization>Device only</Visualization>
+            <Name>dist mode</Name>
+          </Macro10>
+          <Macro11>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+            <Name>dist drive</Name>
+          </Macro11>
+          <Macro12>
+            <Value>50</Value>
+            <Visualization>Device only</Visualization>
+            <Name>dist tone</Name>
+          </Macro12>
+          <Macro13>
+            <Value>100</Value>
+            <Visualization>Device only</Visualization>
+            <Name>dist wet</Name>
+          </Macro13>
+          <Macro14>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+            <Name>dist dry</Name>
+          </Macro14>
+          <Macro15>
+            <Value>75</Value>
+            <Visualization>Device only</Visualization>
+            <Name>LFO shape</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>1</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>6</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>6</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro15>
+          <NumActiveMacros>16</NumActiveMacros>
+          <ShowDevices>true</ShowDevices>
+          <CurrentlyVisibleChain>0</CurrentlyVisibleChain>
+          <MonitorVisibleChain>false</MonitorVisibleChain>
+          <Type>Parallel</Type>
+          <VolumeChain1>
+            <Value>1.0</Value>
+            <Visualization>Mixer and Device</Visualization>
+          </VolumeChain1>
+          <VolumeChain2>
+            <Value>1.0</Value>
+            <Visualization>Mixer and Device</Visualization>
+          </VolumeChain2>
+          <SplitFrequency>
+            <Value>0.330993116</Value>
+            <Visualization>Device only</Visualization>
+          </SplitFrequency>
+          <DeviceChain0>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <Devices>
+              <DooferDevice type="DooferDevice">
+                <SelectedPresetName>comb mod component</SelectedPresetName>
+                <SelectedPresetLibrary>User Library</SelectedPresetLibrary>
+                <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                <IsMaximized>false</IsMaximized>
+                <IsSelected>false</IsSelected>
+                <IsActive>
+                  <Value>1.0</Value>
+                  <Visualization>Device only</Visualization>
+                </IsActive>
+                <Macro0>
+                  <Value>80</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>comb FB</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>0</DestChainIndex>
+                      <DestDeviceIndex>0</DestDeviceIndex>
+                      <DestParameterIndex>3</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro0>
+                <Macro1>
+                  <Value>100</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>comb inrt</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>0</DestChainIndex>
+                      <DestDeviceIndex>0</DestDeviceIndex>
+                      <DestParameterIndex>4</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro1>
+                <Macro2>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>note range</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>0</DestChainIndex>
+                      <DestDeviceIndex>2</DestDeviceIndex>
+                      <DestParameterIndex>4</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro2>
+                <Macro3>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>note ofst</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>0</DestChainIndex>
+                      <DestDeviceIndex>2</DestDeviceIndex>
+                      <DestParameterIndex>5</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro3>
+                <Macro4>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>LPC rate</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>0</DestChainIndex>
+                      <DestDeviceIndex>3</DestDeviceIndex>
+                      <DestParameterIndex>8</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro4>
+                <Macro5>
+                  <Value>75</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>LFO shape</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>0</DestChainIndex>
+                      <DestDeviceIndex>2</DestDeviceIndex>
+                      <DestParameterIndex>7</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro5>
+                <Macro6>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>Macro 7</Name>
+                </Macro6>
+                <Macro7>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>Macro 8</Name>
+                </Macro7>
+                <NumActiveMacros>6</NumActiveMacros>
+                <ShowDevices>true</ShowDevices>
+                <DeviceChain>
+                  <SelectedPresetName>Init</SelectedPresetName>
+                  <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+                  <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                  <Devices>
+                    <Comb2Device type="Comb2Device">
+                      <SelectedPresetName>Init</SelectedPresetName>
+                      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+                      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                      <IsMaximized>true</IsMaximized>
+                      <IsSelected>false</IsSelected>
+                      <IsActive>
+                        <Value>1.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </IsActive>
+                      <Note>
+                        <Value>65.5471344</Value>
+                        <Visualization>Device only</Visualization>
+                      </Note>
+                      <Transpose>
+                        <Value>0.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </Transpose>
+                      <Feedback>
+                        <Value>0.600000024</Value>
+                        <Visualization>Device only</Visualization>
+                      </Feedback>
+                      <Inertia>
+                        <Value>0.015625</Value>
+                        <Visualization>Device only</Visualization>
+                      </Inertia>
+                      <DryWet>
+                        <Value>1.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </DryWet>
+                    </Comb2Device>
+                    <KeyTrackingDevice type="KeyTrackingDevice">
+                      <SelectedPresetName>Init</SelectedPresetName>
+                      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+                      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                      <IsMaximized>false</IsMaximized>
+                      <IsSelected>true</IsSelected>
+                      <IsActive>
+                        <Value>1.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </IsActive>
+                      <SrcInstrument>-1</SrcInstrument>
+                      <DestScaling>Linear</DestScaling>
+                      <KeyTrackingMode>Clamp</KeyTrackingMode>
+                      <KeyTrackingMin>36</KeyTrackingMin>
+                      <KeyTrackingMax>72</KeyTrackingMax>
+                      <DestTrack>
+                        <Value>-1</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestTrack>
+                      <DestEffect>
+                        <Value>2</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestEffect>
+                      <DestParameter>
+                        <Value>8</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestParameter>
+                      <DestMin>
+                        <Value>0.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestMin>
+                      <DestMax>
+                        <Value>0.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestMax>
+                    </KeyTrackingDevice>
+                    <LfoDevice type="LfoDevice">
+                      <SelectedPresetName>Init</SelectedPresetName>
+                      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+                      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                      <IsMaximized>true</IsMaximized>
+                      <IsSelected>false</IsSelected>
+                      <IsActive>
+                        <Value>1.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </IsActive>
+                      <DestTrack>
+                        <Value>-1</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestTrack>
+                      <DestEffect>
+                        <Value>0.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestEffect>
+                      <DestParameter>
+                        <Value>1.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestParameter>
+                      <Amplitude>
+                        <Value>0.5</Value>
+                        <Visualization>Device only</Visualization>
+                      </Amplitude>
+                      <Offset>
+                        <Value>0.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </Offset>
+                      <Frequency>
+                        <Value>7.50000095</Value>
+                        <Visualization>Device only</Visualization>
+                      </Frequency>
+                      <Type>
+                        <Value>3</Value>
+                        <Visualization>Device only</Visualization>
+                      </Type>
+                      <CustomEnvelope>
+                        <PlayMode>Lines</PlayMode>
+                        <Length>64</Length>
+                        <ValueQuantum>0.0</ValueQuantum>
+                        <Polarity>Unipolar</Polarity>
+                        <Points>
+                          <Point>0,0.0,0.0</Point>
+                          <Point>63,1.0,0.0</Point>
+                        </Points>
+                      </CustomEnvelope>
+                      <CustomEnvelopeOneShot>false</CustomEnvelopeOneShot>
+                      <UseAdjustedEnvelopeLength>true</UseAdjustedEnvelopeLength>
+                    </LfoDevice>
+                    <LfoDevice type="LfoDevice">
+                      <SelectedPresetName>RATE SWITCH</SelectedPresetName>
+                      <SelectedPresetLibrary>User Library</SelectedPresetLibrary>
+                      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                      <IsMaximized>false</IsMaximized>
+                      <IsSelected>false</IsSelected>
+                      <IsActive>
+                        <Value>1.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </IsActive>
+                      <DestTrack>
+                        <Value>-1</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestTrack>
+                      <DestEffect>
+                        <Value>2</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestEffect>
+                      <DestParameter>
+                        <Value>6</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestParameter>
+                      <Amplitude>
+                        <Value>1.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </Amplitude>
+                      <Offset>
+                        <Value>0.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </Offset>
+                      <Frequency>
+                        <Value>9.99999997e-07</Value>
+                        <Visualization>Device only</Visualization>
+                      </Frequency>
+                      <Type>
+                        <Value>4</Value>
+                        <Visualization>Device only</Visualization>
+                      </Type>
+                      <CustomEnvelope>
+                        <PlayMode>Points</PlayMode>
+                        <Length>8</Length>
+                        <ValueQuantum>0.0</ValueQuantum>
+                        <Polarity>Unipolar</Polarity>
+                        <Points>
+                          <Point>0,0.0078125,0.0</Point>
+                          <Point>1,0.015625,0.0</Point>
+                          <Point>2,0.03125,0.0</Point>
+                          <Point>3,0.0625,0.0</Point>
+                          <Point>4,0.125,0.0</Point>
+                          <Point>5,0.25,0.0</Point>
+                          <Point>6,0.5,0.0</Point>
+                          <Point>7,1.0,0.0</Point>
+                          <Point>8,0.166666672,0.0</Point>
+                          <Point>12,0.25,0.0</Point>
+                          <Point>16,0.333333343,0.0</Point>
+                          <Point>20,0.416666687,0.0</Point>
+                          <Point>24,0.5,0.0</Point>
+                          <Point>63,1.0,0.0</Point>
+                        </Points>
+                      </CustomEnvelope>
+                      <CustomEnvelopeOneShot>false</CustomEnvelopeOneShot>
+                      <UseAdjustedEnvelopeLength>true</UseAdjustedEnvelopeLength>
+                    </LfoDevice>
+                  </Devices>
+                </DeviceChain>
+              </DooferDevice>
+            </Devices>
+          </DeviceChain0>
+          <DeviceChain1>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <Devices>
+              <DooferDevice type="DooferDevice">
+                <SelectedPresetName>comb mod component</SelectedPresetName>
+                <SelectedPresetLibrary>User Library</SelectedPresetLibrary>
+                <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                <IsMaximized>false</IsMaximized>
+                <IsSelected>true</IsSelected>
+                <IsActive>
+                  <Value>1.0</Value>
+                  <Visualization>Device only</Visualization>
+                </IsActive>
+                <Macro0>
+                  <Value>95.5</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>comb FB</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>0</DestChainIndex>
+                      <DestDeviceIndex>0</DestDeviceIndex>
+                      <DestParameterIndex>3</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro0>
+                <Macro1>
+                  <Value>100</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>comb inrt</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>0</DestChainIndex>
+                      <DestDeviceIndex>0</DestDeviceIndex>
+                      <DestParameterIndex>4</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro1>
+                <Macro2>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>note range</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>0</DestChainIndex>
+                      <DestDeviceIndex>2</DestDeviceIndex>
+                      <DestParameterIndex>4</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro2>
+                <Macro3>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>note ofst</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>0</DestChainIndex>
+                      <DestDeviceIndex>2</DestDeviceIndex>
+                      <DestParameterIndex>5</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro3>
+                <Macro4>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>LPC rate</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>0</DestChainIndex>
+                      <DestDeviceIndex>3</DestDeviceIndex>
+                      <DestParameterIndex>8</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro4>
+                <Macro5>
+                  <Value>75</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>LFO shape</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>0</DestChainIndex>
+                      <DestDeviceIndex>2</DestDeviceIndex>
+                      <DestParameterIndex>7</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro5>
+                <Macro6>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>Macro 7</Name>
+                </Macro6>
+                <Macro7>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>Macro 8</Name>
+                </Macro7>
+                <NumActiveMacros>6</NumActiveMacros>
+                <ShowDevices>true</ShowDevices>
+                <DeviceChain>
+                  <SelectedPresetName>Init</SelectedPresetName>
+                  <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+                  <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                  <Devices>
+                    <Comb2Device type="Comb2Device">
+                      <SelectedPresetName>Init</SelectedPresetName>
+                      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+                      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                      <IsMaximized>true</IsMaximized>
+                      <IsSelected>false</IsSelected>
+                      <IsActive>
+                        <Value>1.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </IsActive>
+                      <Note>
+                        <Value>56.4807014</Value>
+                        <Visualization>Device only</Visualization>
+                      </Note>
+                      <Transpose>
+                        <Value>0.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </Transpose>
+                      <Feedback>
+                        <Value>0.909999967</Value>
+                        <Visualization>Device only</Visualization>
+                      </Feedback>
+                      <Inertia>
+                        <Value>0.015625</Value>
+                        <Visualization>Device only</Visualization>
+                      </Inertia>
+                      <DryWet>
+                        <Value>1.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </DryWet>
+                    </Comb2Device>
+                    <KeyTrackingDevice type="KeyTrackingDevice">
+                      <SelectedPresetName>Init</SelectedPresetName>
+                      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+                      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                      <IsMaximized>false</IsMaximized>
+                      <IsSelected>true</IsSelected>
+                      <IsActive>
+                        <Value>1.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </IsActive>
+                      <SrcInstrument>-1</SrcInstrument>
+                      <DestScaling>Linear</DestScaling>
+                      <KeyTrackingMode>Clamp</KeyTrackingMode>
+                      <KeyTrackingMin>36</KeyTrackingMin>
+                      <KeyTrackingMax>72</KeyTrackingMax>
+                      <DestTrack>
+                        <Value>-1</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestTrack>
+                      <DestEffect>
+                        <Value>2</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestEffect>
+                      <DestParameter>
+                        <Value>8</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestParameter>
+                      <DestMin>
+                        <Value>0.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestMin>
+                      <DestMax>
+                        <Value>0.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestMax>
+                    </KeyTrackingDevice>
+                    <LfoDevice type="LfoDevice">
+                      <SelectedPresetName>Init</SelectedPresetName>
+                      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+                      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                      <IsMaximized>true</IsMaximized>
+                      <IsSelected>false</IsSelected>
+                      <IsActive>
+                        <Value>1.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </IsActive>
+                      <DestTrack>
+                        <Value>-1</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestTrack>
+                      <DestEffect>
+                        <Value>0.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestEffect>
+                      <DestParameter>
+                        <Value>1.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestParameter>
+                      <Amplitude>
+                        <Value>0.5</Value>
+                        <Visualization>Device only</Visualization>
+                      </Amplitude>
+                      <Offset>
+                        <Value>0.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </Offset>
+                      <Frequency>
+                        <Value>7.50000095</Value>
+                        <Visualization>Device only</Visualization>
+                      </Frequency>
+                      <Type>
+                        <Value>3</Value>
+                        <Visualization>Device only</Visualization>
+                      </Type>
+                      <CustomEnvelope>
+                        <PlayMode>Lines</PlayMode>
+                        <Length>64</Length>
+                        <ValueQuantum>0.0</ValueQuantum>
+                        <Polarity>Unipolar</Polarity>
+                        <Points>
+                          <Point>0,0.0,0.0</Point>
+                          <Point>63,1.0,0.0</Point>
+                        </Points>
+                      </CustomEnvelope>
+                      <CustomEnvelopeOneShot>false</CustomEnvelopeOneShot>
+                      <UseAdjustedEnvelopeLength>true</UseAdjustedEnvelopeLength>
+                    </LfoDevice>
+                    <LfoDevice type="LfoDevice">
+                      <SelectedPresetName>RATE SWITCH</SelectedPresetName>
+                      <SelectedPresetLibrary>User Library</SelectedPresetLibrary>
+                      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                      <IsMaximized>false</IsMaximized>
+                      <IsSelected>false</IsSelected>
+                      <IsActive>
+                        <Value>1.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </IsActive>
+                      <DestTrack>
+                        <Value>-1</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestTrack>
+                      <DestEffect>
+                        <Value>2</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestEffect>
+                      <DestParameter>
+                        <Value>6</Value>
+                        <Visualization>Device only</Visualization>
+                      </DestParameter>
+                      <Amplitude>
+                        <Value>1.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </Amplitude>
+                      <Offset>
+                        <Value>0.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </Offset>
+                      <Frequency>
+                        <Value>9.99999997e-07</Value>
+                        <Visualization>Device only</Visualization>
+                      </Frequency>
+                      <Type>
+                        <Value>4</Value>
+                        <Visualization>Device only</Visualization>
+                      </Type>
+                      <CustomEnvelope>
+                        <PlayMode>Points</PlayMode>
+                        <Length>8</Length>
+                        <ValueQuantum>0.0</ValueQuantum>
+                        <Polarity>Unipolar</Polarity>
+                        <Points>
+                          <Point>0,0.0078125,0.0</Point>
+                          <Point>1,0.015625,0.0</Point>
+                          <Point>2,0.03125,0.0</Point>
+                          <Point>3,0.0625,0.0</Point>
+                          <Point>4,0.125,0.0</Point>
+                          <Point>5,0.25,0.0</Point>
+                          <Point>6,0.5,0.0</Point>
+                          <Point>7,1.0,0.0</Point>
+                          <Point>8,0.166666672,0.0</Point>
+                          <Point>12,0.25,0.0</Point>
+                          <Point>16,0.333333343,0.0</Point>
+                          <Point>20,0.416666687,0.0</Point>
+                          <Point>24,0.5,0.0</Point>
+                          <Point>63,1.0,0.0</Point>
+                        </Points>
+                      </CustomEnvelope>
+                      <CustomEnvelopeOneShot>false</CustomEnvelopeOneShot>
+                      <UseAdjustedEnvelopeLength>true</UseAdjustedEnvelopeLength>
+                    </LfoDevice>
+                  </Devices>
+                </DeviceChain>
+              </DooferDevice>
+            </Devices>
+          </DeviceChain1>
+        </SplitterDevice>
+        <Distortion2Device type="Distortion2Device">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>false</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Oversample>false</Oversample>
+          <Type>
+            <Value>1.5</Value>
+            <Visualization>Device only</Visualization>
+          </Type>
+          <Drive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </Drive>
+          <Tone>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Tone>
+          <WetOut>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </WetOut>
+          <DryOut>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </DryOut>
+        </Distortion2Device>
+        <GainerDevice type="GainerDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>true</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Volume>
+            <Value>1.41253757</Value>
+            <Visualization>Mixer and Device</Visualization>
+          </Volume>
+          <Panning>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Panning>
+          <LPhaseInvert>false</LPhaseInvert>
+          <RPhaseInvert>false</RPhaseInvert>
+          <SmoothParameterChanges>true</SmoothParameterChanges>
+        </GainerDevice>
+      </Devices>
+    </DeviceChain1>
+  </DeviceSlot>
+</FilterDevicePreset>

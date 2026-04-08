@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InstrumentPhrase doc_version="2">
+  <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+  <Lines>
+    <Line index="0">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-4</Note>
+        </NoteColumn>
+        <NoteColumn>
+          <Note>C-4</Note>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+    <Line index="6">
+      <NoteColumns>
+        <NoteColumn/>
+        <NoteColumn>
+          <Note>C-4</Note>
+          <Delay>66</Delay>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+    <Line index="8">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-4</Note>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+    <Line index="12">
+      <NoteColumns>
+        <NoteColumn/>
+        <NoteColumn>
+          <Note>C-4</Note>
+          <Delay>CD</Delay>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+    <Line index="16">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-4</Note>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+    <Line index="19">
+      <NoteColumns>
+        <NoteColumn/>
+        <NoteColumn>
+          <Note>C-4</Note>
+          <Delay>33</Delay>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+    <Line index="24">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-4</Note>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+    <Line index="25">
+      <NoteColumns>
+        <NoteColumn/>
+        <NoteColumn>
+          <Note>C-4</Note>
+          <Delay>9A</Delay>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+  </Lines>
+  <Name>4x5 poly</Name>
+  <Autoseek>true</Autoseek>
+  <LinesPerBeat>16</LinesPerBeat>
+  <ShuffleIsActive>false</ShuffleIsActive>
+  <ShuffleAmounts>
+    <ShuffleAmount>0</ShuffleAmount>
+    <ShuffleAmount>0</ShuffleAmount>
+    <ShuffleAmount>0</ShuffleAmount>
+    <ShuffleAmount>0</ShuffleAmount>
+  </ShuffleAmounts>
+  <NumberOfLines>32</NumberOfLines>
+  <VisibleNoteColumns>2</VisibleNoteColumns>
+  <VisibleEffectColumns>1</VisibleEffectColumns>
+  <NoteColumnNames>
+    <NoteColumnName>4</NoteColumnName>
+    <NoteColumnName>5</NoteColumnName>
+    <NoteColumnName/>
+    <NoteColumnName/>
+    <NoteColumnName/>
+    <NoteColumnName/>
+    <NoteColumnName/>
+    <NoteColumnName/>
+    <NoteColumnName/>
+    <NoteColumnName/>
+    <NoteColumnName/>
+    <NoteColumnName/>
+  </NoteColumnNames>
+  <NoteColumnStates>
+    <NoteColumnState>Active</NoteColumnState>
+    <NoteColumnState>Active</NoteColumnState>
+    <NoteColumnState>Active</NoteColumnState>
+    <NoteColumnState>Active</NoteColumnState>
+    <NoteColumnState>Active</NoteColumnState>
+    <NoteColumnState>Active</NoteColumnState>
+    <NoteColumnState>Active</NoteColumnState>
+    <NoteColumnState>Active</NoteColumnState>
+    <NoteColumnState>Active</NoteColumnState>
+    <NoteColumnState>Active</NoteColumnState>
+    <NoteColumnState>Active</NoteColumnState>
+    <NoteColumnState>Active</NoteColumnState>
+  </NoteColumnStates>
+  <InstrumentColumnIsVisible>false</InstrumentColumnIsVisible>
+  <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+  <PanningColumnIsVisible>false</PanningColumnIsVisible>
+  <DelayColumnIsVisible>true</DelayColumnIsVisible>
+  <SampleEffectsColumnIsVisible>true</SampleEffectsColumnIsVisible>
+  <TriggerOptions>
+    <BaseNote>48</BaseNote>
+    <KeyTracking>Transpose</KeyTracking>
+    <Loop>true</Loop>
+    <LoopStart>0</LoopStart>
+    <LoopEnd>32</LoopEnd>
+  </TriggerOptions>
+</InstrumentPhrase>

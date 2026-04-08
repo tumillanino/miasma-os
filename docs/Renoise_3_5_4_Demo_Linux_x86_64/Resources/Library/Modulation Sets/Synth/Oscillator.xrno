@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SampleModulationSet doc_version="2">
+  <Devices>
+    <SampleKeyTrackingModulationDevice type="SampleKeyTrackingModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>true</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Cutoff</Target>
+      <Operator>*</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>false</TempoSynced>
+      <Min>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Min>
+      <Max>
+        <Value>119</Value>
+        <Visualization>Device only</Visualization>
+      </Max>
+    </SampleKeyTrackingModulationDevice>
+  </Devices>
+  <Name>Set 1</Name>
+  <FilterType>18</FilterType>
+  <FilterBankVersion>3</FilterBankVersion>
+  <FilterDrive>124.968048</FilterDrive>
+  <PitchModulationRange>80</PitchModulationRange>
+  <VolumeInputValue>1.0</VolumeInputValue>
+  <PanningInputValue>0.0</PanningInputValue>
+  <PitchInputValue>0.0</PitchInputValue>
+  <CutoffInputValue>127</CutoffInputValue>
+  <ResonanceInputValue>64.9922409</ResonanceInputValue>
+</SampleModulationSet>

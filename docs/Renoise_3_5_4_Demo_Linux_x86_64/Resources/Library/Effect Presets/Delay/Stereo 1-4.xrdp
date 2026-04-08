@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="2">
+  <DeviceSlot type="DelayDevice">
+    <TrackSend>
+      <Value>63.650775909423828</Value>
+    </TrackSend>
+    <LDelay>
+      <Value>25</Value>
+    </LDelay>
+    <RDelay>
+      <Value>25</Value>
+    </RDelay>
+    <LFeedback>
+      <Value>0.44499999284744263</Value>
+    </LFeedback>
+    <RFeedback>
+      <Value>0.44499999284744263</Value>
+    </RFeedback>
+    <MuteDrySignal>
+      <Value>0.0</Value>
+    </MuteDrySignal>
+    <LTapPan>
+      <Value>0.0</Value>
+    </LTapPan>
+    <RTapPan>
+      <Value>1.0</Value>
+    </RTapPan>
+    <LineSync>
+      <Value>1.0</Value>
+    </LineSync>
+    <LSyncTime>
+      <Value>4</Value>
+    </LSyncTime>
+    <RSyncTime>
+      <Value>4</Value>
+    </RSyncTime>
+    <LSyncOffset>
+      <Value>-0.0099999997764825821</Value>
+    </LSyncOffset>
+    <RSyncOffset>
+      <Value>0.0099999997764825821</Value>
+    </RSyncOffset>
+  </DeviceSlot>
+</FilterDevicePreset>

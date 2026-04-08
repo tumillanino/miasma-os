@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseDeviceChain doc_version="18">
+  <SelectedPresetName>Init</SelectedPresetName>
+  <SelectedPresetIsModified>false</SelectedPresetIsModified>
+  <Devices>
+    <KeyTrackingDevice type="KeyTrackingDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <SrcInstrument>-1</SrcInstrument>
+      <DestScaling>Linear</DestScaling>
+      <KeyTrackingMode>Octave</KeyTrackingMode>
+      <KeyTrackingMin>36</KeyTrackingMin>
+      <KeyTrackingMax>72</KeyTrackingMax>
+      <DestTrack>
+        <Value>-1</Value>
+        <Visualization>Device only</Visualization>
+      </DestTrack>
+      <DestEffect>
+        <Value>2</Value>
+        <Visualization>Device only</Visualization>
+      </DestEffect>
+      <DestParameter>
+        <Value>8</Value>
+        <Visualization>Device only</Visualization>
+      </DestParameter>
+      <DestMin>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </DestMin>
+      <DestMax>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </DestMax>
+    </KeyTrackingDevice>
+    <LfoDevice type="LfoDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <DestTrack>
+        <Value>-1</Value>
+        <Visualization>Device only</Visualization>
+      </DestTrack>
+      <DestEffect>
+        <Value>3</Value>
+        <Visualization>Device only</Visualization>
+      </DestEffect>
+      <DestParameter>
+        <Value>3</Value>
+        <Visualization>Device only</Visualization>
+      </DestParameter>
+      <Amplitude>
+        <Value>0.847999811</Value>
+        <Visualization>Device only</Visualization>
+      </Amplitude>
+      <Offset>
+        <Value>-0.168000028</Value>
+        <Visualization>Device only</Visualization>
+      </Offset>
+      <Frequency>
+        <Value>3.72990274</Value>
+        <Visualization>Device only</Visualization>
+      </Frequency>
+      <Type>
+        <Value>4</Value>
+        <Visualization>Device only</Visualization>
+      </Type>
+      <CustomEnvelope>
+        <PlayMode>Curve</PlayMode>
+        <Length>80</Length>
+        <ValueQuantum>0.0</ValueQuantum>
+        <Polarity>Unipolar</Polarity>
+        <Points>
+          <Point>0,0.618421078</Point>
+          <Point>8,0.0</Point>
+          <Point>16,1.0</Point>
+          <Point>24,0.0</Point>
+          <Point>32,1.0</Point>
+          <Point>40,0.0</Point>
+          <Point>48,1.0</Point>
+          <Point>56,0.0</Point>
+          <Point>64,1.0</Point>
+          <Point>79,0.513157904</Point>
+          <Point>127,1.0</Point>
+        </Points>
+      </CustomEnvelope>
+      <CustomEnvelopeOneShot>true</CustomEnvelopeOneShot>
+      <UseAdjustedEnvelopeLength>false</UseAdjustedEnvelopeLength>
+    </LfoDevice>
+    <DigitalFilterDevice type="DigitalFilterDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <OversamplingFactor>2x</OversamplingFactor>
+      <Model>Butterworth 8n</Model>
+      <Type>
+        <Value>2</Value>
+        <Visualization>Device only</Visualization>
+      </Type>
+      <Cutoff>
+        <Value>0.674579144</Value>
+        <Visualization>Device only</Visualization>
+      </Cutoff>
+      <Q>
+        <Value>0.343157887</Value>
+        <Visualization>Device only</Visualization>
+      </Q>
+      <Ripple>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Ripple>
+      <Inertia>
+        <Value>0.0078125</Value>
+        <Visualization>Device only</Visualization>
+      </Inertia>
+      <ShowResponseView>true</ShowResponseView>
+      <ResponseViewMaxGain>18</ResponseViewMaxGain>
+    </DigitalFilterDevice>
+    <KeyTrackingDevice type="KeyTrackingDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <SrcInstrument>-1</SrcInstrument>
+      <DestScaling>Linear</DestScaling>
+      <KeyTrackingMode>Octave</KeyTrackingMode>
+      <KeyTrackingMin>36</KeyTrackingMin>
+      <KeyTrackingMax>72</KeyTrackingMax>
+      <DestTrack>
+        <Value>-1</Value>
+        <Visualization>Device only</Visualization>
+      </DestTrack>
+      <DestEffect>
+        <Value>5</Value>
+        <Visualization>Device only</Visualization>
+      </DestEffect>
+      <DestParameter>
+        <Value>8</Value>
+        <Visualization>Device only</Visualization>
+      </DestParameter>
+      <DestMin>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </DestMin>
+      <DestMax>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </DestMax>
+    </KeyTrackingDevice>
+    <LfoDevice type="LfoDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <DestTrack>
+        <Value>-1</Value>
+        <Visualization>Device only</Visualization>
+      </DestTrack>
+      <DestEffect>
+        <Value>6</Value>
+        <Visualization>Device only</Visualization>
+      </DestEffect>
+      <DestParameter>
+        <Value>3</Value>
+        <Visualization>Device only</Visualization>
+      </DestParameter>
+      <Amplitude>
+        <Value>0.268518507</Value>
+        <Visualization>Device only</Visualization>
+      </Amplitude>
+      <Offset>
+        <Value>-0.0231481474</Value>
+        <Visualization>Device only</Visualization>
+      </Offset>
+      <Frequency>
+        <Value>1.87500012</Value>
+        <Visualization>Device only</Visualization>
+      </Frequency>
+      <Type>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Type>
+      <CustomEnvelope>
+        <PlayMode>Linear</PlayMode>
+        <Length>64</Length>
+        <ValueQuantum>0.0</ValueQuantum>
+        <Polarity>Unipolar</Polarity>
+        <Points>
+          <Point>0,0.0</Point>
+          <Point>63,1.0</Point>
+        </Points>
+      </CustomEnvelope>
+      <CustomEnvelopeOneShot>false</CustomEnvelopeOneShot>
+      <UseAdjustedEnvelopeLength>false</UseAdjustedEnvelopeLength>
+    </LfoDevice>
+    <Filter3Device type="Filter3Device">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>true</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Type>
+        <Value>3</Value>
+        <Visualization>Device only</Visualization>
+      </Type>
+      <Frequency>
+        <Value>0.238462448</Value>
+        <Visualization>Device only</Visualization>
+      </Frequency>
+      <Q>
+        <Value>7.69447994</Value>
+        <Visualization>Device only</Visualization>
+      </Q>
+      <Gain>
+        <Value>-60</Value>
+        <Visualization>Device only</Visualization>
+      </Gain>
+      <Inertia>
+        <Value>0.00546164578</Value>
+        <Visualization>Device only</Visualization>
+      </Inertia>
+      <Model>Butterworth 4n</Model>
+    </Filter3Device>
+  </Devices>
+</RenoiseDeviceChain>

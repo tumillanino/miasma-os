@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SampleModulationSet doc_version="2">
+  <Devices>
+    <SampleEnvelopeModulationDevice type="SampleEnvelopeModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Volume</Target>
+      <Operator>*</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>true</TempoSynced>
+      <SustainIsActive>false</SustainIsActive>
+      <SustainPos>0</SustainPos>
+      <LoopStart>0</LoopStart>
+      <LoopEnd>64</LoopEnd>
+      <LoopMode>Forward</LoopMode>
+      <Decay>
+        <Value>765.765015</Value>
+        <Visualization>Device only</Visualization>
+      </Decay>
+      <Nodes>
+        <PlayMode>Curve</PlayMode>
+        <Length>181</Length>
+        <ValueQuantum>0.0</ValueQuantum>
+        <Polarity>Unipolar</Polarity>
+        <Points>
+          <Point>0,1.0</Point>
+          <Point>10,1.0</Point>
+          <Point>42,0.0</Point>
+          <Point>757,0.0</Point>
+        </Points>
+      </Nodes>
+    </SampleEnvelopeModulationDevice>
+    <SampleEnvelopeModulationDevice type="SampleEnvelopeModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>false</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Pitch</Target>
+      <Operator>+</Operator>
+      <Bipolar>true</Bipolar>
+      <TempoSynced>true</TempoSynced>
+      <SustainIsActive>false</SustainIsActive>
+      <SustainPos>0</SustainPos>
+      <LoopStart>0</LoopStart>
+      <LoopEnd>192</LoopEnd>
+      <LoopMode>Forward</LoopMode>
+      <Decay>
+        <Value>23.9360008</Value>
+        <Visualization>Device only</Visualization>
+      </Decay>
+      <Nodes>
+        <PlayMode>Points</PlayMode>
+        <Length>266</Length>
+        <ValueQuantum>0.0</ValueQuantum>
+        <Polarity>Bipolar</Polarity>
+        <Points>
+          <Point>0,1.0</Point>
+          <Point>64,0.5</Point>
+          <Point>128,0.0</Point>
+        </Points>
+      </Nodes>
+    </SampleEnvelopeModulationDevice>
+    <SampleEnvelopeModulationDevice type="SampleEnvelopeModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>true</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Cutoff</Target>
+      <Operator>*</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>true</TempoSynced>
+      <SustainIsActive>false</SustainIsActive>
+      <SustainPos>0</SustainPos>
+      <LoopStart>0</LoopStart>
+      <LoopEnd>192</LoopEnd>
+      <LoopMode>Forward</LoopMode>
+      <Decay>
+        <Value>23.9360008</Value>
+        <Visualization>Device only</Visualization>
+      </Decay>
+      <Nodes>
+        <PlayMode>Curve</PlayMode>
+        <Length>202</Length>
+        <ValueQuantum>0.0</ValueQuantum>
+        <Polarity>Unipolar</Polarity>
+        <Points>
+          <Point>0,1.0</Point>
+          <Point>64,1.0</Point>
+          <Point>100,0.375</Point>
+          <Point>128,0.625</Point>
+          <Point>176,0.0</Point>
+        </Points>
+      </Nodes>
+    </SampleEnvelopeModulationDevice>
+    <SampleEnvelopeModulationDevice type="SampleEnvelopeModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>false</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Resonance</Target>
+      <Operator>*</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>true</TempoSynced>
+      <SustainIsActive>false</SustainIsActive>
+      <SustainPos>0</SustainPos>
+      <LoopStart>0</LoopStart>
+      <LoopEnd>64</LoopEnd>
+      <LoopMode>Forward</LoopMode>
+      <Decay>
+        <Value>23.9360008</Value>
+        <Visualization>Device only</Visualization>
+      </Decay>
+      <Nodes>
+        <PlayMode>Curve</PlayMode>
+        <Length>74</Length>
+        <ValueQuantum>0.0</ValueQuantum>
+        <Polarity>Unipolar</Polarity>
+        <Points>
+          <Point>0,0.8125</Point>
+          <Point>16,0.0416666679</Point>
+          <Point>36,0.5</Point>
+          <Point>64,0.0</Point>
+        </Points>
+      </Nodes>
+    </SampleEnvelopeModulationDevice>
+    <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Cutoff</Target>
+      <Operator>*</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>false</TempoSynced>
+      <Scaling>Linear</Scaling>
+      <From>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </From>
+      <To>
+        <Value>0.646645069</Value>
+        <Visualization>Device only</Visualization>
+      </To>
+      <Duration>
+        <Value>0.41898033</Value>
+        <Visualization>Device only</Visualization>
+      </Duration>
+      <Delay>
+        <Value>0.247999862</Value>
+        <Visualization>Device only</Visualization>
+      </Delay>
+    </SampleFaderModulationDevice>
+  </Devices>
+  <Name>Set 1</Name>
+  <FilterType>4</FilterType>
+  <FilterBankVersion>3</FilterBankVersion>
+  <FilterDrive>28.4480095</FilterDrive>
+  <PitchModulationRange>12</PitchModulationRange>
+  <VolumeInputValue>1.0</VolumeInputValue>
+  <PanningInputValue>0.0</PanningInputValue>
+  <PitchInputValue>0.0</PitchInputValue>
+  <CutoffInputValue>127</CutoffInputValue>
+  <ResonanceInputValue>127</ResonanceInputValue>
+</SampleModulationSet>

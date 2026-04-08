@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InstrumentPhrase doc_version="0">
+  <SelectedPresetName>Arp 02</SelectedPresetName>
+  <SelectedPresetIsModified>false</SelectedPresetIsModified>
+  <Lines>
+    <Line index="0">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-4</Note>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+      </EffectColumns>
+    </Line>
+    <Line index="1">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>F-4</Note>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+      </EffectColumns>
+    </Line>
+    <Line index="2">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>G-4</Note>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+      </EffectColumns>
+    </Line>
+    <Line index="3">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-5</Note>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+      </EffectColumns>
+    </Line>
+    <Line index="4">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>D#5</Note>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+      </EffectColumns>
+    </Line>
+    <Line index="5">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>G#5</Note>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+      </EffectColumns>
+    </Line>
+    <Line index="6">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>A#5</Note>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+      </EffectColumns>
+    </Line>
+    <Line index="7">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>D#6</Note>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+      </EffectColumns>
+    </Line>
+    <Line index="8">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>F-6</Note>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+      </EffectColumns>
+    </Line>
+    <Line index="9">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>A#6</Note>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+      </EffectColumns>
+    </Line>
+    <Line index="10">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-7</Note>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+      </EffectColumns>
+    </Line>
+    <Line index="11">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>F-7</Note>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+      </EffectColumns>
+    </Line>
+  </Lines>
+  <Name>Phrase 1</Name>
+  <LinesPerBeat>4</LinesPerBeat>
+  <NumberOfLines>12</NumberOfLines>
+  <VisibleNoteColumns>1</VisibleNoteColumns>
+  <VisibleEffectColumns>1</VisibleEffectColumns>
+  <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+  <PanningColumnIsVisible>false</PanningColumnIsVisible>
+  <DelayColumnIsVisible>false</DelayColumnIsVisible>
+</InstrumentPhrase>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseDeviceChain doc_version="18">
+  <SelectedPresetName>Init</SelectedPresetName>
+  <SelectedPresetIsModified>false</SelectedPresetIsModified>
+  <Devices>
+    <SignalFollowerDevice type="SignalFollowerDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <DestTrack>
+        <Value>-1</Value>
+        <Visualization>Device only</Visualization>
+      </DestTrack>
+      <DestEffect>
+        <Value>3</Value>
+        <Visualization>Device only</Visualization>
+      </DestEffect>
+      <DestParameter>
+        <Value>8</Value>
+        <Visualization>Device only</Visualization>
+      </DestParameter>
+      <DestMin>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </DestMin>
+      <DestMax>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </DestMax>
+      <DestOffset>
+        <Value>0.295081973</Value>
+        <Visualization>Device only</Visualization>
+      </DestOffset>
+      <Attack>
+        <Value>9.99999975e-005</Value>
+        <Visualization>Device only</Visualization>
+      </Attack>
+      <Release>
+        <Value>0.300070077</Value>
+        <Visualization>Device only</Visualization>
+      </Release>
+      <Sensitivity>
+        <Value>0.580000162</Value>
+        <Visualization>Device only</Visualization>
+      </Sensitivity>
+      <DestScaling>Linear</DestScaling>
+      <LpFreq>
+        <Value>127</Value>
+        <Visualization>Device only</Visualization>
+      </LpFreq>
+      <HpFreq>
+        <Value>19.5384598</Value>
+        <Visualization>Device only</Visualization>
+      </HpFreq>
+      <InputMode>L+R</InputMode>
+      <LookAhead>0.0</LookAhead>
+      <ListenToInput>false</ListenToInput>
+    </SignalFollowerDevice>
+    <CabinetSimulatorDevice type="CabinetSimulatorDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Cabinet>
+        <Value>8.5</Value>
+        <Visualization>Mixer and Device</Visualization>
+      </Cabinet>
+      <Routing>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Routing>
+      <Distortion>
+        <Value>0.348360598</Value>
+        <Visualization>Device only</Visualization>
+      </Distortion>
+      <Wet>
+        <Value>0.916666687</Value>
+        <Visualization>Device only</Visualization>
+      </Wet>
+      <Dry>
+        <Value>0.543859661</Value>
+        <Visualization>Device only</Visualization>
+      </Dry>
+      <Stereo>true</Stereo>
+      <Gain0>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Gain0>
+      <Gain1>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Gain1>
+      <Gain2>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Gain2>
+      <Gain3>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Gain3>
+      <Gain4>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Gain4>
+      <Frequency0>100</Frequency0>
+      <Frequency1>1000</Frequency1>
+      <Frequency2>2000</Frequency2>
+      <Frequency3>4000</Frequency3>
+      <Frequency4>8000</Frequency4>
+      <BandWidth0>1.0</BandWidth0>
+      <BandWidth1>2</BandWidth1>
+      <BandWidth2>2</BandWidth2>
+      <BandWidth3>2</BandWidth3>
+      <BandWidth4>1.0</BandWidth4>
+    </CabinetSimulatorDevice>
+    <Reverb3Device type="Reverb3Device">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>true</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <ReverbTime>
+        <Value>23.8934422</Value>
+        <Visualization>Device only</Visualization>
+      </ReverbTime>
+      <PreDelay>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </PreDelay>
+      <LPFilter>
+        <Value>1011.88934</Value>
+        <Visualization>Device only</Visualization>
+      </LPFilter>
+      <LPGain>
+        <Value>-18</Value>
+        <Visualization>Device only</Visualization>
+      </LPGain>
+      <Color>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Color>
+      <Width>
+        <Value>0.909999847</Value>
+        <Visualization>Device only</Visualization>
+      </Width>
+      <Pan>
+        <Value>0.5</Value>
+        <Visualization>Device only</Visualization>
+      </Pan>
+      <WetMix>
+        <Value>0.589583933</Value>
+        <Visualization>Device only</Visualization>
+      </WetMix>
+      <DryMix>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </DryMix>
+    </Reverb3Device>
+  </Devices>
+</RenoiseDeviceChain>

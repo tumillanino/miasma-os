@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InstrumentPhrase doc_version="0">
+  <SelectedPresetName>Init</SelectedPresetName>
+  <SelectedPresetIsModified>true</SelectedPresetIsModified>
+  <Lines>
+    <Line index="0">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-4</Note>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+    <Line index="6">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-4</Note>
+          <Volume>50</Volume>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+    <Line index="9">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-4</Note>
+          <Volume>50</Volume>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+    <Line index="12">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-4</Note>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+    <Line index="18">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-4</Note>
+          <Volume>50</Volume>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+    <Line index="24">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-4</Note>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+    <Line index="30">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-4</Note>
+          <Volume>50</Volume>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+    <Line index="36">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-4</Note>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+    <Line index="40">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-4</Note>
+          <Volume>50</Volume>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+    <Line index="44">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-4</Note>
+          <Volume>50</Volume>
+        </NoteColumn>
+      </NoteColumns>
+    </Line>
+  </Lines>
+  <Name>Phrase 6</Name>
+  <LinesPerBeat>12</LinesPerBeat>
+  <NumberOfLines>48</NumberOfLines>
+  <VisibleNoteColumns>1</VisibleNoteColumns>
+  <VisibleEffectColumns>1</VisibleEffectColumns>
+  <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+  <PanningColumnIsVisible>false</PanningColumnIsVisible>
+  <DelayColumnIsVisible>false</DelayColumnIsVisible>
+</InstrumentPhrase>

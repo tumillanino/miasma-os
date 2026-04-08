@@ -1,0 +1,12 @@
+-- Distributes notes evenly across steps (common in many music traditions)
+return pattern {
+  unit = "1/16",
+  -- 3 hits spread over 8 steps without offset
+  pulse = pulse.euclidean(3, 8, 0),
+  event = "c4"
+}
+
+-- TRY THIS: Try different combinations, like 
+--   `(5, 8, -2)` or `(7, 16)`
+-- TRY THIS: `pulse.euclidean(3, 8) + pulse.euclidean(5, 8)`
+--   to chain different patterns

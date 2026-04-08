@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="0">
+  <DeviceSlot type="Distortion2Device">
+    <Type>
+      <Value>2</Value>
+    </Type>
+    <Drive>
+      <Value>0.25</Value>
+    </Drive>
+    <Tone>
+      <Value>0.5</Value>
+    </Tone>
+    <WetOut>
+      <Value>0.70794576406478882</Value>
+    </WetOut>
+    <DryOut>
+      <Value>0.0</Value>
+    </DryOut>
+  </DeviceSlot>
+</FilterDevicePreset>

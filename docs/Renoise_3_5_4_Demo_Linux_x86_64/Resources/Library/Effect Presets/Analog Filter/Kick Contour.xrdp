@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="10">
+  <DeviceSlot type="AnalogFilterDevice">
+    <IsMaximized>true</IsMaximized>
+    <OversamplingFactor>2x</OversamplingFactor>
+    <Model>2P K35</Model>
+    <Type>
+      <Value>2</Value>
+    </Type>
+    <Cutoff>
+      <Value>0.0259174258</Value>
+    </Cutoff>
+    <Resonance>
+      <Value>0.608000159</Value>
+    </Resonance>
+    <Inertia>
+      <Value>0.0078125</Value>
+    </Inertia>
+    <Drive>
+      <Value>0.0</Value>
+    </Drive>
+    <ShowResponseView>true</ShowResponseView>
+    <ResponseViewMaxGain>18</ResponseViewMaxGain>
+  </DeviceSlot>
+</FilterDevicePreset>

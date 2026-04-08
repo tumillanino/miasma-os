@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="14">
+  <DeviceSlot type="SplitterDevice">
+    <IsMaximized>true</IsMaximized>
+    <Macro0>
+      <Value>50</Value>
+      <Name>Dry Gain</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>-2</DestChainIndex>
+          <DestDeviceIndex>-2</DestDeviceIndex>
+          <DestParameterIndex>17</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro0>
+    <Macro1>
+      <Value>35.4813385</Value>
+      <Name>Dist Gain</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>-2</DestChainIndex>
+          <DestDeviceIndex>-2</DestDeviceIndex>
+          <DestParameterIndex>18</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro1>
+    <Macro2>
+      <Value>25</Value>
+      <Name>Low X-over</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro2>
+    <Macro3>
+      <Value>59.9999847</Value>
+      <Name>Hi X-over</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>6</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro3>
+    <Macro4>
+      <Value>0.0</Value>
+      <Name>Low Type</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro4>
+    <Macro5>
+      <Value>26.0000057</Value>
+      <Name>Low Drive</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro5>
+    <Macro6>
+      <Value>50</Value>
+      <Name>Low Tone</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro6>
+    <Macro7>
+      <Value>100</Value>
+      <Name>Low Mix</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro7>
+    <Macro8>
+      <Value>0.0</Value>
+      <Name>Mid Type</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>7</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro8>
+    <Macro9>
+      <Value>26.4000034</Value>
+      <Name>Mid Drive</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>8</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro9>
+    <Macro10>
+      <Value>50</Value>
+      <Name>Mid tone</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>9</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro10>
+    <Macro11>
+      <Value>100</Value>
+      <Name>Mid Mix</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>10</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro11>
+    <Macro12>
+      <Value>0.0</Value>
+      <Name>Hi Type</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>11</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro12>
+    <Macro13>
+      <Value>28.4000053</Value>
+      <Name>Hi Drive</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>12</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro13>
+    <Macro14>
+      <Value>50</Value>
+      <Name>Hi Tone</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>13</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro14>
+    <Macro15>
+      <Value>100</Value>
+      <Name>Hi Mix</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>14</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro15>
+    <NumActiveMacros>16</NumActiveMacros>
+    <ShowDevices>true</ShowDevices>
+    <CurrentlyVisibleChain>0</CurrentlyVisibleChain>
+    <MonitorVisibleChain>false</MonitorVisibleChain>
+    <Type>Parallel</Type>
+    <VolumeChain1>
+      <Value>0.706268787</Value>
+    </VolumeChain1>
+    <VolumeChain2>
+      <Value>0.501187265</Value>
+    </VolumeChain2>
+    <SplitFrequency>
+      <Value>0.330993116</Value>
+    </SplitFrequency>
+    <DeviceChain0>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <Devices>
+        <NotePadDevice type="NotePadDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>true</IsMaximized>
+          <IsSelected>true</IsSelected>
+          <IsActive>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Paragraphs>
+            <Paragraph>This Splitter splits the incoming audio into three bands, controlled by the two x-over macros. Each band has its own distortion unit, with independent macro control over parameters for mixing of distortion types and qualities across the audio spectrum.</Paragraph>
+          </Paragraphs>
+        </NotePadDevice>
+      </Devices>
+    </DeviceChain0>
+    <DeviceChain1>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <Devices>
+        <SplitterDevice type="SplitterDevice">
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <CustomDeviceName>LMH</CustomDeviceName>
+          <IsMaximized>false</IsMaximized>
+          <IsSelected>true</IsSelected>
+          <IsActive>
+            <Value>1.0</Value>
+            <Visualization>Device only</Visualization>
+          </IsActive>
+          <Macro0>
+            <Value>25</Value>
+            <Visualization>Device only</Visualization>
+            <Name>L x-over</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>-2</DestChainIndex>
+                <DestDeviceIndex>-2</DestDeviceIndex>
+                <DestParameterIndex>19</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro0>
+          <Macro1>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+            <Name>L type</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>1</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro1>
+          <Macro2>
+            <Value>26.0000057</Value>
+            <Visualization>Device only</Visualization>
+            <Name>L drive</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>2</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro2>
+          <Macro3>
+            <Value>50</Value>
+            <Visualization>Device only</Visualization>
+            <Name>L tone</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>3</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro3>
+          <Macro4>
+            <Value>100</Value>
+            <Visualization>Device only</Visualization>
+            <Name>L mix</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>0</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>4</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro4>
+          <Macro5>
+            <Value>59.9999847</Value>
+            <Visualization>Device only</Visualization>
+            <Name>M/H x-over</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>1</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>1</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro5>
+          <Macro6>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+            <Name>M type</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>1</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>2</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro6>
+          <Macro7>
+            <Value>26.4000034</Value>
+            <Visualization>Device only</Visualization>
+            <Name>M drive</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>1</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>3</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro7>
+          <Macro8>
+            <Value>50</Value>
+            <Visualization>Device only</Visualization>
+            <Name>M tone</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>1</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>4</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro8>
+          <Macro9>
+            <Value>100</Value>
+            <Visualization>Device only</Visualization>
+            <Name>M mix</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>1</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>5</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro9>
+          <Macro10>
+            <Value>0.0</Value>
+            <Visualization>Device only</Visualization>
+            <Name>H type</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>1</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>6</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro10>
+          <Macro11>
+            <Value>28.4000034</Value>
+            <Visualization>Device only</Visualization>
+            <Name>H drive</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>1</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>7</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro11>
+          <Macro12>
+            <Value>50</Value>
+            <Visualization>Device only</Visualization>
+            <Name>H tone</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>1</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>8</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro12>
+          <Macro13>
+            <Value>100</Value>
+            <Visualization>Device only</Visualization>
+            <Name>H mix</Name>
+            <Mappings>
+              <Mapping>
+                <DestChainIndex>1</DestChainIndex>
+                <DestDeviceIndex>0</DestDeviceIndex>
+                <DestParameterIndex>9</DestParameterIndex>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+                <Scaling>Linear</Scaling>
+              </Mapping>
+            </Mappings>
+          </Macro13>
+          <Macro14>
+            <Value>50</Value>
+            <Visualization>Device only</Visualization>
+            <Name>Macro 15</Name>
+          </Macro14>
+          <Macro15>
+            <Value>50</Value>
+            <Visualization>Device only</Visualization>
+            <Name>Macro 16</Name>
+          </Macro15>
+          <NumActiveMacros>14</NumActiveMacros>
+          <ShowDevices>false</ShowDevices>
+          <CurrentlyVisibleChain>1</CurrentlyVisibleChain>
+          <MonitorVisibleChain>false</MonitorVisibleChain>
+          <Type>Frequency</Type>
+          <VolumeChain1>
+            <Value>1.0</Value>
+            <Visualization>Mixer and Device</Visualization>
+          </VolumeChain1>
+          <VolumeChain2>
+            <Value>1.0</Value>
+            <Visualization>Mixer and Device</Visualization>
+          </VolumeChain2>
+          <SplitFrequency>
+            <Value>0.25</Value>
+            <Visualization>Device only</Visualization>
+          </SplitFrequency>
+          <DeviceChain0>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <Devices>
+              <Distortion2Device type="Distortion2Device">
+                <SelectedPresetName>Init</SelectedPresetName>
+                <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+                <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                <IsMaximized>true</IsMaximized>
+                <IsSelected>true</IsSelected>
+                <IsActive>
+                  <Value>1.0</Value>
+                  <Visualization>Device only</Visualization>
+                </IsActive>
+                <Oversample>false</Oversample>
+                <Type>
+                  <Value>0.0</Value>
+                  <Visualization>Device only</Visualization>
+                </Type>
+                <Drive>
+                  <Value>0.26000005</Value>
+                  <Visualization>Device only</Visualization>
+                </Drive>
+                <Tone>
+                  <Value>0.5</Value>
+                  <Visualization>Device only</Visualization>
+                </Tone>
+                <WetOut>
+                  <Value>1.0</Value>
+                  <Visualization>Device only</Visualization>
+                </WetOut>
+                <DryOut>
+                  <Value>0.0</Value>
+                  <Visualization>Device only</Visualization>
+                </DryOut>
+              </Distortion2Device>
+            </Devices>
+          </DeviceChain0>
+          <DeviceChain1>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <Devices>
+              <SplitterDevice type="SplitterDevice">
+                <SelectedPresetName>Init</SelectedPresetName>
+                <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+                <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                <CustomDeviceName>Mid/High</CustomDeviceName>
+                <IsMaximized>true</IsMaximized>
+                <IsSelected>true</IsSelected>
+                <IsActive>
+                  <Value>1.0</Value>
+                  <Visualization>Device only</Visualization>
+                </IsActive>
+                <Macro0>
+                  <Value>59.9999847</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>M/H x-over</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>-2</DestChainIndex>
+                      <DestDeviceIndex>-2</DestDeviceIndex>
+                      <DestParameterIndex>19</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro0>
+                <Macro1>
+                  <Value>0.0</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>M type</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>0</DestChainIndex>
+                      <DestDeviceIndex>0</DestDeviceIndex>
+                      <DestParameterIndex>1</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro1>
+                <Macro2>
+                  <Value>26.4000034</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>M drive</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>0</DestChainIndex>
+                      <DestDeviceIndex>0</DestDeviceIndex>
+                      <DestParameterIndex>2</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro2>
+                <Macro3>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>M tone</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>0</DestChainIndex>
+                      <DestDeviceIndex>0</DestDeviceIndex>
+                      <DestParameterIndex>3</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro3>
+                <Macro4>
+                  <Value>100</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>M mix</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>0</DestChainIndex>
+                      <DestDeviceIndex>0</DestDeviceIndex>
+                      <DestParameterIndex>4</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro4>
+                <Macro5>
+                  <Value>0.0</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>H type</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>1</DestChainIndex>
+                      <DestDeviceIndex>0</DestDeviceIndex>
+                      <DestParameterIndex>1</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro5>
+                <Macro6>
+                  <Value>28.4000034</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>H drive</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>1</DestChainIndex>
+                      <DestDeviceIndex>0</DestDeviceIndex>
+                      <DestParameterIndex>2</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro6>
+                <Macro7>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>H tone</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>1</DestChainIndex>
+                      <DestDeviceIndex>0</DestDeviceIndex>
+                      <DestParameterIndex>3</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro7>
+                <Macro8>
+                  <Value>100</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>H mix</Name>
+                  <Mappings>
+                    <Mapping>
+                      <DestChainIndex>1</DestChainIndex>
+                      <DestDeviceIndex>0</DestDeviceIndex>
+                      <DestParameterIndex>4</DestParameterIndex>
+                      <Min>0.0</Min>
+                      <Max>1.0</Max>
+                      <Scaling>Linear</Scaling>
+                    </Mapping>
+                  </Mappings>
+                </Macro8>
+                <Macro9>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>Macro 10</Name>
+                </Macro9>
+                <Macro10>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>Macro 11</Name>
+                </Macro10>
+                <Macro11>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>Macro 12</Name>
+                </Macro11>
+                <Macro12>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>Macro 13</Name>
+                </Macro12>
+                <Macro13>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>Macro 14</Name>
+                </Macro13>
+                <Macro14>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>Macro 15</Name>
+                </Macro14>
+                <Macro15>
+                  <Value>50</Value>
+                  <Visualization>Device only</Visualization>
+                  <Name>Macro 16</Name>
+                </Macro15>
+                <NumActiveMacros>9</NumActiveMacros>
+                <ShowDevices>false</ShowDevices>
+                <CurrentlyVisibleChain>1</CurrentlyVisibleChain>
+                <MonitorVisibleChain>false</MonitorVisibleChain>
+                <Type>Frequency</Type>
+                <VolumeChain1>
+                  <Value>1.0</Value>
+                  <Visualization>Mixer and Device</Visualization>
+                </VolumeChain1>
+                <VolumeChain2>
+                  <Value>1.0</Value>
+                  <Visualization>Mixer and Device</Visualization>
+                </VolumeChain2>
+                <SplitFrequency>
+                  <Value>0.599999845</Value>
+                  <Visualization>Device only</Visualization>
+                </SplitFrequency>
+                <DeviceChain0>
+                  <SelectedPresetName>Init</SelectedPresetName>
+                  <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+                  <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                  <Devices>
+                    <Distortion2Device type="Distortion2Device">
+                      <SelectedPresetName>Init</SelectedPresetName>
+                      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+                      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                      <CustomDeviceName>M dist</CustomDeviceName>
+                      <IsMaximized>true</IsMaximized>
+                      <IsSelected>true</IsSelected>
+                      <IsActive>
+                        <Value>1.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </IsActive>
+                      <Oversample>false</Oversample>
+                      <Type>
+                        <Value>0.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </Type>
+                      <Drive>
+                        <Value>0.264000028</Value>
+                        <Visualization>Device only</Visualization>
+                      </Drive>
+                      <Tone>
+                        <Value>0.5</Value>
+                        <Visualization>Device only</Visualization>
+                      </Tone>
+                      <WetOut>
+                        <Value>1.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </WetOut>
+                      <DryOut>
+                        <Value>0.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </DryOut>
+                    </Distortion2Device>
+                  </Devices>
+                </DeviceChain0>
+                <DeviceChain1>
+                  <SelectedPresetName>Init</SelectedPresetName>
+                  <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+                  <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                  <Devices>
+                    <Distortion2Device type="Distortion2Device">
+                      <SelectedPresetName>Init</SelectedPresetName>
+                      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+                      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+                      <CustomDeviceName>H dist</CustomDeviceName>
+                      <IsMaximized>true</IsMaximized>
+                      <IsSelected>true</IsSelected>
+                      <IsActive>
+                        <Value>1.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </IsActive>
+                      <Oversample>false</Oversample>
+                      <Type>
+                        <Value>0.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </Type>
+                      <Drive>
+                        <Value>0.284000039</Value>
+                        <Visualization>Device only</Visualization>
+                      </Drive>
+                      <Tone>
+                        <Value>0.5</Value>
+                        <Visualization>Device only</Visualization>
+                      </Tone>
+                      <WetOut>
+                        <Value>1.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </WetOut>
+                      <DryOut>
+                        <Value>0.0</Value>
+                        <Visualization>Device only</Visualization>
+                      </DryOut>
+                    </Distortion2Device>
+                  </Devices>
+                </DeviceChain1>
+              </SplitterDevice>
+            </Devices>
+          </DeviceChain1>
+        </SplitterDevice>
+      </Devices>
+    </DeviceChain1>
+  </DeviceSlot>
+</FilterDevicePreset>

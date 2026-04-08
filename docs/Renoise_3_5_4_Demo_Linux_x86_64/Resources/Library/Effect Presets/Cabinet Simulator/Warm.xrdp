@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="4">
+  <DeviceSlot type="CabinetSimulatorDevice">
+    <IsMaximized>true</IsMaximized>
+    <Cabinet>
+      <Value>1.0</Value>
+    </Cabinet>
+    <Distortion>
+      <Value>1.0</Value>
+    </Distortion>
+    <Routing>
+      <Value>0.0</Value>
+    </Routing>
+    <Wet>
+      <Value>1.0</Value>
+    </Wet>
+    <Dry>
+      <Value>0.0</Value>
+    </Dry>
+    <Stereo>false</Stereo>
+    <Gain0>
+      <Value>2.999999523162841796875</Value>
+    </Gain0>
+    <Gain1>
+      <Value>-6</Value>
+    </Gain1>
+    <Gain2>
+      <Value>-9</Value>
+    </Gain2>
+    <Gain3>
+      <Value>-10</Value>
+    </Gain3>
+    <Gain4>
+      <Value>6.000001430511474609375</Value>
+    </Gain4>
+    <Frequency0>174</Frequency0>
+    <Frequency1>1396</Frequency1>
+    <Frequency2>2793</Frequency2>
+    <Frequency3>4000</Frequency3>
+    <Frequency4>9000</Frequency4>
+    <BandWidth0>1.0</BandWidth0>
+    <BandWidth1>2</BandWidth1>
+    <BandWidth2>2</BandWidth2>
+    <BandWidth3>2</BandWidth3>
+    <BandWidth4>1.0</BandWidth4>
+  </DeviceSlot>
+</FilterDevicePreset>

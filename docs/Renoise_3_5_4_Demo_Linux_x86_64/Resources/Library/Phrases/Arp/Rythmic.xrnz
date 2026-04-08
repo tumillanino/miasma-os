@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InstrumentPhrase doc_version="0">
+  <SelectedPresetName>Arp 06</SelectedPresetName>
+  <SelectedPresetIsModified>false</SelectedPresetIsModified>
+  <Lines>
+    <Line index="0">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-4</Note>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+      </EffectColumns>
+    </Line>
+    <Line index="3">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>G-4</Note>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+      </EffectColumns>
+    </Line>
+    <Line index="6">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>D#4</Note>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+      </EffectColumns>
+    </Line>
+    <Line index="9">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>A#4</Note>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+      </EffectColumns>
+    </Line>
+    <Line index="12">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>F-4</Note>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+      </EffectColumns>
+    </Line>
+    <Line index="14">
+      <NoteColumns>
+        <NoteColumn>
+          <Note>C-5</Note>
+        </NoteColumn>
+      </NoteColumns>
+      <EffectColumns>
+        <EffectColumn/>
+      </EffectColumns>
+    </Line>
+  </Lines>
+  <Name>Phrase 1</Name>
+  <LinesPerBeat>4</LinesPerBeat>
+  <NumberOfLines>16</NumberOfLines>
+  <VisibleNoteColumns>1</VisibleNoteColumns>
+  <VisibleEffectColumns>1</VisibleEffectColumns>
+  <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+  <PanningColumnIsVisible>false</PanningColumnIsVisible>
+  <DelayColumnIsVisible>false</DelayColumnIsVisible>
+</InstrumentPhrase>
