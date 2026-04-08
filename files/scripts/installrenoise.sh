@@ -2,7 +2,7 @@
 set -euo pipefail
 
 RENOISE_VERSION=3.5.4
-EXTRACT_DIR=/tmp/Renoise_${RENOISE_VERSION}_Demo_Linux_x86_64
+EXTRACT_DIR=/tmp/Renoise_3_5_4_Demo_Linux_x86_64
 
 curl -L -o /tmp/renoise.tar.gz "https://files.renoise.com/demo/Renoise_3_5_4_Demo_Linux_x86_64.tar.gz"
 tar xf /tmp/renoise.tar.gz -C /tmp
