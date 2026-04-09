@@ -1,5 +1,0 @@
--N 5
---embed-thumbnail
---embed-metadata
---cookies-from-browser firefox
--o ~/Downloads/%(fulltitle)s.%(ext)s

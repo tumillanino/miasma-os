@@ -1,5 +1,0 @@
-[Desktop Entry]
-Name=WayDroid on Mutter
-Comment=LineageOS in a container
-Exec=/usr/bin/waydroid-session
-Type=Application
