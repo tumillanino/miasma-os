@@ -1,5 +1,0 @@
-modules:  
-  - type: script
-    scripts:
-      - shared/nautilus-copy-path.sh
-      - shared/colloid-icon-theme.sh
