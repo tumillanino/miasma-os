@@ -29,6 +29,10 @@ for KVER in $(ls /usr/lib/modules 2>/dev/null); do
   rm -rf "/usr/lib/modules/$KVER"
 done
 
+# Create /boot/grub2 so grub2 RPM scriptlets don't fail in the container
+# build environment. It gets removed by the rm -rf /boot/* below.
+mkdir -p /boot/grub2
+
 echo 'Installing Bazzite kernel...'
 dnf install -y \
     https://github.com/bazzite-org/kernel-bazzite/releases/download/$VER/kernel-$VER.fc$OS_VERSION.x86_64.rpm \
