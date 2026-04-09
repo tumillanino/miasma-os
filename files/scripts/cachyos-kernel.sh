@@ -59,6 +59,9 @@ if [ ! -f "/usr/lib/modules/${NEW_KVER}/vmlinuz" ]; then
   fi
 fi
 
+# Rebuild kernel module dependency map before generating initramfs.
+depmod -a "${NEW_KVER}"
+
 # Generate the initramfs inside the container image so that rpm-ostree and
 # bootc can use it directly at deploy time. Without this step, Kinoite boots
 # with no initramfs and hits a dracut emergency shell (the "wall of errors").
@@ -71,7 +74,7 @@ dracut \
   --filesystems "btrfs" \
   --add-drivers "btrfs" \
   --force \
-  "/usr/lib/modules/${NEW_KVER}/initrd" \
+  "/usr/lib/modules/${NEW_KVER}/initramfs.img" \
   "${NEW_KVER}"
 
 # Atomic images manage /boot via the bootloader layer; clear any kernel

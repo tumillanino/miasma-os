@@ -1,0 +1,81 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+
+name: solarizzed-gnome
+description: Based on bazzite-deck-gnome
+
+base-image: ghcr.io/ublue-os/bazzite-deck-gnome
+image-version: stable
+
+modules:
+  - type: files
+    files:
+      - source: shared/usr
+        destination: /usr
+
+  - type: dnf
+    repos:
+      cleanup: true
+      files:
+        - https://raw.githubusercontent.com/terrapkg/subatomic-repos/main/terra.repo
+      copr:
+        - tigro/better_fonts
+        - dusansimic/themes
+        - sneexy/zen-browser
+        - ilyaz/LACT
+    optfix:
+      - zen
+    install:
+      install-weak-deps: false
+      packages:
+        # codium
+        - codium
+        # prettifying packages
+        - deepin-sound-theme
+        - fontconfig-font-replacements
+        - go-task
+        - morewaita-icon-theme
+        - nautilus-extensions
+        - nautilus-python
+        - oxygen-sounds
+        - pop-sound-theme
+        - rclone
+        - rclone-browser
+        - yaru-sound-theme
+        # misc
+        - lact
+        - python3-pyclip
+        - zen-browser
+    remove:
+      packages:
+        - gnome-tweaks
+   
+  - type: systemd
+    system:
+      enabled:
+        - lactd.service
+
+  - type: default-flatpaks
+    configurations:
+      - notify: false
+        scope: system
+        install:
+          - page.tesk.Refine
+
+  # extensions
+  - type: gnome-extensions
+    install:
+      - Alphabetical App Grid
+      - 5425 # Battery time
+      - Bluetooth Battery Meter
+      - Night Theme Switcher
+      - 841 # Freon
+      - Quick Settings Tweaks
+  # installs themes & icons
+  - from-file: shared/script.yml
+  # installs luminance & windscribe
+  - from-file: shared/rpms.yml
+  # installs shared fonts
+  - from-file: shared/fonts.yml
+
+  - type: signing

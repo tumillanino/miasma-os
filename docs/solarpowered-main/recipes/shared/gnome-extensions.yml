@@ -1,0 +1,7 @@
+modules:
+  - type: gnome-extensions
+    install:
+      - Bluetooth Battery Meter
+      - Caffeine
+      - Just Perfection
+      - Night Theme Switcher

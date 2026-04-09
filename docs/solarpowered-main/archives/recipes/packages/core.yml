@@ -1,0 +1,64 @@
+modules:
+  - type: rpm-ostree
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/hyperreal/better_fonts/repo/fedora-%OS_VERSION%/hyperreal-better_fonts-fedora-%OS_VERSION%.repo #better fonts
+      - https://copr.fedorainfracloud.org/coprs/zhangyuannie/butter/repo/fedora-%OS_VERSION%/zhangyuannie-butter-fedora-%OS_VERSION%.repo #butter
+      - https://copr.fedorainfracloud.org/coprs/dusansimic/themes/repo/fedora-%OS_VERSION%/dusansimic-themes-fedora-%OS_VERSION%.repo #morewaita
+      - https://copr.fedorainfracloud.org/coprs/shdwchn10/AllTheTools/repo/fedora-%OS_VERSION%/shdwchn10-AllTheTools-fedora-%OS_VERSION%.repo #starship & topgrade
+      - https://copr.fedorainfracloud.org/coprs/sneexy/zen-browser/repo/fedora-%OS_VERSION%/sneexy-zen-browser-fedora-%OS_VERSION%.repo #zen
+    optfix:
+      - windscribe
+      - zen
+    install:
+      - baobab
+      - butter
+      - codium
+      - epson-inkjet-printer-escpr
+      - epson-inkjet-printer-escpr2
+      - fish
+      - firewall-config
+      - fontconfig-font-replacements
+      - gnome-boxes
+      - hunspell
+      - hunspell-en
+      - ibus-mozc
+      - ifuse
+      - input-remapper
+      - inxi
+      - lm_sensors
+      - libappindicator
+      - ptyxis
+      - pulseaudio-utils
+      - rsms-inter-fonts
+      - starship
+      - steam-devices
+      - topgrade
+      - uxplay
+      - wl-clipboard
+      - xorg-x11-server-Xwayland
+      - zen-browser
+      - openssl
+      - nautilus-python
+      - nautilus-extensions
+      - https://github.com/sidevesh/Luminance/releases/download/1.1.0/luminance-1.1.0.rpm
+      # extra niceties
+      - deepin-sound-theme
+      - fastfetch
+      - fonts-tweak-tool
+      - morewaita-icon-theme
+      - oxygen-sounds
+      - pop-sound-theme
+      - yaru-sound-theme
+      # waydroid
+      - android-tools
+      - lzip
+      - waydroid
+      # windscribe
+      - https://github.com/Windscribe/Desktop-App/releases/download/v2.14.4/windscribe_2.14.4_guinea_pig_x86_64_fedora.rpm
+    replace:
+      - from-repo: https://copr.fedorainfracloud.org/coprs/trixieua/mutter-patched/repo/fedora-%OS_VERSION%/trixieua-mutter-patched-fedora-%OS_VERSION%.repo
+        packages:
+        - gnome-shell
+        - mutter
+        - mutter-common
+        - xorg-x11-server-Xwayland

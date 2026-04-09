@@ -1,0 +1,128 @@
+modules:
+  - type: dnf
+    repos:
+      cleanup: true
+      nonfree: negativo17
+      files:
+        - https://raw.githubusercontent.com/terrapkg/subatomic-repos/main/terra.repo
+        # - vscodium.repo        
+      copr:
+        - cuteneko/waydroid-helper
+        - sneexy/zen-browser
+        #  - trixieua/mutter-patched
+        - zeno/scrcpy
+    replace:
+      - from-repo: fedora
+        packages:
+          - old: OpenCL-ICD-Loader
+            new: ocl-icd
+    #   - from-repo: copr:copr.fedorainfracloud.org:trixieua:mutter-patched
+    #     allow-erasing: true
+    #     packages:
+    #       - gdm
+    #       - gnome-shell
+    #       - mutter
+    #       - mutter-common
+    install:
+      allow-erasing: true
+      install-weak-deps: false
+      packages:
+        # vscodium
+        - codium
+        # copr
+        - scrcpy
+        - starship
+        - topgrade
+        - zen-browser
+        # audio & codecs
+        - alsa-firmware
+        - celluloid
+        - ffmpegthumbnailer
+        - libcamera-gstreamer
+        - libcamera-tools
+        - libva-utils
+        - pipewire-plugin-vulkan
+        - vulkan-headers
+        # CLI utilities
+        - distrobox
+        - fastfetch
+        - fish
+        - fzf
+        - ifuse
+        - inxi
+        - iwd
+        - lm_sensors
+        - lzip
+        - nvtop
+        # - openssl # already included
+        - smartmontools
+        - stress
+        - s-tui
+        # - wireguard-tools # already included
+        # - wl-clipboard # already included
+        - yt-dlp
+        # - zstd # already included
+        # GUI
+        - baobab
+        - firewall-config
+        - nautilus-python
+        - papers
+        # other system
+        - btrfs-assistant
+        - flatpak-spawn
+        - input-remapper
+        - libappindicator
+        - libratbag-ratbagd
+        - openrgb-udev-rules
+        - podman-compose
+        - steam-devices
+        # pretties
+        - adw-gtk3-theme
+        - fonts-tweak-tool
+        - deepin-sound-theme
+        - oxygen-sounds
+        - pop-sound-theme
+        - yaru-sound-theme
+        # android stuff
+        - android-tools
+        - bindfs
+        - python3-pyclip
+        - waydroid
+        - waydroid-helper
+    remove:
+      packages:
+        # fedora
+        # repos are also removed because the image will not be used to layer things locally
+        - fedora-bookmarks
+        - fedora-chromium-config
+        - fedora-chromium-config-gnome
+        - fedora-flathub-remote
+        - fedora-repos-archive
+        - fedora-third-party
+        - fedora-workstation-repositories
+        - fedora-workstation-backgrounds
+        # ---
+        # gnome
+        - gnome-classic-session
+        - gnome-shell-extension-apps-menu
+        - gnome-shell-extension-background-logo
+        - gnome-shell-extension-launch-new-instance
+        - gnome-shell-extension-places-menu
+        - gnome-shell-extension-window-list
+        - gnome-software
+        - gnome-software-rpm-ostree
+        - gnome-system-monitor
+        - gnome-tour
+        - totem-video-thumbnailer   
+        # ---
+        # others
+        - default-fonts-cjk-sans
+        - firefox
+        - firefox-langpacks
+        - google-noto-sans-cjk-vf-fonts        
+        - rygel
+        - yelp
+
+  # - type: script
+  #   scripts:
+  #     - shared/android-tools.sh

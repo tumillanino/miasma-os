@@ -1,0 +1,15 @@
+modules:
+  - type: systemd
+    system:
+      enabled:
+        - rechunker-group-fix.service
+      disabled:
+        - NetworkManager-wait-online.service
+        - flatpak-add-fedora-repos.service
+        - flatpak-system-update.timer
+        - flatpak-system-update.service
+        - flatpak-user-update.timer
+        - flatpak-user-update.service
+    user:
+      enabled:
+        - topgrade.timer
