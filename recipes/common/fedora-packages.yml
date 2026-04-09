@@ -28,7 +28,6 @@ modules:
         - alacritty
         - ripgrep
         - fd-find
-        - realtime-setup
         - zoxide
         - fzf
 
