@@ -68,6 +68,8 @@ dracut \
   --reproducible \
   --no-hostonly \
   --add "ostree" \
+  --filesystems "btrfs" \
+  --add-drivers "btrfs" \
   --force \
   "/usr/lib/modules/${NEW_KVER}/initrd" \
   "${NEW_KVER}"
