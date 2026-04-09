@@ -9,32 +9,38 @@
 set -ouex pipefail
 
 OS_VERSION=$(rpm -E %fedora)
-VER=$(basename $(curl -Ls -o /dev/null -w %{url_effective} https://github.com/bazzite-org/kernel-bazzite/releases/latest))
+VER=$(basename "$(curl -Ls -o /dev/null -w '%{url_effective}' https://github.com/bazzite-org/kernel-bazzite/releases/latest)")
+
+# Verify we got a valid version string
+if [[ -z "$VER" ]]; then
+    echo "ERROR: Failed to determine latest bazzite kernel version" >&2
+    exit 1
+fi
+echo "Bazzite kernel version: ${VER}"
 
 # Disable kernel-install hooks so they don't trigger inside the container
 # build environment. The initramfs will be generated explicitly below.
+mkdir -p /usr/lib/kernel/install.d
 pushd /usr/lib/kernel/install.d
 printf '%s\n' '#!/bin/sh' 'exit 0' >05-rpmostree.install
 printf '%s\n' '#!/bin/sh' 'exit 0' >50-dracut.install
 chmod +x 05-rpmostree.install 50-dracut.install
 popd
 
-# Erase stock Fedora kernel RPMs from the package database
-for pkg in kernel kernel-core kernel-modules kernel-modules-core; do
+# Erase stock Fedora kernel RPMs from the package database (matches Bazzite's approach)
+for pkg in kernel kernel-core kernel-modules kernel-modules-core kernel-modules-extra kernel-tools-libs kernel-tools; do
   rpm --erase "$pkg" --nodeps || true
 done
 
 # Remove ALL existing kernel module directories.
-for KVER in $(ls /usr/lib/modules 2>/dev/null); do
-  rm -rf "/usr/lib/modules/$KVER"
-done
+rm -rf /usr/lib/modules
 
 # Create /boot/grub2 so grub2 RPM scriptlets don't fail in the container
 # build environment. It gets removed by the rm -rf /boot/* below.
 mkdir -p /boot/grub2
 
-echo 'Installing Bazzite kernel...'
-dnf install -y \
+echo "Installing Bazzite kernel ${VER}..."
+dnf5 install -y \
     https://github.com/bazzite-org/kernel-bazzite/releases/download/$VER/kernel-$VER.fc$OS_VERSION.x86_64.rpm \
     https://github.com/bazzite-org/kernel-bazzite/releases/download/$VER/kernel-common-$VER.fc$OS_VERSION.x86_64.rpm \
     https://github.com/bazzite-org/kernel-bazzite/releases/download/$VER/kernel-core-$VER.fc$OS_VERSION.x86_64.rpm \
@@ -69,14 +75,14 @@ depmod -a "${NEW_KVER}"
 # Generate the initramfs inside the container image so that rpm-ostree and
 # bootc can use it directly at deploy time.
 dracut \
-  --reproducible \
   --no-hostonly \
-  --add "ostree" \
-  --filesystems "btrfs" \
-  --add-drivers "btrfs" \
+  --kver "${NEW_KVER}" \
+  --reproducible \
+  --zstd \
+  -v \
+  --add ostree \
   --force \
-  "/usr/lib/modules/${NEW_KVER}/initramfs.img" \
-  "${NEW_KVER}"
+  "/usr/lib/modules/${NEW_KVER}/initramfs.img"
 
 # Atomic images manage /boot via the bootloader layer; clear any kernel
 # files the RPM dropped there.
