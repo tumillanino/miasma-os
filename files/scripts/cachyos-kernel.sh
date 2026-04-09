@@ -19,29 +19,23 @@ KERNEL_PACKAGES=(
   kernel-cachyos-lto-modules
 )
 
-# Disable kernel install hooks so the custom kernel installs cleanly into the image
 pushd /usr/lib/kernel/install.d
-printf '%s\n' '#!/bin/sh' 'exit 0' > 05-rpmostree.install
-printf '%s\n' '#!/bin/sh' 'exit 0' > 50-dracut.install
+printf '%s\n' '#!/bin/sh' 'exit 0' >05-rpmostree.install
+printf '%s\n' '#!/bin/sh' 'exit 0' >50-dracut.install
 chmod +x 05-rpmostree.install 50-dracut.install
 popd
 
-# Remove stock Fedora kernel packages
 for pkg in kernel kernel-core kernel-modules kernel-modules-core; do
-    rpm --erase "$pkg" --nodeps || true
+  rpm --erase "$pkg" --nodeps || true
 done
 
-# Remove leftover kernel module directory
 CURRENT_MODULES=$(ls /usr/lib/modules | head -n1)
 if [ -n "$CURRENT_MODULES" ]; then
-    rm -rf "/usr/lib/modules/$CURRENT_MODULES"
+  rm -rf "/usr/lib/modules/$CURRENT_MODULES"
 fi
 
-# Install the CachyOS LTO kernel (repos were added via the preceding dnf module)
 dnf5 -y install "${KERNEL_PACKAGES[@]}"
 
-# Version-lock to prevent the kernel from being overwritten by base image updates
 dnf5 versionlock add "${KERNEL_PACKAGES[@]}" || true
 
-# /boot is not used in atomic container images
 rm -rf /boot/*
