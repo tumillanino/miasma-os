@@ -10,17 +10,26 @@ base-image: quay.io/fedora-ostree-desktops/kinoite
 image-version: 43
 
 modules:
-  # Add CachyOS repos first so the kernel swap script can use them
+  # Swap stock Fedora kernel for Bazzite kernel
+  - type: script
+    scripts:
+      - bazzite-kernel.sh
+
+  # Install SCX scheduler (works with Bazzite kernel's sched-ext support)
   - type: dnf
     repos:
       copr:
-        - bieszczaders/kernel-cachyos-lto
         - bieszczaders/kernel-cachyos-addons
+    install:
+      install-weak-deps: false
+      packages:
+        - scx-scheds-git
+        - scx-manager
 
-  # Swap stock Fedora kernel for CachyOS LTO kernel
-  - type: script
-    scripts:
-      - cachyos-kernel.sh
+  - type: systemd
+    system:
+      enabled:
+        - scx_loader.service
 
   - type: dnf
     install:

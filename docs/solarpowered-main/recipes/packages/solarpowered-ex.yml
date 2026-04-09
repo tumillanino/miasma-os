@@ -1,0 +1,74 @@
+modules:
+  - type: dnf
+    repos:
+      cleanup: true
+      nonfree: negativo17
+      copr:
+        - eaglesemanation/displayconfig-mutter
+        - ilyaz/LACT
+        - jackgreiner/lutris-git
+        - lizardbyte/beta
+        - ublue-os/obs-vkcapture
+        - ublue-os/rom-properties        
+    install:
+      install-weak-deps: false
+      allow-erasing: true
+      packages:
+        - displayconfig-mutter
+        - gamescope
+        - lact
+        - libobs_vkcapture.x86_64
+        - libobs_glcapture.x86_64
+        - libobs_vkcapture.i686
+        - libobs_glcapture.i686      
+        - lutris
+        - mangohud
+        - pipx
+        - python3-ramalama      
+        - rocm-hip
+        - rocm-clinfo
+        - rocm-smi
+        - rom-properties-gtk3
+        - steam
+        - sunshine
+      exclude:
+        - gamemode
+  - type: systemd
+    system:
+      enabled:
+        - lactd.service
+  - type: script
+    snippets:
+      # Gamescope
+      # - dnf -y install dnf-plugins-core
+      # - dnf -y copr enable ublue-os/bazzite
+      # - dnf -y copr enable ublue-os/bazzite-multilib
+      # - dnf -y config-manager setopt "*bazzite*".priority=90 
+      # - dnf -y install
+      #     gamescope
+      #     gamescope-libs
+      #     gamescope-shaders
+      # - dnf -y copr disable ublue-os/bazzite-multilib
+      # - dnf -y copr disable ublue-os/bazzite
+      - dnf clean all        
+      # Extest
+      - mkdir -p /usr/lib/extest
+      - "VER=$(basename $(curl -Ls -o /dev/null -w %{url_effective} https://github.com/ublue-os/extest/releases/latest)) && curl -fLs https://github.com/ublue-os/extest/releases/download/${VER}/libextest.so -o /tmp/libextest.so"
+      - cp /tmp/libextest.so /usr/lib/extest/libextest.so
+      - rm /tmp/libextest.so
+      # Modify Steam.desktop with extest LD_PRELOAD
+      - sed -i 's|/usr/bin/steam\>|&-extest|g' /usr/share/applications/steam.desktop
+      # Sunshine setup
+      - setcap 'cap_sys_admin+p' /usr/bin/sunshine-* 
+      # Winetricks
+      - curl -Lo /usr/bin/winetricks https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks 
+      - chmod 0755 /usr/bin/winetricks
+      # SteamOS files
+      - git clone https://github.com/shahnawazshahin/steam-using-gamescope-guide.git /tmp/gamescope-files
+      ## Copy files from source
+      - cp -r /tmp/gamescope-files/usr/bin /usr
+      - cp -r /tmp/gamescope-files/usr/share /usr
+      ## Remove gamescope-session from source & use our own
+      - rm /usr/bin/gamescope-session 
+      ## Cleanup source
+      - rm -r /tmp/gamescope-files

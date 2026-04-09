@@ -1,0 +1,29 @@
+name: solarpowered-ex-bootc
+description: Image optimized for AMD PC, based on Fedora's bootc image.
+
+base-image: quay.io/fedora/fedora-bootc
+image-version: 41
+
+modules:
+  - from-file: shared/files.yml
+
+  - from-file: base/base-bootc.yml
+
+  - from-file: kernels/tkg.yml
+
+  - from-file: packages/packages-ex.yml
+
+  - from-file: shared/fonts.yml
+
+  - from-file: shared/gnome-extensions.yml
+
+  - from-file: shared/script.yml
+
+  - from-file: shared/systemd.yml
+
+  - type: files
+    files:
+    - source: solarpowered-ex
+      destination: /
+
+  - type: signing

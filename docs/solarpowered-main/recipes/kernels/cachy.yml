@@ -1,0 +1,9 @@
+modules:
+  - type: script
+    scripts:
+    - kernels/kernel-cachy.sh
+
+  - type: systemd
+    system:
+      enabled:
+      - scx_loader.service
