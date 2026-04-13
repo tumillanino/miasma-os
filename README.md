@@ -5,8 +5,8 @@
     <img src="https://raw.githubusercontent.com/tumillanino/miasma-os/refs/heads/main/docs/logo.png"  width=180 />
   </a>
 </p>
-> [!WARNING]
-> This project has been rebranded and moved to [Caracal](https://github.com/caracal-dev/caracal). If you are interested in an stable immutable distribution built for music producers and sound engineers, please visit Caracal.
+[!WARNING]
+this project has been rebranded and moved to [Caracal](https://github.com/caracal-dev/caracal). If you are interested in an stable immutable distribution built for music producers and sound engineers, please visit Caracal.
 ## About
 Miasma OS is a [Fedora Atomic desktop](https://fedoraproject.org/atomic-desktops/) built with love on top of a Bazzite base. It is a spin aimed at music producers and musicians utilising features found in [Fedora Jam Lab](https://fedoraproject.org/labs/jam/), [Av Linux](https://www.bandshed.net/avlinux/) and [Ubuntu Studio](https://ubuntustudio.org/) but on an immutable base thanks to [Bazzite](https://bazzite.gg/) and [Universal blue](https://universal-blue.org/).
 
